@@ -1,4 +1,5 @@
 import {
+  useCallback,
   createContext,
   useEffect,
   useState,
@@ -15,6 +16,21 @@ const NavContext = ({ children }) => {
 
   const [activeProject, setActiveProject] =
     useState(null);
+
+  /*
+   * Incremented whenever the full navbar should
+   * replay its Menu -> Agency -> Work entrance.
+   */
+  const [navbarEntranceReplayKey, setNavbarEntranceReplayKey] =
+    useState(0);
+
+  const replayNavbarEntrance = useCallback(() => {
+    if (typeof window === "undefined" || window.scrollY > 8) {
+      return;
+    }
+
+    setNavbarEntranceReplayKey((key) => key + 1);
+  }, []);
 
   /*
    * Tells global components when the route
@@ -43,6 +59,9 @@ const NavContext = ({ children }) => {
 
         activeProject,
         setActiveProject,
+
+        navbarEntranceReplayKey,
+        replayNavbarEntrance,
 
         isPageTransitionComplete,
         setIsPageTransitionComplete,

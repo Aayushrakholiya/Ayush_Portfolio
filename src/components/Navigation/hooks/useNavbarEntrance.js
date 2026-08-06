@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
@@ -20,8 +20,20 @@ const getStartingY = (element) => {
   return -(element.offsetHeight + 48);
 };
 
+/*
+ * Lenis can leave a very small fractional scroll value
+ * even when the page visually reaches the top.
+ */
+const isPageTopInView = () =>
+  typeof window !== "undefined" && window.scrollY <= 8;
+
 const useNavbarEntrance = ({ scope, workRef, agencyRef, menuRef, enabled }) => {
-  const { isPageTransitionComplete } = useContext(NavbarContext);
+  const {
+    isPageTransitionComplete,
+    navbarEntranceReplayKey,
+  } = useContext(NavbarContext);
+
+  const previousReplayKeyRef = useRef(navbarEntranceReplayKey);
 
   useGSAP(
     () => {
@@ -37,6 +49,20 @@ const useNavbarEntrance = ({ scope, workRef, agencyRef, menuRef, enabled }) => {
        * Home does not use this entrance animation.
        */
       if (!enabled || elements.length === 0) {
+        return;
+      }
+
+      const isReplay =
+        navbarEntranceReplayKey !== previousReplayKeyRef.current;
+
+      previousReplayKeyRef.current = navbarEntranceReplayKey;
+
+      /*
+       * Default-state replays are only allowed while
+       * the top of the page is actually in the viewport.
+       * The first route entrance still runs normally.
+       */
+      if (isReplay && !isPageTopInView()) {
         return;
       }
 
@@ -138,7 +164,11 @@ const useNavbarEntrance = ({ scope, workRef, agencyRef, menuRef, enabled }) => {
     },
     {
       scope,
-      dependencies: [enabled, isPageTransitionComplete],
+      dependencies: [
+        enabled,
+        isPageTransitionComplete,
+        navbarEntranceReplayKey,
+      ],
       revertOnUpdate: true,
     },
   );

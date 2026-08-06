@@ -57,8 +57,13 @@ const MarqueeContent = ({ text, images }) => (
 
 const FullScreenNav = () => {
   const fullscreenRef = useRef(null);
+  const hasOpenedRef = useRef(false);
 
-  const { navOpen, setNavOpen } = useContext(NavbarContext);
+  const {
+    navOpen,
+    setNavOpen,
+    replayNavbarEntrance,
+  } = useContext(NavbarContext);
 
   /* Keep the page behind the fullscreen menu fixed while it is open. */
   useEffect(() => {
@@ -88,6 +93,7 @@ const FullScreenNav = () => {
       ).matches;
 
       if (navOpen) {
+        hasOpenedRef.current = true;
         gsap.set(root, { display: "block" });
 
         if (reduceMotion) {
@@ -139,9 +145,18 @@ const FullScreenNav = () => {
         return () => timeline.kill();
       }
 
+      const shouldReplayNavbar = hasOpenedRef.current;
+
       const timeline = gsap.timeline({
         defaults: { ease: "power3.inOut" },
-        onComplete: () => gsap.set(root, { display: "none" }),
+        onComplete: () => {
+          gsap.set(root, { display: "none" });
+
+          if (shouldReplayNavbar) {
+            hasOpenedRef.current = false;
+            replayNavbarEntrance();
+          }
+        },
       });
 
       timeline
@@ -176,7 +191,7 @@ const FullScreenNav = () => {
     },
     {
       scope: fullscreenRef,
-      dependencies: [navOpen],
+      dependencies: [navOpen, replayNavbarEntrance],
     }
   );
 

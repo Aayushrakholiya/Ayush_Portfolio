@@ -20,8 +20,12 @@ const Navbar = () => {
   const navigate = useNavigate();
   const config = useRouteNavbarMode();
 
-  const { setNavOpen, activeProject } =
-    useContext(NavbarContext);
+  const {
+    setNavOpen,
+    activeProject,
+    navbarEntranceReplayKey,
+    replayNavbarEntrance,
+  } = useContext(NavbarContext);
 
   const [isMenuHovered, setIsMenuHovered] =
     useState(false);
@@ -47,6 +51,11 @@ const Navbar = () => {
   const agencyTextRef = useRef(null);
 
   const menuTimelineRef = useRef(null);
+  const projectResetTimeoutRef = useRef(null);
+  const hasActiveProjectRef = useRef(false);
+
+  const [isProjectNavbarActive, setIsProjectNavbarActive] =
+    useState(false);
 
   /*
    * Project hover mode is enabled only on routes
@@ -59,7 +68,47 @@ const Navbar = () => {
    */
   const isProjectHoverActive =
     config.enableProjectHover &&
-    Boolean(activeProject);
+    isProjectNavbarActive;
+
+  /*
+   * Keep project mode alive for the hover bar's short
+   * leave delay. This avoids flashing the default navbar
+   * before its falling animation begins, and also prevents
+   * a replay while moving between adjacent project cards.
+   */
+  useEffect(() => {
+    clearTimeout(projectResetTimeoutRef.current);
+
+    if (!config.enableProjectHover) {
+      hasActiveProjectRef.current = false;
+      setIsProjectNavbarActive(false);
+      return undefined;
+    }
+
+    if (activeProject) {
+      hasActiveProjectRef.current = true;
+      setIsProjectNavbarActive(true);
+      return undefined;
+    }
+
+    if (!hasActiveProjectRef.current) {
+      return undefined;
+    }
+
+    projectResetTimeoutRef.current = setTimeout(() => {
+      hasActiveProjectRef.current = false;
+      setIsProjectNavbarActive(false);
+      replayNavbarEntrance();
+    }, 180);
+
+    return () => {
+      clearTimeout(projectResetTimeoutRef.current);
+    };
+  }, [
+    activeProject,
+    config.enableProjectHover,
+    replayNavbarEntrance,
+  ]);
 
   /*
    * Home uses the compact Menu card immediately.
@@ -114,6 +163,7 @@ const Navbar = () => {
     menuRef,
     menuTextRef,
     enabled: config.enableScrollAnimation,
+    onReturnToTop: replayNavbarEntrance,
   });
 
   /*
@@ -211,6 +261,18 @@ const Navbar = () => {
       });
     }
   }, [isProjectHoverActive]);
+
+  /* Restore a clean default hover state before each replay. */
+  useEffect(() => {
+    setIsMenuHovered(false);
+    menuTimelineRef.current?.pause(0);
+
+    if (menuGreenRef.current) {
+      gsap.set(menuGreenRef.current, {
+        scaleY: 0,
+      });
+    }
+  }, [navbarEntranceReplayKey]);
 
   /*
    * Work and Agency hover-enter animation.
