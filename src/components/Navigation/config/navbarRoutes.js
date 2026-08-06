@@ -51,6 +51,38 @@ export const navbarRoutes = {
     enableScrollAnimation: true,
     enableProjectHover: true,
   },
+
+  "/contact": {
+    mode: NAVBAR_MODES.COMPACT,
+
+    showLogo: true,
+    logoColor: "white",
+
+    showWork: false,
+    showAgency: false,
+    showMenuText: false,
+    showHamburger: true,
+
+    enableEntranceAnimation: false,
+    enableScrollAnimation: false,
+    enableProjectHover: false,
+  },
+
+  "/blog": {
+    mode: NAVBAR_MODES.COMPACT,
+
+    showLogo: true,
+    logoColor: "white",
+
+    showWork: false,
+    showAgency: false,
+    showMenuText: false,
+    showHamburger: true,
+
+    enableEntranceAnimation: false,
+    enableScrollAnimation: false,
+    enableProjectHover: false,
+  },
 };
 
 export const defaultNavbarRoute = navbarRoutes["/"];

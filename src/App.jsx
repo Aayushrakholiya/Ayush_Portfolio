@@ -5,6 +5,7 @@ import Lenis from "lenis";
 import Home from "./pages/Home.jsx";
 import Agence from "./pages/agence.jsx";
 import Project from "./pages/project.jsx";
+import ComingSoon from "./pages/ComingSoon.jsx";
 
 import Logo from "./components/Navigation/Logo.jsx";
 import Navbar from "./components/Navigation/Navbar.jsx";
@@ -45,6 +46,8 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/agence" element={<Agence />} />
           <Route path="/project" element={<Project />} />
+          <Route path="/contact" element={<ComingSoon section="Contact" />} />
+          <Route path="/blog" element={<ComingSoon section="Blog" />} />
         </Routes>
       </Stairs>
     </div>
