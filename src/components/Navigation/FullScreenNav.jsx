@@ -8,7 +8,7 @@ import { NavbarContext } from "../../context/NavContext.jsx";
 const MENU_ITEMS = [
   {
     label: "Work",
-    href: "/work",
+    href: "/project",
     marqueeText: "See Everything",
     images: [
       "https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg",
@@ -17,7 +17,7 @@ const MENU_ITEMS = [
   },
   {
     label: "Agency",
-    href: "/agency",
+    href: "/agence",
     marqueeText: "Meet the Agency",
     images: [
       "https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg",
