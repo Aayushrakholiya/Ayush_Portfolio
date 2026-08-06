@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { useEffect } from "react";
 import Lenis from "lenis";
 
-import Home from "./pages/home.jsx";
+import Home from "./pages/Home.jsx";
 import Agence from "./pages/agence.jsx";
 import Project from "./pages/project.jsx";
 
