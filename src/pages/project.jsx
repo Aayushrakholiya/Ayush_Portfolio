@@ -4,6 +4,7 @@ import { ScrollTrigger } from "gsap/all";
 import React from "react";
 
 import ProjectCard from "../components/projects/ProjectCard";
+import Footer from "../components/common/Footer";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -139,7 +140,7 @@ const Project = () => {
         </div>
       </div>
 
-      <div className="footer_container h-[400px] bg-black" />
+      <Footer />
     </>
   );
 };

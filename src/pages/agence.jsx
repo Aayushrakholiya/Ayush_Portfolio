@@ -2,6 +2,7 @@ import { useGSAP } from '@gsap/react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
 import React, { useEffect, useRef, useState } from 'react'
+import Footer from '../components/common/Footer'
 
 
 const agency = () => {
@@ -456,7 +457,7 @@ const agency = () => {
       </div>
     </section>
 
-    <div className="footer_container h-[400px] bg-black" />
+    <Footer />
     </div>
   )
 }
