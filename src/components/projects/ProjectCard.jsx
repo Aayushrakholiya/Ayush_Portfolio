@@ -47,7 +47,7 @@ const ProjectCard = (props) => {
             className="
               rounded-[50px] border-2
               px-5 pt-2
-              font-[font1] text-6xl
+              font-[Lausanne] text-6xl
               uppercase text-white
             "
           >
@@ -90,7 +90,7 @@ const ProjectCard = (props) => {
               className="
                 rounded-[50px] border-2
                 px-5 pt-2
-                font-[font1] text-6xl
+                font-[Lausanne] text-6xl
                 uppercase text-white
               "
             >

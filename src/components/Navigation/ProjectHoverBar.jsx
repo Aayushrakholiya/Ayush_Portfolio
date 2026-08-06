@@ -282,7 +282,7 @@ const ProjectHoverBar = () => {
           grid h-full w-full
           grid-cols-3 items-center
           px-[10px]
-          font-[font1]
+          font-[Lausanne]
           text-[2.2vw]
           font-medium
           leading-none

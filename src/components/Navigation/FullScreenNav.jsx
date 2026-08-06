@@ -361,7 +361,7 @@ const FullScreenNav = () => {
           z-index: 1;
           width: 100%;
           padding: 0.04em 0.12em 0;
-          font-family: font1, Arial Black, Arial, sans-serif;
+          font-family: "Lausanne", Arial Black, Arial, sans-serif;
           font-size: clamp(4.7rem, 10.8vw, 11rem);
           font-weight: 900;
           line-height: 0.72;
@@ -422,7 +422,7 @@ const FullScreenNav = () => {
         .k72-marquee-text {
           flex-shrink: 0;
           padding-top: 0.04em;
-          font-family: font1, Arial Black, Arial, sans-serif;
+          font-family: "Lausanne", Arial Black, Arial, sans-serif;
           font-size: clamp(4.7rem, 10.8vw, 11rem);
           font-weight: 900;
           line-height: 0.72;

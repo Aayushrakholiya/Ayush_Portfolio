@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: font1;
-  src: url('/Font/Lausanne-300.woff2') format('woff2');
+  font-family: "Lausanne";
+  src: url("/Font/Lausanne-300.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
 }
 
 .moveX{

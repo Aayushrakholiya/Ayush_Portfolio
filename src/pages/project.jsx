@@ -112,7 +112,7 @@ const Project = () => {
     <>
       <div className="mainContainer_till_images p-[15px]">
         <div className="work_text_container h-[71vh] pt-[40vh]">
-          <h2 className="mb-[-8vh] font-[font1] text-[15vw] uppercase text-black">
+          <h2 className="mb-[-8vh] font-[Lausanne] text-[15vw] uppercase text-black">
             Work
           </h2>
         </div>

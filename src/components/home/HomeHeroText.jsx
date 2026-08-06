@@ -44,7 +44,7 @@ const HomeHeroText = () => {
   }, [])
 
   return (
-    <div ref={textRef} className='allText font-[font1] text-center pt-5'>
+    <div ref={textRef} className='allText font-[Lausanne] text-center pt-5'>
       <div className='text-[9.5vw] justify-center flex items-center uppercase leading-[8vw]'>The spark for</div>
       <div className='text-[9.5vw] justify-center flex items-center uppercase leading-[8vw]'>all
         <div className='h-[7vw] w-[16vw] rounded-full overflow-hidden'>

@@ -405,7 +405,7 @@ const agency = () => {
             <img ref={imageRef} className='h-full object-cover' src="https://k72.ca/uploads/teamMembers/Carl_480x640-480x640.jpg"></img>
           </div>
 
-          <div className='relative font-[font1]'>
+          <div className='relative font-[Lausanne]'>
             <div className='mt-[30vw]'>
               <h1 className='text-[19vw] text-center leading-[17vw]'>SEVEN7Y <br />
                 TWO</h1>
