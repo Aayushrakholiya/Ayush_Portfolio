@@ -57,7 +57,6 @@ const MarqueeContent = ({ text, images }) => (
 
 const FullScreenNav = () => {
   const fullscreenRef = useRef(null);
-  const cursorRef = useRef(null);
 
   const { navOpen, setNavOpen } = useContext(NavbarContext);
 
@@ -76,41 +75,6 @@ const FullScreenNav = () => {
     return () => {
       html.style.overflow = previousHtmlOverflow;
       body.style.overflow = previousBodyOverflow;
-    };
-  }, [navOpen]);
-
-  /* Smoothly attach the OPEN cursor to the pointer. */
-  useEffect(() => {
-    const root = fullscreenRef.current;
-    const cursor = cursorRef.current;
-
-    if (!navOpen || !root || !cursor) return undefined;
-
-    gsap.set(cursor, {
-      xPercent: -50,
-      yPercent: -50,
-      scale: 0.7,
-      opacity: 0,
-    });
-
-    const moveX = gsap.quickTo(cursor, "x", {
-      duration: 0.28,
-      ease: "power3.out",
-    });
-    const moveY = gsap.quickTo(cursor, "y", {
-      duration: 0.28,
-      ease: "power3.out",
-    });
-
-    const handlePointerMove = (event) => {
-      moveX(event.clientX);
-      moveY(event.clientY);
-    };
-
-    root.addEventListener("pointermove", handlePointerMove);
-
-    return () => {
-      root.removeEventListener("pointermove", handlePointerMove);
     };
   }, [navOpen]);
 
@@ -215,30 +179,6 @@ const FullScreenNav = () => {
       dependencies: [navOpen],
     }
   );
-
-  const showCursor = (event) => {
-    if (cursorRef.current && event.pointerType !== "touch") {
-      gsap.to(cursorRef.current, {
-        scale: 1,
-        opacity: 1,
-        duration: 0.16,
-        ease: "power3.out",
-        overwrite: "auto",
-      });
-    }
-  };
-
-  const hideCursor = () => {
-    if (cursorRef.current) {
-      gsap.to(cursorRef.current, {
-        scale: 0.7,
-        opacity: 0,
-        duration: 0.14,
-        ease: "power2.out",
-        overwrite: "auto",
-      });
-    }
-  };
 
   return (
     <div
@@ -452,39 +392,9 @@ const FullScreenNav = () => {
           line-height: 1;
         }
 
-        .k72-open-cursor {
-          position: fixed;
-          top: 0;
-          left: 0;
-          z-index: 50;
-          display: grid;
-          width: 86px;
-          height: 86px;
-          place-items: center;
-          border: 1px solid #111;
-          border-radius: 50%;
-          background: white;
-          color: #111;
-          font-family: Arial, sans-serif;
-          font-size: 11px;
-          font-weight: 700;
-          letter-spacing: 0.03em;
-          pointer-events: none;
-          opacity: 0;
-          will-change: transform;
-        }
-
         @keyframes k72-marquee {
           from { transform: translate3d(0, 0, 0); }
           to { transform: translate3d(-50%, 0, 0); }
-        }
-
-        @media (pointer: fine) {
-          .k72-nav-row { cursor: none; }
-        }
-
-        @media (pointer: coarse) {
-          .k72-open-cursor { display: none; }
         }
 
         @media (max-width: 700px) {
@@ -532,15 +442,6 @@ const FullScreenNav = () => {
       <div
         className="k72-menu-shell"
         data-lenis-prevent
-        onPointerLeave={() => {
-          if (cursorRef.current) {
-            gsap.to(cursorRef.current, {
-              opacity: 0,
-              scale: 0.7,
-              duration: 0.2,
-            });
-          }
-        }}
       >
         <header className="k72-menu-header">
           <button
@@ -581,9 +482,6 @@ const FullScreenNav = () => {
               href={item.href}
               className="k72-nav-row"
               onClick={() => setNavOpen(false)}
-              onPointerEnter={showCursor}
-              onPointerLeave={hideCursor}
-              onBlur={hideCursor}
             >
               <span className="k72-main-label">{item.label}</span>
 
@@ -598,9 +496,6 @@ const FullScreenNav = () => {
         </nav>
       </div>
 
-      <div ref={cursorRef} className="k72-open-cursor" aria-hidden="true">
-        OPEN
-      </div>
     </div>
   );
 };
