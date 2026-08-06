@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: font1;
+  src: url('/Font/Lausanne-300.woff2') format('woff2');
+}
+
+.moveX{
+  animation-name: moveAnimation;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.moveLink{
+  opacity: 0;
+  transition: all ease 0.3s;
+
+}
+
+.link:hover .moveLink{
+  opacity: 1;
+}
+
+@keyframes moveAnimation{
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* body {
+  background-color: black;
+} */
+
+/* Logo color controls: the SVG uses `currentColor` so toggling
+   body.logo-white will switch the logo to white during scroll. */
+.site-logo {
+  color: #000000; /* default black */
+}
+
+.site-logo.logo-white {
+  color: #ffffff;
+}
+
+body.logo-white .site-logo {
+  color: #ffffff !important;
+}
+
+body.logo-black .site-logo {
+  color: #000000 !important;
+}
