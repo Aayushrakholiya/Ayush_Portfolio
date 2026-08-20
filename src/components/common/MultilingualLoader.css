@@ -1,0 +1,118 @@
+.multilingual-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  height: 100svh;
+  height: 100dvh;
+  place-items: center;
+  overflow: hidden;
+  color: #b7ff2a;
+  isolation: isolate;
+}
+
+.multilingual-loader--leaving {
+  pointer-events: none;
+}
+
+.multilingual-loader__stairs {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.multilingual-loader__stair {
+  flex: 0 0 calc(20% + 2px);
+  height: 100%;
+  margin-inline: -1px;
+  background: #000000;
+  will-change: transform;
+}
+
+.multilingual-loader__word-window {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  width: 100%;
+  height: clamp(8rem, 17vw, 16rem);
+  padding-inline: clamp(1rem, 3vw, 3rem);
+  place-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-size: clamp(5rem, 13vw, 12rem);
+  transition: opacity 180ms ease;
+}
+
+.multilingual-loader--leaving .multilingual-loader__word-window {
+  opacity: 0;
+}
+
+.multilingual-loader__word {
+  max-width: 100%;
+  margin: 0;
+  color: inherit;
+  font-family: "Lausanne", Arial, Helvetica, sans-serif;
+  font-size: inherit;
+  font-weight: 300;
+  line-height: 1.12;
+  letter-spacing: -0.06em;
+  text-align: center;
+  white-space: nowrap;
+  animation: multilingual-loader-word 560ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  will-change: transform, opacity, filter;
+}
+
+@keyframes multilingual-loader-word {
+  0% {
+    opacity: 0;
+    filter: blur(7px);
+    transform: translate3d(0, 78%, 0);
+  }
+
+  28%,
+  65% {
+    opacity: 1;
+    filter: blur(0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    opacity: 0;
+    filter: blur(4px);
+    transform: translate3d(0, -78%, 0);
+  }
+}
+
+@media (max-width: 640px) {
+  .multilingual-loader__word-window {
+    height: clamp(7rem, 28vw, 10rem);
+    font-size: clamp(4.1rem, 19vw, 6.5rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .multilingual-loader {
+    transition-duration: 160ms;
+    transition-property: opacity;
+    will-change: opacity;
+  }
+
+  .multilingual-loader--leaving {
+    opacity: 0;
+  }
+
+  .multilingual-loader__stair,
+  .multilingual-loader__word {
+    will-change: auto;
+  }
+
+  .multilingual-loader__word {
+    animation: none;
+  }
+}

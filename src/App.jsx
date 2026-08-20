@@ -12,6 +12,7 @@ import Navbar from "./components/Navigation/Navbar.jsx";
 import FullScreenNav from "./components/Navigation/FullScreenNav.jsx";
 import Stairs from "./components/common/stairs.jsx";
 import ProjectHoverBar from "./components/Navigation/ProjectHoverBar.jsx";
+import MultilingualLoader from "./components/common/MultilingualLoader.jsx";
 
 const App = () => {
   useEffect(() => {
@@ -34,6 +35,8 @@ const App = () => {
 
   return (
     <div className="text-white">
+      <MultilingualLoader />
+
       {/* Fixed interface: never transformed by Stairs */}
       <Logo />
       <Navbar />
