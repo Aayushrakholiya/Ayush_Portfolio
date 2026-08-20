@@ -14,6 +14,7 @@ const Stairs = ({ children }) => {
   const currentPath = location.pathname;
 
   const {
+    setIsPageRevealStarted,
     setIsPageTransitionComplete,
   } = useContext(NavbarContext);
 
@@ -28,6 +29,7 @@ const Stairs = ({ children }) => {
        * transition has fully completed.
        */
       setIsPageTransitionComplete(false);
+      setIsPageRevealStarted(false);
 
       const stairs = gsap.utils.toArray(
         ".stair",
@@ -96,6 +98,18 @@ const Stairs = ({ children }) => {
         })
 
         /*
+         * Let route-specific entrances begin while the
+         * stairs are moving away from the page.
+         */
+        .call(
+          () => {
+            setIsPageRevealStarted(true);
+          },
+          null,
+          "-=0.5"
+        )
+
+        /*
          * Reveal the new route content while
          * the stairs are leaving.
          */
@@ -107,7 +121,7 @@ const Stairs = ({ children }) => {
             duration: 0.6,
             ease: "power2.out",
           },
-          "-=0.5"
+          "<"
         )
 
         /*

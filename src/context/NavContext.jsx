@@ -42,12 +42,20 @@ const NavContext = ({ children }) => {
   ] = useState(false);
 
   /*
+   * Becomes true as soon as the stairs start revealing
+   * the incoming route, before the full transition ends.
+   */
+  const [isPageRevealStarted, setIsPageRevealStarted] =
+    useState(false);
+
+  /*
    * Reset route-specific interface state whenever
    * the pathname changes.
    */
   useEffect(() => {
     setActiveProject(null);
     setNavOpen(false);
+    setIsPageRevealStarted(false);
     setIsPageTransitionComplete(false);
   }, [pathname]);
 
@@ -65,6 +73,9 @@ const NavContext = ({ children }) => {
 
         isPageTransitionComplete,
         setIsPageTransitionComplete,
+
+        isPageRevealStarted,
+        setIsPageRevealStarted,
       }}
     >
       {children}

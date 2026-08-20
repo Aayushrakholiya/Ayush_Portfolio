@@ -1,47 +1,58 @@
-import { useEffect, useRef } from 'react'
+import { useContext, useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { SplitText } from 'gsap/SplitText'
 import Video from './Video'
+import { NavbarContext } from '../../context/NavContext'
 
 gsap.registerPlugin(SplitText)
 
 const HomeHeroText = () => {
   const textRef = useRef(null)
-  const splitRef = useRef(null)
+  const { isPageRevealStarted } = useContext(NavbarContext)
 
   useEffect(() => {
-    if (!textRef.current) return
+    if (!isPageRevealStarted || !textRef.current) return
+
+    let cancelled = false
+    let split
+    let tween
 
     const initSplitText = async () => {
       if (document.fonts?.ready) {
         await document.fonts.ready
       }
 
-      splitRef.current = SplitText.create(textRef.current, {
+      if (cancelled || !textRef.current) return
+
+      split = SplitText.create(textRef.current, {
         type: 'lines',
+        mask: 'lines',
       })
 
-      gsap.set(splitRef.current.lines, {
-        opacity: 0,
-        y: -120,
-      })
-
-      gsap.to(splitRef.current.lines, {
-        opacity: 1,
-        y: 0,
-        delay: 1.3,
-        duration: 0.8,
-        ease: 'power3.out',
-        stagger: 0.2,
-      })
+      tween = gsap.fromTo(
+        split.lines,
+        {
+          autoAlpha: 0,
+          yPercent: -100,
+        },
+        {
+          autoAlpha: 1,
+          yPercent: 0,
+          duration: 1,
+          ease: 'power4.out',
+          stagger: 0.12,
+        },
+      )
     }
 
     initSplitText()
 
     return () => {
-      splitRef.current?.revert()
+      cancelled = true
+      tween?.kill()
+      split?.revert()
     }
-  }, [])
+  }, [isPageRevealStarted])
 
   return (
     <div ref={textRef} className='allText font-[Lausanne] text-center pt-5'>
