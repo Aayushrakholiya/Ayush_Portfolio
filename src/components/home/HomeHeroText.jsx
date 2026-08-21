@@ -1,4 +1,4 @@
-import { useContext, useEffect, useRef } from 'react'
+import { useContext, useLayoutEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { SplitText } from 'gsap/SplitText'
 import Video from './Video'
@@ -8,10 +8,15 @@ gsap.registerPlugin(SplitText)
 
 const HomeHeroText = () => {
   const textRef = useRef(null)
-  const { isPageRevealStarted } = useContext(NavbarContext)
+  const { isIntroComplete, isPageRevealStarted } = useContext(NavbarContext)
 
-  useEffect(() => {
-    if (!isPageRevealStarted || !textRef.current) return
+  useLayoutEffect(() => {
+    if (!textRef.current) return
+
+    if (!isIntroComplete || !isPageRevealStarted) {
+      gsap.set(textRef.current, { autoAlpha: 0 })
+      return
+    }
 
     let cancelled = false
     let split
@@ -28,6 +33,8 @@ const HomeHeroText = () => {
         type: 'lines',
         mask: 'lines',
       })
+
+      gsap.set(textRef.current, { autoAlpha: 1 })
 
       tween = gsap.fromTo(
         split.lines,
@@ -52,7 +59,7 @@ const HomeHeroText = () => {
       tween?.kill()
       split?.revert()
     }
-  }, [isPageRevealStarted])
+  }, [isIntroComplete, isPageRevealStarted])
 
   return (
     <div ref={textRef} className='allText font-[Lausanne] text-center pt-5'>

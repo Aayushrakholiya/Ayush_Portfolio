@@ -1,6 +1,11 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useContext, useEffect, useRef, useState } from 'react'
 import { gsap } from 'gsap'
 import './MultilingualLoader.css'
+import { NavbarContext } from '../../context/NavContext'
+import {
+  hasSeenIntroThisSession,
+  markIntroSeenThisSession,
+} from '../../utils/introSession'
 
 const GREETINGS = [
   { text: 'Hello.', lang: 'en' },
@@ -9,42 +14,35 @@ const GREETINGS = [
   { text: 'નમસ્તે.', lang: 'gu' },
 ]
 
-const GREETING_DURATION = 560
-const FINAL_GREETING_PAUSE = 220
+const GREETING_DURATION = 800
+const FINAL_GREETING_PAUSE = 260
 const REDUCED_MOTION_DURATION = 450
 const EXIT_FALLBACK_DELAY = 1000
-const SESSION_STORAGE_KEY = 'k72-multilingual-loader-seen'
-
-const wasLoaderSeenThisSession = () => {
-  try {
-    return window.sessionStorage.getItem(SESSION_STORAGE_KEY) === 'true'
-  } catch {
-    return false
-  }
-}
 
 const MultilingualLoader = () => {
-  const [shouldShowLoader] = useState(() => !wasLoaderSeenThisSession())
+  const { setIsIntroComplete } = useContext(NavbarContext)
+  const [shouldShowLoader] = useState(() => !hasSeenIntroThisSession())
   const [currentGreetingIndex, setCurrentGreetingIndex] = useState(0)
   const [isLeaving, setIsLeaving] = useState(false)
   const [isFinished, setIsFinished] = useState(false)
   const stairsRef = useRef(null)
+  const hasFinishedRef = useRef(false)
   const [prefersReducedMotion] = useState(() =>
     window.matchMedia('(prefers-reduced-motion: reduce)').matches,
   )
 
   const finish = useCallback(() => {
+    if (hasFinishedRef.current) return
+
+    hasFinishedRef.current = true
     setIsFinished(true)
-  }, [])
+    setIsIntroComplete(true)
+  }, [setIsIntroComplete])
 
   useEffect(() => {
     if (!shouldShowLoader) return
 
-    try {
-      window.sessionStorage.setItem(SESSION_STORAGE_KEY, 'true')
-    } catch {
-      // The loader still works when browser storage is unavailable.
-    }
+    markIntroSeenThisSession()
   }, [shouldShowLoader])
 
   useEffect(() => {

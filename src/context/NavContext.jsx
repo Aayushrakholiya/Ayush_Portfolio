@@ -6,6 +6,7 @@ import {
 } from "react";
 
 import { useLocation } from "react-router-dom";
+import { hasSeenIntroThisSession } from "../utils/introSession";
 
 export const NavbarContext = createContext(null);
 
@@ -16,6 +17,14 @@ const NavContext = ({ children }) => {
 
   const [activeProject, setActiveProject] =
     useState(null);
+
+  /*
+   * Home entrances and videos wait for the initial loader,
+   * but run normally when the loader was already seen.
+   */
+  const [isIntroComplete, setIsIntroComplete] = useState(
+    hasSeenIntroThisSession,
+  );
 
   /*
    * Incremented whenever the full navbar should
@@ -67,6 +76,9 @@ const NavContext = ({ children }) => {
 
         activeProject,
         setActiveProject,
+
+        isIntroComplete,
+        setIsIntroComplete,
 
         navbarEntranceReplayKey,
         replayNavbarEntrance,

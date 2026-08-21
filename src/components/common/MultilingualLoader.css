@@ -64,7 +64,7 @@
   letter-spacing: -0.06em;
   text-align: center;
   white-space: nowrap;
-  animation: multilingual-loader-word 560ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation: multilingual-loader-word 800ms cubic-bezier(0.22, 1, 0.36, 1) both;
   will-change: transform, opacity, filter;
 }
 
@@ -75,8 +75,8 @@
     transform: translate3d(0, 78%, 0);
   }
 
-  28%,
-  65% {
+  30%,
+  70% {
     opacity: 1;
     filter: blur(0);
     transform: translate3d(0, 0, 0);

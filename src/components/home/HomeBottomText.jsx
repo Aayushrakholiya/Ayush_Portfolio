@@ -1,29 +1,43 @@
-import { useEffect, useRef } from 'react'
+import { useContext, useLayoutEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { Link } from 'react-router-dom'
+import { NavbarContext } from '../../context/NavContext'
 
 const HomeBottomText = () => {
   const linksRef = useRef(null)
+  const { isIntroComplete, isPageRevealStarted } = useContext(NavbarContext)
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (!linksRef.current) return
 
     const links = Array.from(linksRef.current.children)
 
-    gsap.set(links, {
-      opacity: 0,
-      y: 80,
-    })
+    if (!isIntroComplete || !isPageRevealStarted) {
+      gsap.set(links, {
+        opacity: 0,
+        y: 80,
+      })
+      return
+    }
 
-    gsap.to(links, {
-      opacity: 1,
-      y: 0,
-      delay: 1.3,
-      duration: 0.8,
-      ease: 'power3.out',
-      stagger: 0.3,
-    })
-  }, [])
+    const tween = gsap.fromTo(
+      links,
+      {
+        opacity: 0,
+        y: 80,
+      },
+      {
+        opacity: 1,
+        y: 0,
+        delay: 0.35,
+        duration: 0.8,
+        ease: 'power3.out',
+        stagger: 0.3,
+      },
+    )
+
+    return () => tween.kill()
+  }, [isIntroComplete, isPageRevealStarted])
 
   return (
     <div>
