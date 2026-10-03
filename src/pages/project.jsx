@@ -41,70 +41,78 @@ const Project = () => {
 
   const projects = [
     {
-      image1: "/Photo1.png",
-      image2: "/photo2.jpg",
+      image1: "/dayflow.png",
+      image2: "/flight-management.png",
 
       project1: {
-        client: "iA Financial Group",
-        title: "Get ahead",
-        year: "2025",
+        client: "Project One",
+        title: "Dayflow.",
+        year: "2026",
+        url: "https://dayflow-frontend.vercel.app/",
       },
 
       project2: {
         client: "Project Two",
-        title: "Creative direction",
+        title: "Flight Data Management System",
         year: "2025",
+        url: "https://github.com/Aayushrakholiya/Flight-Data-Management-System-FDMS-.git",
       },
     },
 
     {
-      image1: "/Photo3.jpg",
-      image2: "/Photo4.jpg",
+      image1: "/manufacturing-dashboard.png",
+      image2: "/canadian-workforce-analytics.png",
 
       project1: {
         client: "Project Three",
-        title: "New perspective",
-        year: "2024",
+        title: "YoYo Manufacturing Analytics (Business Intelligence)",
+        year: "2026",
+        url: "https://github.com/Aayushrakholiya/YoYo-Manufacturing-Analytics-Business-Intelligence.git",
       },
 
       project2: {
         client: "Project Four",
-        title: "Forward together",
-        year: "2024",
+        title: "Big Data Analytics",
+        year: "2026",
+        url: "https://github.com/Aayushrakholiya/Big-Data.git",
       },
     },
 
     {
-      image1: "/Photo5.jpg",
-      image2: "/Photo6.jpg",
+      image1: "/parcel-manager.png",
+      image2: "/snapcanvas.png",
 
       project1: {
         client: "Project Five",
-        title: "Made differently",
+        title: "Parcel Manager",
         year: "2024",
+        url: "https://github.com/Aayushrakholiya/Parcel-Manager.git",
       },
 
       project2: {
         client: "Project Six",
-        title: "Think bigger",
-        year: "2024",
+        title: "Snap Canvas",
+        year: "2025",
+        url: "https://snapcanvas-five.vercel.app/",
       },
     },
 
     {
-      image1: "/Photo7.jpg",
-      image2: "/Photo7.jpg",
+      image1: "/orbitlab-solar-system.png",
+      image2: "/mqtt-cloud-iot-showcase.png",
 
       project1: {
         client: "Project Seven",
-        title: "Beyond ordinary",
-        year: "2023",
+        title: "Solar Sandbox",
+        year: "2025",
+        url: "https://solar-sandbox-three.vercel.app/",
       },
 
       project2: {
         client: "Project Eight",
-        title: "New possibilities",
-        year: "2023",
+        title: "MQTT Sensor Hub",
+        year: "2025",
+        url: "https://github.com/Aayushrakholiya/MQTT-Sensor-Hub.git",
       },
     },
   ];

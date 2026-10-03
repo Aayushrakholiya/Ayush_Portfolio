@@ -3,6 +3,12 @@ import { NavbarContext } from "../../context/NavContext";
 
 const ProjectCard = (props) => {
   const { setActiveProject } = useContext(NavbarContext);
+  const FirstProjectContainer = props.project1?.url
+    ? "a"
+    : "div";
+  const SecondProjectContainer = props.project2?.url
+    ? "a"
+    : "div";
 
   const handleProjectEnter = (project) => {
     setActiveProject(project);
@@ -15,7 +21,13 @@ const ProjectCard = (props) => {
   return (
     <div className="flex h-full w-full gap-2">
       {/* First project image */}
-      <div
+      <FirstProjectContainer
+        href={props.project1?.url}
+        aria-label={
+          props.project1?.url
+            ? `View ${props.project1.client}`
+            : undefined
+        }
         className="group relative h-full w-1/2"
         onMouseEnter={() =>
           handleProjectEnter(props.project1)
@@ -54,11 +66,17 @@ const ProjectCard = (props) => {
             View Project
           </h2>
         </div>
-      </div>
+      </FirstProjectContainer>
 
       {/* Second project image */}
       {props.image2 && (
-        <div
+        <SecondProjectContainer
+          href={props.project2?.url}
+          aria-label={
+            props.project2?.url
+              ? `View ${props.project2.client}`
+              : undefined
+          }
           className="group relative h-full w-1/2"
           onMouseEnter={() =>
             handleProjectEnter(props.project2)
@@ -97,7 +115,7 @@ const ProjectCard = (props) => {
               View Project
             </h2>
           </div>
-        </div>
+        </SecondProjectContainer>
       )}
     </div>
   );
