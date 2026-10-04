@@ -38,8 +38,8 @@ const MENU_ITEMS = [
     href: "/blog",
     marqueeText: "Read the Stories",
     images: [
-      "https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg",
-      "https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg",
+      "/y-combinator-blog.webp",
+      "/y-combinator-blog.webp",
     ],
   },
 ];
