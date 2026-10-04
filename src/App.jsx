@@ -1,11 +1,13 @@
 import { Route, Routes } from "react-router-dom";
-import { useEffect } from "react";
+import { lazy, Suspense, useEffect } from "react";
 import Lenis from "lenis";
 
 import Home from "./pages/Home.jsx";
 import Agence from "./pages/agence.jsx";
 import Project from "./pages/project.jsx";
 import ComingSoon from "./pages/ComingSoon.jsx";
+
+const Blog = lazy(() => import("./pages/Blog.jsx"));
 
 import Logo from "./components/Navigation/Logo.jsx";
 import Navbar from "./components/Navigation/Navbar.jsx";
@@ -16,7 +18,7 @@ import MultilingualLoader from "./components/common/MultilingualLoader.jsx";
 
 const App = () => {
   useEffect(() => {
-    const lenis = new Lenis();
+    const lenis = new Lenis({ anchors: true });
 
     let animationFrameId;
 
@@ -50,7 +52,21 @@ const App = () => {
           <Route path="/agence" element={<Agence />} />
           <Route path="/project" element={<Project />} />
           <Route path="/contact" element={<ComingSoon section="Contact" />} />
-          <Route path="/blog" element={<ComingSoon section="Blog" />} />
+          <Route
+            path="/blog"
+            element={
+              <Suspense
+                fallback={
+                  <main
+                    className="min-h-screen bg-[#050505]"
+                    aria-label="Loading blog"
+                  />
+                }
+              >
+                <Blog />
+              </Suspense>
+            }
+          />
         </Routes>
       </Stairs>
     </div>
