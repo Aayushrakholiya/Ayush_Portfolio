@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-04",
+  "title": "Top 3 from Hacker News - October 4, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "url": "https://github.com/Niko1221/Strata",
+      "hnLink": "https://news.ycombinator.com/item?id=49953495",
+      "points": 304,
+      "summary": "A new open-source project called Strata claims to run Qwen's 125B Flash Next model on a single consumer RTX 4090 at 100 tokens per second. It's drawing big interest on HN, with an active discussion around the quantization and memory tricks that make it possible."
+    },
+    {
+      "rank": 2,
+      "title": "Car is a smartphone on wheels. Here's who's listening",
+      "url": "https://automatictransmission.khoury.northeastern.edu/",
+      "hnLink": "https://news.ycombinator.com/item?id=49954882",
+      "points": 124,
+      "summary": "A Northeastern research project examines how modern connected cars collect and transmit data, and who can listen in. The piece breaks down the telemetry pathways and raises questions about consent and oversight in connected vehicles."
+    },
+    {
+      "rank": 3,
+      "title": "Glashütte Trash Clock – A 30-minute pendulum clock made from trash",
+      "url": "https://niklasroy.com/gtc/",
+      "hnLink": "https://news.ycombinator.com/item?id=49930439",
+      "points": 104,
+      "summary": "Artist Niklas Roy built a working 30-minute pendulum clock entirely out of discarded materials, dubbed the Glashütte Trash Clock. The build log shows the escapement design and the junk-bin engineering behind it."
+    }
+  ]
+}
