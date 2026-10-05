@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-05",
+  "title": "Top 3 from Hacker News - October 5, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Europe's new robotics unicorn: Germany's RobCo hits $1B valuation",
+      "url": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/",
+      "hnLink": "https://news.ycombinator.com/item?id=49963366",
+      "points": 55,
+      "summary": "Munich robotics startup RobCo has become Europe's newest unicorn after a roughly $40 million secondary share sale valued the company at over $1 billion, double its valuation earlier in 2026. The deal highlights investor enthusiasm for \"physical AI\" systems and modular industrial robots."
+    },
+    {
+      "rank": 2,
+      "title": "Web Search API",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+      "hnLink": "https://news.ycombinator.com/item?id=49963171",
+      "points": 48,
+      "summary": "Cloudflare launched a beta Web Search API that lets AI agents and applications search the internet and ground responses in live information through AI Gateway. It offers three providers (Ceramic.ai, Exa, and Linkup) with zero data retention, and is billed at each provider's list price with no markup."
+    },
+    {
+      "rank": 3,
+      "title": "Apple and a Hacker's Future",
+      "url": "https://stratechery.com/2026/apple-and-a-hackers-future/",
+      "hnLink": "https://news.ycombinator.com/item?id=49962857",
+      "points": 54,
+      "summary": "Ben Thompson's own Mac was hacked via CVE-2026-65400, a high-severity flaw in macOS screen sharing that Dutch officials warned was under active exploitation, installing Monero miners on systems with port 5900 exposed. Apple patched the bug last week for macOS Tahoe, Sequoia, and Sonoma."
+    }
+  ]
+}
