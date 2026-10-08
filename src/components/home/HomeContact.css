@@ -8,7 +8,6 @@
   font-family: 'Lausanne', sans-serif;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 700ms ease;
 }
 
 .home-contact--visible {
