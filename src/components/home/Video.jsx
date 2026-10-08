@@ -31,7 +31,7 @@ const Video = ({ paused = false }) => {
         muted
         playsInline
       >
-        <source src='dist/Homepage_video.mp4' type='video/mp4' />
+        <source src={`${import.meta.env.BASE_URL}Homepage_video.mp4`} type='video/mp4' />
       </video>
   )
 }
