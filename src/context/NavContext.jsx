@@ -1,6 +1,5 @@
 import {
   useCallback,
-  createContext,
   useEffect,
   useState,
 } from "react";
@@ -8,7 +7,7 @@ import {
 import { useLocation } from "react-router-dom";
 import { hasSeenIntroThisSession } from "../utils/introSession";
 
-export const NavbarContext = createContext(null);
+import { NavbarContext } from './NavbarContext';
 
 const NavContext = ({ children }) => {
   const { pathname } = useLocation();

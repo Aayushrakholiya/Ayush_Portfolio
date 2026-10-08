@@ -3,7 +3,7 @@ import { useContext, useEffect, useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 
-import { NavbarContext } from "../../context/NavContext.jsx";
+import { NavbarContext } from "../../context/NavbarContext.js";
 
 const MENU_ITEMS = [
   {
@@ -16,13 +16,10 @@ const MENU_ITEMS = [
     ],
   },
   {
-    label: "Agency",
+    label: "About",
     href: "/agence",
-    marqueeText: "Meet the Agency",
-    images: [
-      "https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg",
-      "https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg",
-    ],
+    marqueeText: "Meet Me",
+    images: ["/about/education.svg", "/about/ibm.svg"],
   },
   {
     label: "Contact",
@@ -64,6 +61,36 @@ const FullScreenNav = () => {
     setNavOpen,
     replayNavbarEntrance,
   } = useContext(NavbarContext);
+
+  useEffect(() => {
+    if (!navOpen) return undefined;
+    const previousFocus = document.activeElement;
+    const root = fullscreenRef.current;
+    const focusFrame = requestAnimationFrame(() => root?.querySelector('.k72-close')?.focus());
+    const handleKeyDown = (event) => {
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        setNavOpen(false);
+      }
+      if (event.key !== 'Tab' || !root) return;
+      const controls = Array.from(root.querySelectorAll('button, a[href]'));
+      const first = controls[0];
+      const last = controls[controls.length - 1];
+      if (event.shiftKey && (document.activeElement === first || !root.contains(document.activeElement))) {
+        event.preventDefault();
+        last?.focus();
+      } else if (!event.shiftKey && (document.activeElement === last || !root.contains(document.activeElement))) {
+        event.preventDefault();
+        first?.focus();
+      }
+    };
+    document.addEventListener('keydown', handleKeyDown);
+    return () => {
+      cancelAnimationFrame(focusFrame);
+      document.removeEventListener('keydown', handleKeyDown);
+      if (previousFocus instanceof HTMLElement && previousFocus.isConnected) previousFocus.focus();
+    };
+  }, [navOpen, setNavOpen]);
 
   /* Keep the page behind the fullscreen menu fixed while it is open. */
   useEffect(() => {
@@ -147,6 +174,15 @@ const FullScreenNav = () => {
 
       const shouldReplayNavbar = hasOpenedRef.current;
 
+      if (reduceMotion) {
+        gsap.set(root, { display: 'none' });
+        if (shouldReplayNavbar) {
+          hasOpenedRef.current = false;
+          replayNavbarEntrance();
+        }
+        return undefined;
+      }
+
       const timeline = gsap.timeline({
         defaults: { ease: "power3.inOut" },
         onComplete: () => {
@@ -201,6 +237,10 @@ const FullScreenNav = () => {
       id="fullscreennav"
       className="fullscreennav fixed inset-0 z-[1000] hidden h-dvh w-full overflow-hidden text-white"
       aria-hidden={!navOpen}
+      inert={!navOpen}
+      role="dialog"
+      aria-modal="true"
+      aria-label="Navigation menu"
     >
       <style>{`
         .fullscreennav {
@@ -287,6 +327,12 @@ const FullScreenNav = () => {
 
         .k72-close:hover::after {
           transform: translate(-50%, -50%) rotate(45deg);
+        }
+
+        .k72-close:focus-visible,
+        .k72-logo:focus-visible {
+          outline: 2px solid var(--k72-lime);
+          outline-offset: 4px;
         }
 
         .k72-nav-list {
@@ -413,6 +459,11 @@ const FullScreenNav = () => {
         }
 
         @media (max-width: 700px) {
+          .k72-menu-shell {
+            padding-top: env(safe-area-inset-top, 0px);
+            padding-bottom: env(safe-area-inset-bottom, 0px);
+          }
+
           .k72-menu-header {
             min-height: 72px;
             padding: 12px 14px 8px;
@@ -424,7 +475,7 @@ const FullScreenNav = () => {
 
           .k72-main-label,
           .k72-marquee-text {
-            font-size: clamp(4rem, 18vw, 7.2rem);
+            font-size: clamp(2.5rem, 15vw, 7.2rem);
             line-height: 0.76;
           }
 

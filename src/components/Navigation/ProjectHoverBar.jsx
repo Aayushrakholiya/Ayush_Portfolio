@@ -7,7 +7,7 @@ import {
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
-import { NavbarContext } from "../../context/NavContext";
+import { NavbarContext } from "../../context/NavbarContext";
 import useRouteNavbarMode from "./hooks/useRouteNavbarMode";
 
 const ProjectHoverBar = () => {

@@ -1,7 +1,7 @@
 import { useCallback, useContext, useEffect, useRef, useState } from 'react'
 import { gsap } from 'gsap'
 import './MultilingualLoader.css'
-import { NavbarContext } from '../../context/NavContext'
+import { NavbarContext } from '../../context/NavbarContext'
 import {
   hasSeenIntroThisSession,
   markIntroSeenThisSession,

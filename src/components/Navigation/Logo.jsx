@@ -24,7 +24,7 @@ const Logo = () => {
       type="button"
       onClick={handleLogoClick}
       aria-label="Go to home page"
-      className={"fixed left-3 top-3 z-[999] w-30 cursor-pointer border-0 bg-transparent p-0 site-logo " + initialLogoClass}
+      className={"fixed left-3 top-3 z-[999] w-30 cursor-pointer border-0 bg-transparent p-0 site-logo " + (config.mode === 'compact' ? 'home-logo ' : '') + initialLogoClass}
     >
       <svg
         className="w-full"

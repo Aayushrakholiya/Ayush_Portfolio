@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { NavbarContext } from "../../context/NavContext";
+import { NavbarContext } from "../../context/NavbarContext";
 
 const ProjectCard = (props) => {
   const { setActiveProject } = useContext(NavbarContext);

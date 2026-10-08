@@ -2,7 +2,7 @@ import { useContext, useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
-import { NavbarContext } from "../../../context/NavContext";
+import { NavbarContext } from "../../../context/NavbarContext";
 
 /*
  * Places each card completely above its final position.

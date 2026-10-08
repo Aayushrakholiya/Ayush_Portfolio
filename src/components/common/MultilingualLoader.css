@@ -92,7 +92,7 @@
 @media (max-width: 640px) {
   .multilingual-loader__word-window {
     height: clamp(7rem, 28vw, 10rem);
-    font-size: clamp(4.1rem, 19vw, 6.5rem);
+    font-size: clamp(2.5rem, 15vw, 6.5rem);
   }
 }
 

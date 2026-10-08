@@ -7,7 +7,7 @@ import { useLocation } from "react-router-dom";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
-import { NavbarContext } from "../../context/NavContext";
+import { NavbarContext } from "../../context/NavbarContext";
 
 const Stairs = ({ children }) => {
   const location = useLocation();
@@ -35,6 +35,14 @@ const Stairs = ({ children }) => {
         ".stair",
         componentRef.current
       );
+
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        gsap.set(stairParentRef.current, { display: 'none' });
+        gsap.set(pageRef.current, { opacity: 1, scale: 1 });
+        setIsPageRevealStarted(true);
+        setIsPageTransitionComplete(true);
+        return;
+      }
 
       /*
        * Display the stair overlay before starting.

@@ -1,7 +1,7 @@
 import { useContext, useEffect, useRef } from 'react'
-import { NavbarContext } from '../../context/NavContext'
+import { NavbarContext } from '../../context/NavbarContext'
 
-const Video = () => {
+const Video = ({ paused = false }) => {
   const videoRef = useRef(null)
   const { isIntroComplete } = useContext(NavbarContext)
 
@@ -10,29 +10,29 @@ const Video = () => {
 
     if (!video) return
 
-    if (!isIntroComplete) {
+    if (!isIntroComplete || paused) {
       video.pause()
-      video.currentTime = 0
       return
     }
 
-    video.currentTime = 0
     video.play().catch(() => undefined)
-  }, [isIntroComplete])
+    return () => video.pause()
+  }, [isIntroComplete, paused])
 
   return (
-    <div className='h-full w-full'>
       <video
         ref={videoRef}
-        className='h-full w-full object-cover'
-        autoPlay={isIntroComplete}
+        className='block h-full w-full object-cover'
+        autoPlay={isIntroComplete && !paused}
+        preload='metadata'
+        aria-hidden='true'
+        tabIndex={-1}
         loop
         muted
         playsInline
       >
         <source src='/hereSectionVideo.mp4' type='video/mp4' />
       </video>
-    </div>
   )
 }
 

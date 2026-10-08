@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
-import { NavbarContext } from "../../context/NavContext";
+import { NavbarContext } from "../../context/NavbarContext";
 import MenuButton from "./MenuButton";
 
 import useRouteNavbarMode from "./hooks/useRouteNavbarMode";
@@ -21,6 +21,7 @@ const Navbar = () => {
   const config = useRouteNavbarMode();
 
   const {
+    navOpen,
     setNavOpen,
     activeProject,
     navbarEntranceReplayKey,
@@ -374,7 +375,7 @@ const Navbar = () => {
     <nav
       ref={navbarRef}
       className={`
-        fixed left-0 right-0 top-0 z-50
+        ${config.mode === 'compact' ? 'home-navbar' : ''} fixed left-0 right-0 top-0 z-50
         flex h-[70px] items-start justify-end
         transition-colors duration-300
         ${
@@ -485,7 +486,7 @@ const Navbar = () => {
               text-xl uppercase text-white
             "
           >
-            Agency
+            About
           </span>
         </button>
       )}
@@ -498,6 +499,8 @@ const Navbar = () => {
         onMouseEnter={handleMenuEnter}
         onMouseLeave={handleMenuLeave}
         aria-label="Open navigation menu"
+        aria-expanded={navOpen}
+        aria-controls="fullscreennav"
         className={`
           relative ${menuHeightClass} w-52
           cursor-pointer overflow-hidden
