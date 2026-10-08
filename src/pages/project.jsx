@@ -1,43 +1,42 @@
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
-import React from "react";
+import { useRef } from "react";
 
 import ProjectCard from "../components/projects/ProjectCard";
 import Footer from "../components/common/Footer";
+import "./Project.css";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const Project = () => {
+  const pageRef = useRef(null);
   useGSAP(() => {
-    gsap.utils
-      .toArray(".project-item-slot")
-      .forEach((slot) => {
-        const card =
-          slot.querySelector(".project-item");
-
-        gsap.fromTo(
-          card,
-          {
-            height: "20vh",
-          },
-          {
-            height: "70vh",
-            ease: "none",
-
-            scrollTrigger: {
-              trigger: slot,
-              start: "top 90%",
-              end: "+=500",
-              scrub: true,
-              markers: false,
-              invalidateOnRefresh: true,
-              pinSpacing: false,
+    const media = gsap.matchMedia();
+    media.add(
+      "(min-width: 1024px) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)",
+      () => {
+        gsap.utils.toArray(".project-item-slot").forEach((slot) => {
+          gsap.fromTo(
+            slot.querySelector(".project-item"),
+            { height: () => Math.min(window.innerHeight * 0.2, 220) },
+            {
+              height: () => slot.offsetHeight,
+              ease: "none",
+              scrollTrigger: {
+                trigger: slot,
+                start: "top 90%",
+                end: () => `+=${Math.min(slot.offsetHeight, 500)}`,
+                scrub: true,
+                invalidateOnRefresh: true,
+              },
             },
-          }
-        );
-      });
-  }, []);
+          );
+        });
+      },
+    );
+    return () => media.revert();
+  }, { scope: pageRef });
 
   const projects = [
     {
@@ -118,24 +117,23 @@ const Project = () => {
   ];
 
   return (
-    <>
-      <div className="mainContainer_till_images p-[15px]">
-        <div className="work_text_container h-[71vh] pt-[40vh]">
-          <h2 className="mb-[-8vh] font-[Lausanne] text-[15vw] uppercase text-black">
+    <div ref={pageRef} className="work-page-shell">
+      <main className="work-page">
+        <header className="work_text_container">
+          <h1>
             Work
-          </h2>
-        </div>
+          </h1>
+        </header>
 
         <div className="all_imagesCards_container">
           {projects.map((elem, idx) => {
             return (
               <div
                 key={idx}
-                className="project-item-slot relative mb-2 h-[70vh]"
+                className="project-item-slot"
               >
-                <div className="project-item absolute left-0 top-0 flex h-[20vh] w-full gap-2 overflow-hidden">
+                <div className="project-item">
                   <ProjectCard
-                    index={idx}
                     image1={elem.image1}
                     image2={elem.image2}
                     project1={elem.project1}
@@ -146,10 +144,10 @@ const Project = () => {
             );
           })}
         </div>
-      </div>
+      </main>
 
       <Footer />
-    </>
+    </div>
   );
 };
 

@@ -268,9 +268,9 @@ const ProjectHoverBar = () => {
     <div
       ref={barRef}
       className="
-        pointer-events-none
+        project-hover-bar pointer-events-none
         fixed left-0 top-[70px] z-[999]
-        h-[82px] w-full
+        w-full
         overflow-hidden
         border-y-2 border-black
         bg-white text-black
@@ -278,15 +278,7 @@ const ProjectHoverBar = () => {
     >
       <div
         ref={contentRef}
-        className="
-          grid h-full w-full
-          grid-cols-3 items-center
-          px-[10px]
-          font-[Lausanne]
-          text-[2.2vw]
-          font-medium
-          leading-none
-        "
+        className="project-hover-bar__content"
       >
         {/* Client */}
         <div className="flex justify-start">

@@ -1,122 +1,58 @@
-import React, { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { NavbarContext } from "../../context/NavbarContext";
 
-const ProjectCard = (props) => {
+const PROJECT_HOVER_QUERY = "(min-width: 1024px) and (hover: hover) and (pointer: fine)";
+
+const ProjectCard = ({ image1, image2, project1, project2 }) => {
   const { setActiveProject } = useContext(NavbarContext);
-  const FirstProjectContainer = props.project1?.url
-    ? "a"
-    : "div";
-  const SecondProjectContainer = props.project2?.url
-    ? "a"
-    : "div";
 
-  const handleProjectEnter = (project) => {
-    setActiveProject(project);
-  };
+  useEffect(() => {
+    const media = window.matchMedia(PROJECT_HOVER_QUERY);
+    const clearProject = () => setActiveProject(null);
+    media.addEventListener("change", clearProject);
+    return () => {
+      media.removeEventListener("change", clearProject);
+      clearProject();
+    };
+  }, [setActiveProject]);
 
-  const handleProjectLeave = () => {
-    setActiveProject(null);
+  const showProject = (project) => {
+    if (window.matchMedia(PROJECT_HOVER_QUERY).matches) {
+      setActiveProject(project);
+    }
   };
 
   return (
-    <div className="flex h-full w-full gap-2">
-      {/* First project image */}
-      <FirstProjectContainer
-        href={props.project1?.url}
-        aria-label={
-          props.project1?.url
-            ? `View ${props.project1.client}`
-            : undefined
-        }
-        className="group relative h-full w-1/2"
-        onMouseEnter={() =>
-          handleProjectEnter(props.project1)
-        }
-        onMouseLeave={handleProjectLeave}
-      >
-        <img
-          src={props.image1}
-          alt={`project-${props.index}-1`}
-          className="
-            h-full w-full object-cover
-            transition-all duration-150
-            hover:rounded-[50px]
-            group-hover:brightness-80
-          "
-        />
-
-        <div
-          className="
-            pointer-events-none
-            absolute inset-0
-            flex items-center justify-center
-            opacity-0
-            transition-opacity duration-150
-            group-hover:opacity-100
-          "
-        >
-          <h2
-            className="
-              rounded-[50px] border-2
-              px-5 pt-2
-              font-[Lausanne] text-6xl
-              uppercase text-white
-            "
+    <div className="project-pair">
+      {[{ image: image1, project: project1 }, { image: image2, project: project2 }]
+        .filter(({ image, project }) => image && project)
+        .map(({ image, project }) => (
+          <a
+            key={project.title}
+            href={project.url}
+            aria-label={`View ${project.title}`}
+            className="work-card"
+            onMouseEnter={() => showProject(project)}
+            onMouseLeave={() => setActiveProject(null)}
+            onFocus={() => showProject(project)}
+            onBlur={() => setActiveProject(null)}
           >
-            View Project
-          </h2>
-        </div>
-      </FirstProjectContainer>
-
-      {/* Second project image */}
-      {props.image2 && (
-        <SecondProjectContainer
-          href={props.project2?.url}
-          aria-label={
-            props.project2?.url
-              ? `View ${props.project2.client}`
-              : undefined
-          }
-          className="group relative h-full w-1/2"
-          onMouseEnter={() =>
-            handleProjectEnter(props.project2)
-          }
-          onMouseLeave={handleProjectLeave}
-        >
-          <img
-            src={props.image2}
-            alt={`project-${props.index}-2`}
-            className="
-              h-full w-full object-cover
-              transition-all duration-150
-              hover:rounded-[50px]
-              group-hover:brightness-80
-            "
-          />
-
-          <div
-            className="
-              pointer-events-none
-              absolute inset-0
-              flex items-center justify-center
-              opacity-0
-              transition-opacity duration-150
-              group-hover:opacity-100
-            "
-          >
-            <h2
-              className="
-                rounded-[50px] border-2
-                px-5 pt-2
-                font-[Lausanne] text-6xl
-                uppercase text-white
-              "
-            >
-              View Project
-            </h2>
-          </div>
-        </SecondProjectContainer>
-      )}
+            <div className="work-card__image">
+              <img src={image} alt={project.title} decoding="async" />
+              <div className="work-card__overlay" aria-hidden="true">
+                <span>View Project</span>
+              </div>
+            </div>
+            <div className="work-card__details">
+              <div className="work-card__meta">
+                <span>{project.client}</span>
+                <span>{project.year}</span>
+              </div>
+              <h2>{project.title}</h2>
+              <span className="work-card__link" aria-hidden="true">View project ↗</span>
+            </div>
+          </a>
+        ))}
     </div>
   );
 };

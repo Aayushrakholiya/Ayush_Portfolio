@@ -31,7 +31,7 @@ const Video = ({ paused = false }) => {
         muted
         playsInline
       >
-        <source src='/hereSectionVideo.mp4' type='video/mp4' />
+        <source src='dist/Homepage_video.mp4' type='video/mp4' />
       </video>
   )
 }
