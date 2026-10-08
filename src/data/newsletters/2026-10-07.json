@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-07",
+  "title": "Top 3 from Hacker News - October 7, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Shipping JPEG XL in Chrome",
+      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+      "hnLink": "https://news.ycombinator.com/item?id=49991227",
+      "points": 39,
+      "summary": "Chrome 155 ships decoding support for the JPEG XL image format, which offers 30-50% better compression than JPEG plus lossless compression, built-in HDR support, and lossless JPEG transcoding. The decoder is a pure Rust implementation (jxl-rs) chosen to eliminate memory-safety bugs at the source, with a SIMD abstraction layer keeping performance competitive with the C++ reference. The team says the decision came from consistent developer feedback, most visibly through the Interop 2026 process."
+    },
+    {
+      "rank": 2,
+      "title": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "url": "https://github.com/szabadkai/c64-keyboard-font/",
+      "hnLink": "https://news.ycombinator.com/item?id=49990224",
+      "points": 116,
+      "summary": "An open-source font that recreates the lettering of classic Commodore 64 keycaps from photographs, with cleaned-up shapes and consistent proportions. It includes uppercase letters, numbers, punctuation, function-key labels f1-f12, and all 63 PETSCII graphic front legends, distributed as TTF, OTF, and webfont with editable outlines in the repo. The author notes it is a reconstruction rather than an exact photo trace, with proportions inferred from the keyboard photographs."
+    },
+    {
+      "rank": 3,
+      "title": "Nobel Prize in Chemistry 2026 to Henri B. Kagan and Kenso Soai",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
+      "hnLink": "https://news.ycombinator.com/item?id=49990470",
+      "points": 66,
+      "summary": "The Royal Swedish Academy of Sciences awarded the 2026 Nobel Prize in Chemistry to Henri B. Kagan and Kenso Soai for the discovery of non-linear effects and autocatalysis in asymmetric organic synthesis. Their work solved a century-old puzzle: how homochirality, life's use of just one mirror-image form of molecules like amino acids, can emerge spontaneously. Kagan's 1986 discovery made it possible to create a larger excess of one mirror image, and Soai's 2003 reaction produced essentially only one, a feat no one had achieved outside of life itself."
+    }
+  ]
+}

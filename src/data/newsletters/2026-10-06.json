@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-06",
+  "title": "Top 3 from Hacker News - October 6, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Nobel Prize in Physics goes to Francis Halzen",
+      "url": "https://www.nobelprize.org/prizes/physics/2026/",
+      "hnLink": "https://news.ycombinator.com/item?id=49976265",
+      "points": 151,
+      "summary": "The 2026 Nobel Prize in Physics has been awarded to Francis Halzen, the sole laureate, for decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin. IceCube detects neutrinos from a detector array buried deep in the Antarctic ice at the South Pole."
+    },
+    {
+      "rank": 2,
+      "title": "Gleam doesn't compile to Erlang source anymore",
+      "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
+      "hnLink": "https://news.ycombinator.com/item?id=49975619",
+      "points": 57,
+      "summary": "Gleam v1.19.0 ships a fully rewritten Erlang code generator that now emits Erlang abstract forms instead of Erlang source code, letting generated code skip the front half of the Erlang compiler. The change significantly cuts build times and makes runtime line numbers in crash reports and stacktraces accurate to the original Gleam source."
+    },
+    {
+      "rank": 3,
+      "title": "Beam: Reflection's 501B open-weight model",
+      "url": "https://reflection.ai/blog/introducing-beam",
+      "hnLink": "https://news.ycombinator.com/item?id=49969183",
+      "points": 478,
+      "summary": "Reflection AI introduced Beam, its first open-weight model: a sparse Mixture-of-Experts model with 501 billion total parameters and 23 billion active, aimed at coding, reasoning, and agentic workloads. It was pretrained on 23.8 trillion tokens and tuned with a large-scale RL run of over 100 million rollouts on 10,500 NVIDIA GB300 GPUs; the weights, technical report, and model card will be released later this month."
+    }
+  ]
+}

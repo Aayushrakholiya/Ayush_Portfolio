@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-08",
+  "title": "Top 3 from Hacker News - October 8, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "“Math 2.0” will need to value mathematical progress more holistically",
+      "url": "https://mathstodon.xyz/@tao/117395269325940185",
+      "hnLink": "https://news.ycombinator.com/item?id=50002008",
+      "points": 367,
+      "summary": "In a Mastodon thread, Terence Tao argues that \"Math 1.0\" prized being first to solve an open problem, a goal he says has been optimized to the point of unsustainability. He proposes \"Math 2.0,\" which would decenter raw problem solving and instead value exposition, community building, and opening new directions of study, with AI contributing positively to each. He calls on the mathematical community to explicitly re-evaluate its criteria for education, publication, and career advancement to match this new era."
+    },
+    {
+      "rank": 2,
+      "title": "The Slow Formation of Durable Software",
+      "url": "https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/",
+      "hnLink": "https://news.ycombinator.com/item?id=49980346",
+      "points": 20,
+      "summary": "On the 20th anniversary of Zotero's launch, Dan Cohen recounts how the research tool now used by over 20 million people took five years to reach a rough prototype, because its creators were still figuring out what they wanted it to be. He argues that this slow, communal conception is what produced durable software, a deliberate contrast to today's instant AI-generated apps."
+    },
+    {
+      "rank": 3,
+      "title": "Claude Haiku 5.5",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "hnLink": "https://news.ycombinator.com/item?id=49996437",
+      "points": 923,
+      "summary": "Anthropic released Claude Haiku 5.5, its cheapest, fastest, and most capable small model, aimed at high-volume work like summarization, classification, and coding subagent tasks. The company reports large benchmark jumps over Haiku 4.5 (for example 39.2% vs 0% on Terminal-Bench 4.0) and says the model costs around 75% less to run on average. Alongside the launch, Anthropic halved Sonnet 5.5's cache-read pricing and introduced a monthly API credit for Claude Max and Team subscribers."
+    }
+  ]
+}
