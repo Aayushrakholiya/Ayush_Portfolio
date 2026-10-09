@@ -16,7 +16,7 @@
 .work_text_container {
   display: flex;
   align-items: flex-end;
-  min-height: clamp(260px, 71svh, 1100px);
+  min-height: max(260px, 71svh);
   padding: 160px 0 8px;
 }
 
@@ -170,7 +170,7 @@
   }
 }
 
-@media (min-width: 1024px) and (hover: hover) and (pointer: fine) {
+@media (min-width: 768px) and (hover: hover) and (pointer: fine) {
   .all_imagesCards_container,
   .project-pair {
     gap: 8px;
@@ -178,13 +178,27 @@
 
   .project-item-slot {
     position: relative;
-    height: clamp(320px, 70vh, 1000px);
+    height: 70vh;
   }
 
   .project-item {
+    display: flex;
     position: absolute;
     inset: 0 0 auto;
     height: 100%;
+    overflow: hidden;
+  }
+
+  .project-pair {
+    display: flex;
+    width: 100%;
+    min-height: 0;
+  }
+
+  .work-card {
+    position: relative;
+    flex: 1 1 0;
+    min-height: 0;
   }
 
   .work-card,
@@ -199,9 +213,23 @@
   .work-card__details {
     display: none;
   }
+
+  .work-card__image img {
+    transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .work-card__overlay {
+    transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .work-card:hover .work-card__image img,
+  .work-card:focus-visible .work-card__image img {
+    border-radius: 50px;
+    filter: brightness(0.8);
+  }
 }
 
-@media (max-width: 1023px), (hover: none), (pointer: coarse) {
+@media (max-width: 767px), (hover: none), (pointer: coarse) {
   .project-hover-bar {
     display: none;
   }

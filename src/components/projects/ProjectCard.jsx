@@ -1,13 +1,12 @@
 import { useContext, useEffect } from "react";
 import { NavbarContext } from "../../context/NavbarContext";
-
-const PROJECT_HOVER_QUERY = "(min-width: 1024px) and (hover: hover) and (pointer: fine)";
+import { PROJECT_DESKTOP_QUERY } from "./projectMedia";
 
 const ProjectCard = ({ image1, image2, project1, project2 }) => {
   const { setActiveProject } = useContext(NavbarContext);
 
   useEffect(() => {
-    const media = window.matchMedia(PROJECT_HOVER_QUERY);
+    const media = window.matchMedia(PROJECT_DESKTOP_QUERY);
     const clearProject = () => setActiveProject(null);
     media.addEventListener("change", clearProject);
     return () => {
@@ -17,7 +16,7 @@ const ProjectCard = ({ image1, image2, project1, project2 }) => {
   }, [setActiveProject]);
 
   const showProject = (project) => {
-    if (window.matchMedia(PROJECT_HOVER_QUERY).matches) {
+    if (window.matchMedia(PROJECT_DESKTOP_QUERY).matches) {
       setActiveProject(project);
     }
   };

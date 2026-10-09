@@ -1,34 +1,46 @@
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
-import { useRef } from "react";
+import { useContext, useEffect, useRef } from "react";
 
 import ProjectCard from "../components/projects/ProjectCard";
 import Footer from "../components/common/Footer";
+import { NavbarContext } from "../context/NavbarContext";
+import { PROJECT_DESKTOP_QUERY } from "../components/projects/projectMedia";
 import "./Project.css";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const Project = () => {
   const pageRef = useRef(null);
+  const { isPageTransitionComplete } = useContext(NavbarContext);
+
+  useEffect(() => {
+    if (!isPageTransitionComplete) return;
+
+    // The entrance scales the page; measure triggers only after it settles.
+    const frame = requestAnimationFrame(() => ScrollTrigger.refresh());
+    return () => cancelAnimationFrame(frame);
+  }, [isPageTransitionComplete]);
   useGSAP(() => {
     const media = gsap.matchMedia();
     media.add(
-      "(min-width: 1024px) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)",
+      `${PROJECT_DESKTOP_QUERY} and (prefers-reduced-motion: no-preference)`,
       () => {
         gsap.utils.toArray(".project-item-slot").forEach((slot) => {
           gsap.fromTo(
             slot.querySelector(".project-item"),
-            { height: () => Math.min(window.innerHeight * 0.2, 220) },
+            { height: "20vh" },
             {
-              height: () => slot.offsetHeight,
+              height: "70vh",
               ease: "none",
               scrollTrigger: {
                 trigger: slot,
                 start: "top 90%",
-                end: () => `+=${Math.min(slot.offsetHeight, 500)}`,
+                end: "+=500",
                 scrub: true,
                 invalidateOnRefresh: true,
+                pinSpacing: false,
               },
             },
           );

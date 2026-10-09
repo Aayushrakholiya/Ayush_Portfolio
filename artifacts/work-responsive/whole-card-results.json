@@ -1,0 +1,634 @@
+[
+  {
+    "label": "Corrected fresh load",
+    "overflow": 0,
+    "rows": [
+      {
+        "cards": [
+          {
+            "card": 266,
+            "image": 266,
+            "overlay": 266
+          },
+          {
+            "card": 266,
+            "image": 266,
+            "overlay": 266
+          }
+        ],
+        "expected": 265,
+        "pair": 266,
+        "wrapper": 266
+      },
+      {
+        "cards": [
+          {
+            "card": 154,
+            "image": 154,
+            "overlay": 154
+          },
+          {
+            "card": 154,
+            "image": 154,
+            "overlay": 154
+          }
+        ],
+        "expected": 154,
+        "pair": 154,
+        "wrapper": 154
+      },
+      {
+        "cards": [
+          {
+            "card": 154,
+            "image": 154,
+            "overlay": 154
+          },
+          {
+            "card": 154,
+            "image": 154,
+            "overlay": 154
+          }
+        ],
+        "expected": 154,
+        "pair": 154,
+        "wrapper": 154
+      },
+      {
+        "cards": [
+          {
+            "card": 154,
+            "image": 154,
+            "overlay": 154
+          },
+          {
+            "card": 154,
+            "image": 154,
+            "overlay": 154
+          }
+        ],
+        "expected": 154,
+        "pair": 154,
+        "wrapper": 154
+      }
+    ],
+    "scroll": 0,
+    "viewport": [
+      1366,
+      768
+    ]
+  },
+  {
+    "label": "Production 900px desktop",
+    "overflow": 0,
+    "rows": [
+      {
+        "cards": [
+          {
+            "card": 375,
+            "image": 375,
+            "overlay": 375
+          },
+          {
+            "card": 375,
+            "image": 375,
+            "overlay": 375
+          }
+        ],
+        "expected": 375,
+        "pair": 375,
+        "wrapper": 375
+      },
+      {
+        "cards": [
+          {
+            "card": 140,
+            "image": 140,
+            "overlay": 140
+          },
+          {
+            "card": 140,
+            "image": 140,
+            "overlay": 140
+          }
+        ],
+        "expected": 140,
+        "pair": 140,
+        "wrapper": 140
+      },
+      {
+        "cards": [
+          {
+            "card": 140,
+            "image": 140,
+            "overlay": 140
+          },
+          {
+            "card": 140,
+            "image": 140,
+            "overlay": 140
+          }
+        ],
+        "expected": 140,
+        "pair": 140,
+        "wrapper": 140
+      },
+      {
+        "cards": [
+          {
+            "card": 140,
+            "image": 140,
+            "overlay": 140
+          },
+          {
+            "card": 140,
+            "image": 140,
+            "overlay": 140
+          }
+        ],
+        "expected": 140,
+        "pair": 140,
+        "wrapper": 140
+      }
+    ],
+    "scroll": 0,
+    "viewport": [
+      900,
+      700
+    ]
+  },
+  {
+    "label": "Production partial expansion",
+    "overflow": 0,
+    "rows": [
+      {
+        "cards": [
+          {
+            "card": 490,
+            "image": 490,
+            "overlay": 490
+          },
+          {
+            "card": 490,
+            "image": 490,
+            "overlay": 490
+          }
+        ],
+        "expected": 490,
+        "pair": 490,
+        "wrapper": 490
+      },
+      {
+        "cards": [
+          {
+            "card": 175,
+            "image": 175,
+            "overlay": 175
+          },
+          {
+            "card": 175,
+            "image": 175,
+            "overlay": 175
+          }
+        ],
+        "expected": 175,
+        "pair": 175,
+        "wrapper": 175
+      },
+      {
+        "cards": [
+          {
+            "card": 140,
+            "image": 140,
+            "overlay": 140
+          },
+          {
+            "card": 140,
+            "image": 140,
+            "overlay": 140
+          }
+        ],
+        "expected": 140,
+        "pair": 140,
+        "wrapper": 140
+      },
+      {
+        "cards": [
+          {
+            "card": 140,
+            "image": 140,
+            "overlay": 140
+          },
+          {
+            "card": 140,
+            "image": 140,
+            "overlay": 140
+          }
+        ],
+        "expected": 140,
+        "pair": 140,
+        "wrapper": 140
+      }
+    ],
+    "scroll": 211.88119506835935,
+    "viewport": [
+      900,
+      700
+    ]
+  },
+  {
+    "label": "Production bottom",
+    "overflow": 0,
+    "rows": [
+      {
+        "cards": [
+          {
+            "card": 490,
+            "image": 490,
+            "overlay": 490
+          },
+          {
+            "card": 490,
+            "image": 490,
+            "overlay": 490
+          }
+        ],
+        "expected": 490,
+        "pair": 490,
+        "wrapper": 490
+      },
+      {
+        "cards": [
+          {
+            "card": 490,
+            "image": 490,
+            "overlay": 490
+          },
+          {
+            "card": 490,
+            "image": 490,
+            "overlay": 490
+          }
+        ],
+        "expected": 490,
+        "pair": 490,
+        "wrapper": 490
+      },
+      {
+        "cards": [
+          {
+            "card": 490,
+            "image": 490,
+            "overlay": 490
+          },
+          {
+            "card": 490,
+            "image": 490,
+            "overlay": 490
+          }
+        ],
+        "expected": 490,
+        "pair": 490,
+        "wrapper": 490
+      },
+      {
+        "cards": [
+          {
+            "card": 490,
+            "image": 490,
+            "overlay": 490
+          },
+          {
+            "card": 490,
+            "image": 490,
+            "overlay": 490
+          }
+        ],
+        "expected": 490,
+        "pair": 490,
+        "wrapper": 490
+      }
+    ],
+    "scroll": 2021.7822265625,
+    "viewport": [
+      900,
+      700
+    ]
+  },
+  {
+    "label": "Production 4K top",
+    "overflow": 0,
+    "rows": [
+      {
+        "cards": [
+          {
+            "card": 1512,
+            "image": 1512,
+            "overlay": 1512
+          },
+          {
+            "card": 1512,
+            "image": 1512,
+            "overlay": 1512
+          }
+        ],
+        "expected": 1512,
+        "pair": 1512,
+        "wrapper": 1512
+      },
+      {
+        "cards": [
+          {
+            "card": 432,
+            "image": 432,
+            "overlay": 432
+          },
+          {
+            "card": 432,
+            "image": 432,
+            "overlay": 432
+          }
+        ],
+        "expected": 432,
+        "pair": 432,
+        "wrapper": 432
+      },
+      {
+        "cards": [
+          {
+            "card": 432,
+            "image": 432,
+            "overlay": 432
+          },
+          {
+            "card": 432,
+            "image": 432,
+            "overlay": 432
+          }
+        ],
+        "expected": 432,
+        "pair": 432,
+        "wrapper": 432
+      },
+      {
+        "cards": [
+          {
+            "card": 432,
+            "image": 432,
+            "overlay": 432
+          },
+          {
+            "card": 432,
+            "image": 432,
+            "overlay": 432
+          }
+        ],
+        "expected": 432,
+        "pair": 432,
+        "wrapper": 432
+      }
+    ],
+    "scroll": 0,
+    "viewport": [
+      3840,
+      2160
+    ]
+  },
+  {
+    "label": "Final production 4K fresh load",
+    "overflow": 0,
+    "rows": [
+      {
+        "cards": [
+          {
+            "card": 1318,
+            "image": 1318,
+            "overlay": 1318
+          },
+          {
+            "card": 1318,
+            "image": 1318,
+            "overlay": 1318
+          }
+        ],
+        "expected": 1318,
+        "pair": 1318,
+        "wrapper": 1318
+      },
+      {
+        "cards": [
+          {
+            "card": 432,
+            "image": 432,
+            "overlay": 432
+          },
+          {
+            "card": 432,
+            "image": 432,
+            "overlay": 432
+          }
+        ],
+        "expected": 432,
+        "pair": 432,
+        "wrapper": 432
+      },
+      {
+        "cards": [
+          {
+            "card": 432,
+            "image": 432,
+            "overlay": 432
+          },
+          {
+            "card": 432,
+            "image": 432,
+            "overlay": 432
+          }
+        ],
+        "expected": 432,
+        "pair": 432,
+        "wrapper": 432
+      },
+      {
+        "cards": [
+          {
+            "card": 432,
+            "image": 432,
+            "overlay": 432
+          },
+          {
+            "card": 432,
+            "image": 432,
+            "overlay": 432
+          }
+        ],
+        "expected": 432,
+        "pair": 432,
+        "wrapper": 432
+      }
+    ],
+    "scroll": 0,
+    "viewport": [
+      3840,
+      2160
+    ]
+  },
+  {
+    "label": "Final production intermediate desktop",
+    "overflow": 0,
+    "rows": [
+      {
+        "cards": [
+          {
+            "card": 538,
+            "image": 538,
+            "overlay": 538
+          },
+          {
+            "card": 538,
+            "image": 538,
+            "overlay": 538
+          }
+        ],
+        "expected": 538,
+        "pair": 538,
+        "wrapper": 538
+      },
+      {
+        "cards": [
+          {
+            "card": 204,
+            "image": 204,
+            "overlay": 204
+          },
+          {
+            "card": 204,
+            "image": 204,
+            "overlay": 204
+          }
+        ],
+        "expected": 204,
+        "pair": 204,
+        "wrapper": 204
+      },
+      {
+        "cards": [
+          {
+            "card": 154,
+            "image": 154,
+            "overlay": 154
+          },
+          {
+            "card": 154,
+            "image": 154,
+            "overlay": 154
+          }
+        ],
+        "expected": 154,
+        "pair": 154,
+        "wrapper": 154
+      },
+      {
+        "cards": [
+          {
+            "card": 154,
+            "image": 154,
+            "overlay": 154
+          },
+          {
+            "card": 154,
+            "image": 154,
+            "overlay": 154
+          }
+        ],
+        "expected": 154,
+        "pair": 154,
+        "wrapper": 154
+      }
+    ],
+    "scroll": 465.8415832519531,
+    "viewport": [
+      1366,
+      768
+    ]
+  },
+  {
+    "label": "Final reverse scroll",
+    "overflow": 0,
+    "rows": [
+      {
+        "cards": [
+          {
+            "card": 266,
+            "image": 266,
+            "overlay": 266
+          },
+          {
+            "card": 266,
+            "image": 266,
+            "overlay": 266
+          }
+        ],
+        "expected": 265,
+        "pair": 266,
+        "wrapper": 266
+      },
+      {
+        "cards": [
+          {
+            "card": 154,
+            "image": 154,
+            "overlay": 154
+          },
+          {
+            "card": 154,
+            "image": 154,
+            "overlay": 154
+          }
+        ],
+        "expected": 154,
+        "pair": 154,
+        "wrapper": 154
+      },
+      {
+        "cards": [
+          {
+            "card": 154,
+            "image": 154,
+            "overlay": 154
+          },
+          {
+            "card": 154,
+            "image": 154,
+            "overlay": 154
+          }
+        ],
+        "expected": 154,
+        "pair": 154,
+        "wrapper": 154
+      },
+      {
+        "cards": [
+          {
+            "card": 154,
+            "image": 154,
+            "overlay": 154
+          },
+          {
+            "card": 154,
+            "image": 154,
+            "overlay": 154
+          }
+        ],
+        "expected": 154,
+        "pair": 154,
+        "wrapper": 154
+      }
+    ],
+    "scroll": 0,
+    "viewport": [
+      1366,
+      768
+    ]
+  }
+]

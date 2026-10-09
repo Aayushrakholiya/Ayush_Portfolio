@@ -1,0 +1,352 @@
+[
+  {
+    "label": "Initial desktop",
+    "overflow": 0,
+    "rows": [
+      {
+        "actual": 307,
+        "error": 41,
+        "expected": 265,
+        "slotHeight": 538
+      },
+      {
+        "actual": 154,
+        "error": 0,
+        "expected": 154,
+        "slotHeight": 538
+      },
+      {
+        "actual": 154,
+        "error": 0,
+        "expected": 154,
+        "slotHeight": 538
+      },
+      {
+        "actual": 154,
+        "error": 0,
+        "expected": 154,
+        "slotHeight": 538
+      }
+    ],
+    "scroll": 0,
+    "viewport": [
+      1366,
+      768
+    ]
+  },
+  {
+    "label": "Partial scroll",
+    "overflow": 0,
+    "rows": [
+      {
+        "actual": 538,
+        "error": 0,
+        "expected": 538,
+        "slotHeight": 538
+      },
+      {
+        "actual": 164,
+        "error": 10,
+        "expected": 154,
+        "slotHeight": 538
+      },
+      {
+        "actual": 154,
+        "error": 0,
+        "expected": 154,
+        "slotHeight": 538
+      },
+      {
+        "actual": 154,
+        "error": 0,
+        "expected": 154,
+        "slotHeight": 538
+      }
+    ],
+    "scroll": 388.1188049316406,
+    "viewport": [
+      1366,
+      768
+    ]
+  },
+  {
+    "label": "Lower rows",
+    "overflow": 0,
+    "rows": [
+      {
+        "actual": 538,
+        "error": 0,
+        "expected": 538,
+        "slotHeight": 538
+      },
+      {
+        "actual": 538,
+        "error": 0,
+        "expected": 538,
+        "slotHeight": 538
+      },
+      {
+        "actual": 538,
+        "error": 0,
+        "expected": 538,
+        "slotHeight": 538
+      },
+      {
+        "actual": 154,
+        "error": 0,
+        "expected": 154,
+        "slotHeight": 538
+      }
+    ],
+    "scroll": 1474.75244140625,
+    "viewport": [
+      1366,
+      768
+    ]
+  },
+  {
+    "label": "Bottom: all rows fully expanded",
+    "overflow": 0,
+    "rows": [
+      {
+        "actual": 538,
+        "error": 0,
+        "expected": 538,
+        "slotHeight": 538
+      },
+      {
+        "actual": 538,
+        "error": 0,
+        "expected": 538,
+        "slotHeight": 538
+      },
+      {
+        "actual": 538,
+        "error": 0,
+        "expected": 538,
+        "slotHeight": 538
+      },
+      {
+        "actual": 538,
+        "error": 0,
+        "expected": 538,
+        "slotHeight": 538
+      }
+    ],
+    "scroll": 2437.623779296875,
+    "viewport": [
+      1366,
+      768
+    ]
+  },
+  {
+    "label": "Reverse to top",
+    "overflow": 0,
+    "rows": [
+      {
+        "actual": 307,
+        "error": 41,
+        "expected": 265,
+        "slotHeight": 538
+      },
+      {
+        "actual": 154,
+        "error": 0,
+        "expected": 154,
+        "slotHeight": 538
+      },
+      {
+        "actual": 154,
+        "error": 0,
+        "expected": 154,
+        "slotHeight": 538
+      },
+      {
+        "actual": 154,
+        "error": 0,
+        "expected": 154,
+        "slotHeight": 538
+      }
+    ],
+    "scroll": 0,
+    "viewport": [
+      1366,
+      768
+    ]
+  },
+  {
+    "label": "Fresh Full HD load",
+    "overflow": 0,
+    "rows": [
+      {
+        "actual": 517,
+        "error": 80,
+        "expected": 437,
+        "slotHeight": 756
+      },
+      {
+        "actual": 216,
+        "error": 0,
+        "expected": 216,
+        "slotHeight": 756
+      },
+      {
+        "actual": 216,
+        "error": 0,
+        "expected": 216,
+        "slotHeight": 756
+      },
+      {
+        "actual": 216,
+        "error": 0,
+        "expected": 216,
+        "slotHeight": 756
+      }
+    ],
+    "scroll": 0,
+    "viewport": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "label": "Full HD partial scroll",
+    "overflow": 0,
+    "rows": [
+      {
+        "actual": 753,
+        "error": 80,
+        "expected": 673,
+        "slotHeight": 756
+      },
+      {
+        "actual": 216,
+        "error": 0,
+        "expected": 216,
+        "slotHeight": 756
+      },
+      {
+        "actual": 216,
+        "error": 0,
+        "expected": 216,
+        "slotHeight": 756
+      },
+      {
+        "actual": 216,
+        "error": 0,
+        "expected": 216,
+        "slotHeight": 756
+      }
+    ],
+    "scroll": 218.31683349609375,
+    "viewport": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "label": "4K bottom after resize",
+    "overflow": 0,
+    "rows": [
+      {
+        "actual": 1512,
+        "error": 0,
+        "expected": 1512,
+        "slotHeight": 1512
+      },
+      {
+        "actual": 1512,
+        "error": 0,
+        "expected": 1512,
+        "slotHeight": 1512
+      },
+      {
+        "actual": 1512,
+        "error": 0,
+        "expected": 1512,
+        "slotHeight": 1512
+      },
+      {
+        "actual": 1512,
+        "error": 0,
+        "expected": 1512,
+        "slotHeight": 1512
+      }
+    ],
+    "scroll": 6333.16845703125,
+    "viewport": [
+      3840,
+      2160
+    ]
+  },
+  {
+    "label": "1024 desktop after resize",
+    "overflow": 0,
+    "rows": [
+      {
+        "actual": 266,
+        "error": 0,
+        "expected": 265,
+        "slotHeight": 538
+      },
+      {
+        "actual": 154,
+        "error": 0,
+        "expected": 154,
+        "slotHeight": 538
+      },
+      {
+        "actual": 154,
+        "error": 0,
+        "expected": 154,
+        "slotHeight": 538
+      },
+      {
+        "actual": 154,
+        "error": 0,
+        "expected": 154,
+        "slotHeight": 538
+      }
+    ],
+    "scroll": 0,
+    "viewport": [
+      1024,
+      768
+    ]
+  },
+  {
+    "label": "Repeat Full HD fresh load",
+    "overflow": 0,
+    "rows": [
+      {
+        "actual": 517,
+        "error": 80,
+        "expected": 437,
+        "slotHeight": 756
+      },
+      {
+        "actual": 216,
+        "error": 0,
+        "expected": 216,
+        "slotHeight": 756
+      },
+      {
+        "actual": 216,
+        "error": 0,
+        "expected": 216,
+        "slotHeight": 756
+      },
+      {
+        "actual": 216,
+        "error": 0,
+        "expected": 216,
+        "slotHeight": 756
+      }
+    ],
+    "scroll": 0,
+    "viewport": [
+      1920,
+      1080
+    ]
+  }
+]
