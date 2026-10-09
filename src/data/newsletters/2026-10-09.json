@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-09",
+  "title": "Top 3 from Hacker News - October 9, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Let your AI agents paint big arrows, boxes and text on your screen",
+      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "hnLink": "https://news.ycombinator.com/item?id=50018817",
+      "points": 64,
+      "summary": "bigarrow is a small open-source macOS CLI and agent skill that lets an AI agent draw a large, click-through arrow, box, or text on your screen to point you at something, such as a permission dialog it can't or shouldn't click itself. It never steals focus, requires no special permissions, ships as a single Swift binary with no daemon or telemetry, and is installed via Homebrew."
+    },
+    {
+      "rank": 2,
+      "title": "Nobel Peace Prize for 2026 to Navanethem \"NAVI\" Pillay",
+      "url": "https://www.nobelprize.org/prizes/peace/2026/press-release/",
+      "hnLink": "https://news.ycombinator.com/item?id=50018420",
+      "points": 109,
+      "summary": "The Norwegian Nobel Committee awarded the 2026 Nobel Peace Prize to South African jurist Navanethem \"Navi\" Pillay for her efforts to promote peace and international law. Born under apartheid in Durban, she defended Nelson Mandela early in her career and later served as a judge on the Rwanda tribunal, the International Criminal Court, and now the International Court of Justice, as well as UN High Commissioner for Human Rights."
+    },
+    {
+      "rank": 3,
+      "title": "I'm in a Meeting",
+      "url": "https://iminafleeting.com/",
+      "hnLink": "https://news.ycombinator.com/item?id=50018088",
+      "points": 36,
+      "summary": "Fleeting is a novelty web tool that plays realistic-sounding background audio of made-up meetings, so anyone nearby will assume you're busy, and can also add a fake meeting to your calendar. Each recording runs about twelve minutes and starts at a random point, and a \"Leave\" button ends the call with the other participants saying goodbye."
+    }
+  ]
+}
