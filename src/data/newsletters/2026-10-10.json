@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-10",
+  "title": "Top 3 from Hacker News - October 10, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "`123456' password used in Danish CPR data breach",
+      "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
+      "hnLink": "https://news.ycombinator.com/item?id=50031269",
+      "points": 130,
+      "summary": "At least three accounts at the Danish IT company Pays, including an administrator account, used the password \"123456\" when a hacker gained access to Denmark's central civil registration system, exposing data linked to around 8.8 million CPR numbers. The hacker reportedly got in using a leaked password from a former employee and had access to the register for 21 days and 17 hours, starting September 10, and told Politiken there were no plans to sell or publish the data."
+    },
+    {
+      "rank": 2,
+      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "url": "https://github.com/rociiu/talorys",
+      "hnLink": "https://news.ycombinator.com/item?id=50031614",
+      "points": 31,
+      "summary": "Talorys is an open-source personal AI agent that runs in your own Cloudflare account, offering chat, memory, tasks, notes, and scheduled reminders. It deploys with a single command (npx create-talorys@latest), is designed for Cloudflare's free tier, is single-user, and ships with no telemetry."
+    },
+    {
+      "rank": 3,
+      "title": "Apple/macOS silently removed from official Unix registry",
+      "url": "https://www.opengroup.org/openbrand/register/",
+      "hnLink": "https://news.ycombinator.com/item?id=50031653",
+      "points": 14,
+      "summary": "The Open Group's official register of UNIX certified products no longer lists Apple or macOS, leaving IBM's AIX and z/OS and Hewlett Packard Enterprise's HP-UX among the remaining certified systems. UNIX certification is the vendor-neutral benchmark that qualifies an operating system to use the UNIX trademark under the Single UNIX Specification."
+    }
+  ]
+}
