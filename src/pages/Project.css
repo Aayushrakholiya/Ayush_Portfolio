@@ -274,13 +274,7 @@
   }
 }
 
-@media (max-width: 720px) {
-  .work-page-shell .site-footer {
-    padding-top: 84px;
-  }
-}
-
-@media (max-width: 1200px) {
+@media (min-width: 1024px) and (max-width: 1200px) {
   .work-page-shell .site-footer__bottom {
     grid-template-columns: 1fr auto;
   }
@@ -290,16 +284,6 @@
     grid-row: 1;
     justify-content: space-between;
     flex-wrap: wrap;
-  }
-}
-
-@media (max-width: 1023px) {
-  .work-page-shell .site-footer__legal a,
-  .work-page-shell .site-footer__legal button,
-  .work-page-shell .site-footer__back-to-top {
-    display: inline-flex;
-    min-height: 44px;
-    align-items: center;
   }
 }
 

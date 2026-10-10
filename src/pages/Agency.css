@@ -217,7 +217,7 @@
   .about-preview-caption { font-size: clamp(14px, 1.1vw, 2.1vh); padding: 48px 2vw 2vw; }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1024px) and (max-width: 1200px) {
   .agency-page .site-footer__bottom { grid-template-columns: 1fr auto; }
   .agency-page .site-footer__legal { grid-column: 1 / -1; flex-wrap: wrap; }
 }
@@ -254,8 +254,6 @@
   .agency-navbar > button[aria-controls] { width: 112px; height: 56px !important; transform: none !important; }
   .agency-navbar > button[aria-controls] > span { display: none; }
   body .site-logo.agency-logo { width: 88px; color: white !important; mix-blend-mode: difference; }
-  .agency-page .site-footer { padding-top: 84px; }
-  .agency-page .site-footer__legal a, .agency-page .site-footer__legal button { display: inline-flex; align-items: center; min-height: 44px; }
 }
 
 

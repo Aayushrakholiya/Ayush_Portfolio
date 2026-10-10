@@ -1,0 +1,2202 @@
+[
+  {
+    "width": 1440,
+    "route": "/",
+    "present": false
+  },
+  {
+    "width": 1440,
+    "route": "/agence",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 540,
+        "paddingTop": "17.28px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 14.390625,
+        "y": 17.265625,
+        "w": 547.84375,
+        "h": 72.71875,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 953.296875,
+        "y": 17.265625,
+        "w": 472.3125,
+        "h": 72.8125,
+        "paddingTop": "5.184px",
+        "display": "flex",
+        "fontSize": "64.8px"
+      },
+      ".site-footer__location": {
+        "x": 14.390625,
+        "y": 489.609375,
+        "w": 288.109375,
+        "h": 30.234375,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "16.56px"
+      },
+      ".site-footer__legal": {
+        "x": 360.09375,
+        "y": 494.9375,
+        "w": 719.8125,
+        "h": 19.5625,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "16.56px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 1312.125,
+        "y": 494.9375,
+        "w": 113.484375,
+        "h": 19.5625,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "16.56px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 1440,
+    "route": "/project",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 540,
+        "paddingTop": "17.28px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 14.390625,
+        "y": 17.265625,
+        "w": 547.84375,
+        "h": 72.71875,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 953.296875,
+        "y": 17.265625,
+        "w": 472.3125,
+        "h": 72.8125,
+        "paddingTop": "5.184px",
+        "display": "flex",
+        "fontSize": "64.8px"
+      },
+      ".site-footer__location": {
+        "x": 14.390625,
+        "y": 489.609375,
+        "w": 288.109375,
+        "h": 30.234375,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "16.56px"
+      },
+      ".site-footer__legal": {
+        "x": 360.09375,
+        "y": 494.9375,
+        "w": 719.8125,
+        "h": 19.5625,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "16.56px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 1312.125,
+        "y": 494.9375,
+        "w": 113.484375,
+        "h": 19.5625,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "16.56px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 1440,
+    "route": "/blog",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 540,
+        "paddingTop": "17.28px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 14.390625,
+        "y": 17.265625,
+        "w": 547.84375,
+        "h": 72.71875,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 953.296875,
+        "y": 17.265625,
+        "w": 472.3125,
+        "h": 72.8125,
+        "paddingTop": "5.184px",
+        "display": "flex",
+        "fontSize": "64.8px"
+      },
+      ".site-footer__location": {
+        "x": 14.390625,
+        "y": 489.609375,
+        "w": 288.109375,
+        "h": 30.234375,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "16.56px"
+      },
+      ".site-footer__legal": {
+        "x": 360.09375,
+        "y": 494.9375,
+        "w": 719.8125,
+        "h": 19.5625,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "16.56px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 1312.125,
+        "y": 494.9375,
+        "w": 113.484375,
+        "h": 19.5625,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "16.56px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 1440,
+    "route": "/contact",
+    "present": false
+  },
+  {
+    "width": 1280,
+    "route": "/",
+    "present": false
+  },
+  {
+    "width": 1280,
+    "route": "/agence",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 540,
+        "paddingTop": "16px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 14,
+        "y": 16,
+        "w": 486.96875,
+        "h": 64.625,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 846.171875,
+        "y": 16,
+        "w": 419.828125,
+        "h": 65.171875,
+        "paddingTop": "4.608px",
+        "display": "flex",
+        "fontSize": "57.6px"
+      },
+      ".site-footer__location": {
+        "x": 14,
+        "y": 494.09375,
+        "w": 254.890625,
+        "h": 28,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "14.72px"
+      },
+      ".site-footer__legal": {
+        "x": 320.078125,
+        "y": 499.234375,
+        "w": 639.828125,
+        "h": 17.71875,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "14.72px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 1165.125,
+        "y": 499.234375,
+        "w": 100.875,
+        "h": 17.71875,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "14.72px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 1280,
+    "route": "/project",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 540,
+        "paddingTop": "16px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 14,
+        "y": 16,
+        "w": 486.96875,
+        "h": 64.625,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 846.171875,
+        "y": 16,
+        "w": 419.828125,
+        "h": 65.171875,
+        "paddingTop": "4.608px",
+        "display": "flex",
+        "fontSize": "57.6px"
+      },
+      ".site-footer__location": {
+        "x": 14,
+        "y": 494.09375,
+        "w": 254.890625,
+        "h": 28,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "14.72px"
+      },
+      ".site-footer__legal": {
+        "x": 320.078125,
+        "y": 499.234375,
+        "w": 639.828125,
+        "h": 17.71875,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "14.72px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 1165.125,
+        "y": 499.234375,
+        "w": 100.875,
+        "h": 17.71875,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "14.72px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 1280,
+    "route": "/blog",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 540,
+        "paddingTop": "16px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 14,
+        "y": 16,
+        "w": 486.96875,
+        "h": 64.625,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 846.171875,
+        "y": 16,
+        "w": 419.828125,
+        "h": 65.171875,
+        "paddingTop": "4.608px",
+        "display": "flex",
+        "fontSize": "57.6px"
+      },
+      ".site-footer__location": {
+        "x": 14,
+        "y": 494.09375,
+        "w": 254.890625,
+        "h": 28,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "14.72px"
+      },
+      ".site-footer__legal": {
+        "x": 320.078125,
+        "y": 499.234375,
+        "w": 639.828125,
+        "h": 17.71875,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "14.72px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 1165.125,
+        "y": 499.234375,
+        "w": 100.875,
+        "h": 17.71875,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "14.72px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 1280,
+    "route": "/contact",
+    "present": false
+  },
+  {
+    "width": 1100,
+    "route": "/",
+    "present": false
+  },
+  {
+    "width": 1100,
+    "route": "/agence",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 1100,
+        "h": 540,
+        "paddingTop": "16px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 14,
+        "y": 16,
+        "w": 469,
+        "h": 64,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 696,
+        "y": 16,
+        "w": 390,
+        "h": 64,
+        "paddingTop": "4.288px",
+        "display": "flex",
+        "fontSize": "53.6px"
+      },
+      ".site-footer__location": {
+        "x": 14,
+        "y": 375.421875,
+        "w": 1028,
+        "h": 28,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "13.6px"
+      },
+      ".site-footer__legal": {
+        "x": 14,
+        "y": 447.421875,
+        "w": 1072,
+        "h": 16.59375,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "13.6px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 948.796875,
+        "y": 508.015625,
+        "w": 93.203125,
+        "h": 16.59375,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "13.6px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 1100,
+    "route": "/project",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 1100,
+        "h": 540,
+        "paddingTop": "16px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 14,
+        "y": 16,
+        "w": 469,
+        "h": 64,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 696,
+        "y": 16,
+        "w": 390,
+        "h": 64,
+        "paddingTop": "4.288px",
+        "display": "flex",
+        "fontSize": "53.6px"
+      },
+      ".site-footer__location": {
+        "x": 14,
+        "y": 496.609375,
+        "w": 934.796875,
+        "h": 28,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "13.6px"
+      },
+      ".site-footer__legal": {
+        "x": 14,
+        "y": 436.015625,
+        "w": 1072,
+        "h": 16.59375,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "13.6px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 992.796875,
+        "y": 502.3125,
+        "w": 93.203125,
+        "h": 16.59375,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "13.6px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 1100,
+    "route": "/blog",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 1100,
+        "h": 540,
+        "paddingTop": "16px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 14,
+        "y": 16,
+        "w": 469,
+        "h": 64,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 696,
+        "y": 16,
+        "w": 390,
+        "h": 64,
+        "paddingTop": "4.288px",
+        "display": "flex",
+        "fontSize": "53.6px"
+      },
+      ".site-footer__location": {
+        "x": 14,
+        "y": 496.609375,
+        "w": 200.640625,
+        "h": 28,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "13.6px"
+      },
+      ".site-footer__legal": {
+        "x": 258.640625,
+        "y": 502.3125,
+        "w": 582.71875,
+        "h": 16.59375,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "13.6px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 992.796875,
+        "y": 502.3125,
+        "w": 93.203125,
+        "h": 16.59375,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "13.6px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 1100,
+    "route": "/contact",
+    "present": false
+  },
+  {
+    "width": 1024,
+    "route": "/",
+    "present": false
+  },
+  {
+    "width": 1024,
+    "route": "/agence",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 540,
+        "paddingTop": "16px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 14,
+        "y": 16,
+        "w": 469,
+        "h": 64,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 620,
+        "y": 16,
+        "w": 390,
+        "h": 64,
+        "paddingTop": "4.288px",
+        "display": "flex",
+        "fontSize": "53.6px"
+      },
+      ".site-footer__location": {
+        "x": 14,
+        "y": 382.578125,
+        "w": 955.046875,
+        "h": 28,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "13.6px"
+      },
+      ".site-footer__legal": {
+        "x": 14,
+        "y": 451.53125,
+        "w": 996,
+        "h": 16.59375,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "13.6px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 875.84375,
+        "y": 509.078125,
+        "w": 93.203125,
+        "h": 16.59375,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "13.6px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 1024,
+    "route": "/project",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 540,
+        "paddingTop": "16px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 14,
+        "y": 16,
+        "w": 469,
+        "h": 64,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 620,
+        "y": 16,
+        "w": 390,
+        "h": 64,
+        "paddingTop": "4.288px",
+        "display": "flex",
+        "fontSize": "53.6px"
+      },
+      ".site-footer__location": {
+        "x": 14,
+        "y": 497.671875,
+        "w": 861.84375,
+        "h": 28,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "13.6px"
+      },
+      ".site-footer__legal": {
+        "x": 14,
+        "y": 440.125,
+        "w": 996,
+        "h": 16.59375,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "13.6px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 916.796875,
+        "y": 503.375,
+        "w": 93.203125,
+        "h": 16.59375,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "13.6px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 1024,
+    "route": "/blog",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 540,
+        "paddingTop": "16px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 14,
+        "y": 16,
+        "w": 469,
+        "h": 64,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 620,
+        "y": 16,
+        "w": 390,
+        "h": 64,
+        "paddingTop": "4.288px",
+        "display": "flex",
+        "fontSize": "53.6px"
+      },
+      ".site-footer__location": {
+        "x": 14,
+        "y": 497.671875,
+        "w": 169.546875,
+        "h": 28,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "13.6px"
+      },
+      ".site-footer__legal": {
+        "x": 224.5,
+        "y": 503.375,
+        "w": 574.984375,
+        "h": 16.59375,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "13.6px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 916.796875,
+        "y": 503.375,
+        "w": 93.203125,
+        "h": 16.59375,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "13.6px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 1024,
+    "route": "/contact",
+    "present": false
+  },
+  {
+    "width": 768,
+    "route": "/",
+    "present": false
+  },
+  {
+    "width": 768,
+    "route": "/agence",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 768,
+        "h": 540,
+        "paddingTop": "84px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 14,
+        "y": 84,
+        "w": 469,
+        "h": 64,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 234,
+        "y": 186.390625,
+        "w": 520,
+        "h": 64,
+        "paddingTop": "4.288px",
+        "display": "flex",
+        "fontSize": "53.6px"
+      },
+      ".site-footer__location": {
+        "x": 14,
+        "y": 498,
+        "w": 616.078125,
+        "h": 28,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "13.6px"
+      },
+      ".site-footer__legal": {
+        "x": 14,
+        "y": 423.28125,
+        "w": 740,
+        "h": 44,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "13.6px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 660.796875,
+        "y": 503.703125,
+        "w": 93.203125,
+        "h": 16.59375,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "13.6px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 768,
+    "route": "/project",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 768,
+        "h": 540,
+        "paddingTop": "16px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 14,
+        "y": 16,
+        "w": 469,
+        "h": 64,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 234,
+        "y": 118.390625,
+        "w": 520,
+        "h": 64,
+        "paddingTop": "4.288px",
+        "display": "flex",
+        "fontSize": "53.6px"
+      },
+      ".site-footer__location": {
+        "x": 14,
+        "y": 490,
+        "w": 616.078125,
+        "h": 28,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "13.6px"
+      },
+      ".site-footer__legal": {
+        "x": 14,
+        "y": 407.28125,
+        "w": 740,
+        "h": 44,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "13.6px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 660.796875,
+        "y": 482,
+        "w": 93.203125,
+        "h": 44,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "13.6px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 768,
+    "route": "/blog",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 768,
+        "h": 540,
+        "paddingTop": "16px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 14,
+        "y": 16,
+        "w": 469,
+        "h": 64,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 234,
+        "y": 118.390625,
+        "w": 520,
+        "h": 64,
+        "paddingTop": "4.288px",
+        "display": "flex",
+        "fontSize": "53.6px"
+      },
+      ".site-footer__location": {
+        "x": 14,
+        "y": 498,
+        "w": 616.078125,
+        "h": 28,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "13.6px"
+      },
+      ".site-footer__legal": {
+        "x": 14,
+        "y": 450.6875,
+        "w": 740,
+        "h": 16.59375,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "13.6px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 660.796875,
+        "y": 503.703125,
+        "w": 93.203125,
+        "h": 16.59375,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "13.6px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 768,
+    "route": "/contact",
+    "present": false
+  },
+  {
+    "width": 720,
+    "route": "/",
+    "present": false
+  },
+  {
+    "width": 720,
+    "route": "/agence",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 900,
+        "paddingTop": "84px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 12,
+        "y": 84,
+        "w": 696,
+        "h": 151.53125,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 12,
+        "y": 253.53125,
+        "w": 696,
+        "h": 72.265625,
+        "paddingTop": "5.632px",
+        "display": "flex",
+        "fontSize": "70.4px"
+      },
+      ".site-footer__location": {
+        "x": 12,
+        "y": 855,
+        "w": 148,
+        "h": 27,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__legal": {
+        "x": 12,
+        "y": 721,
+        "w": 696,
+        "h": 106,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 622.46875,
+        "y": 860.75,
+        "w": 85.53125,
+        "h": 15.484375,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "12.48px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 720,
+    "route": "/project",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 900,
+        "paddingTop": "84px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 12,
+        "y": 84,
+        "w": 696,
+        "h": 151.53125,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 12,
+        "y": 253.53125,
+        "w": 696,
+        "h": 72.265625,
+        "paddingTop": "5.632px",
+        "display": "flex",
+        "fontSize": "70.4px"
+      },
+      ".site-footer__location": {
+        "x": 12,
+        "y": 846.5,
+        "w": 148,
+        "h": 27,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__legal": {
+        "x": 12,
+        "y": 704,
+        "w": 696,
+        "h": 106,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 622.46875,
+        "y": 838,
+        "w": 85.53125,
+        "h": 44,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "12.48px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 720,
+    "route": "/blog",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 900,
+        "paddingTop": "14px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 12,
+        "y": 14,
+        "w": 696,
+        "h": 151.53125,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 12,
+        "y": 183.53125,
+        "w": 696,
+        "h": 72.265625,
+        "paddingTop": "5.632px",
+        "display": "flex",
+        "fontSize": "70.4px"
+      },
+      ".site-footer__location": {
+        "x": 12,
+        "y": 855,
+        "w": 148,
+        "h": 27,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__legal": {
+        "x": 12,
+        "y": 778.03125,
+        "w": 696,
+        "h": 48.96875,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 622.46875,
+        "y": 860.75,
+        "w": 85.53125,
+        "h": 15.484375,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "12.48px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 720,
+    "route": "/contact",
+    "present": false
+  },
+  {
+    "width": 430,
+    "route": "/",
+    "present": false
+  },
+  {
+    "width": 430,
+    "route": "/agence",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 430,
+        "h": 900,
+        "paddingTop": "84px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 12,
+        "y": 84,
+        "w": 406,
+        "h": 148.4375,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 12,
+        "y": 250.4375,
+        "w": 406,
+        "h": 64.890625,
+        "paddingTop": "4.816px",
+        "display": "flex",
+        "fontSize": "60.2px"
+      },
+      ".site-footer__location": {
+        "x": 12,
+        "y": 855,
+        "w": 148,
+        "h": 27,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__legal": {
+        "x": 12,
+        "y": 721,
+        "w": 406,
+        "h": 106,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 332.46875,
+        "y": 860.75,
+        "w": 85.53125,
+        "h": 15.484375,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "12.48px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 430,
+    "route": "/project",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 430,
+        "h": 900,
+        "paddingTop": "84px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 12,
+        "y": 84,
+        "w": 406,
+        "h": 148.4375,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 12,
+        "y": 250.4375,
+        "w": 406,
+        "h": 64.890625,
+        "paddingTop": "4.816px",
+        "display": "flex",
+        "fontSize": "60.2px"
+      },
+      ".site-footer__location": {
+        "x": 12,
+        "y": 846.5,
+        "w": 148,
+        "h": 27,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__legal": {
+        "x": 12,
+        "y": 704,
+        "w": 406,
+        "h": 106,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 332.46875,
+        "y": 838,
+        "w": 85.53125,
+        "h": 44,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "12.48px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 430,
+    "route": "/blog",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 430,
+        "h": 900,
+        "paddingTop": "14px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 12,
+        "y": 14,
+        "w": 406,
+        "h": 148.4375,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 12,
+        "y": 180.4375,
+        "w": 406,
+        "h": 64.890625,
+        "paddingTop": "4.816px",
+        "display": "flex",
+        "fontSize": "60.2px"
+      },
+      ".site-footer__location": {
+        "x": 12,
+        "y": 855,
+        "w": 148,
+        "h": 27,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__legal": {
+        "x": 12,
+        "y": 778.03125,
+        "w": 406,
+        "h": 48.96875,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 332.46875,
+        "y": 860.75,
+        "w": 85.53125,
+        "h": 15.484375,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "12.48px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 430,
+    "route": "/contact",
+    "present": false
+  },
+  {
+    "width": 390,
+    "route": "/",
+    "present": false
+  },
+  {
+    "width": 390,
+    "route": "/agence",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 900,
+        "paddingTop": "84px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 12,
+        "y": 84,
+        "w": 366,
+        "h": 136.03125,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 12,
+        "y": 238.03125,
+        "w": 366,
+        "h": 64,
+        "paddingTop": "4.368px",
+        "display": "flex",
+        "fontSize": "54.6px"
+      },
+      ".site-footer__location": {
+        "x": 12,
+        "y": 855,
+        "w": 148,
+        "h": 27,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__legal": {
+        "x": 12,
+        "y": 721,
+        "w": 366,
+        "h": 106,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 292.46875,
+        "y": 860.75,
+        "w": 85.53125,
+        "h": 15.484375,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "12.48px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 390,
+    "route": "/project",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 900,
+        "paddingTop": "84px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 12,
+        "y": 84,
+        "w": 366,
+        "h": 136.03125,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 12,
+        "y": 238.03125,
+        "w": 366,
+        "h": 64,
+        "paddingTop": "4.368px",
+        "display": "flex",
+        "fontSize": "54.6px"
+      },
+      ".site-footer__location": {
+        "x": 12,
+        "y": 846.5,
+        "w": 148,
+        "h": 27,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__legal": {
+        "x": 12,
+        "y": 704,
+        "w": 366,
+        "h": 106,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 292.46875,
+        "y": 838,
+        "w": 85.53125,
+        "h": 44,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "12.48px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 390,
+    "route": "/blog",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 900,
+        "paddingTop": "14px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 12,
+        "y": 14,
+        "w": 366,
+        "h": 136.03125,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 12,
+        "y": 168.03125,
+        "w": 366,
+        "h": 64,
+        "paddingTop": "4.368px",
+        "display": "flex",
+        "fontSize": "54.6px"
+      },
+      ".site-footer__location": {
+        "x": 12,
+        "y": 855,
+        "w": 148,
+        "h": 27,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__legal": {
+        "x": 12,
+        "y": 778.03125,
+        "w": 366,
+        "h": 48.96875,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 292.46875,
+        "y": 860.75,
+        "w": 85.53125,
+        "h": 15.484375,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "12.48px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 390,
+    "route": "/contact",
+    "present": false
+  },
+  {
+    "width": 375,
+    "route": "/",
+    "present": false
+  },
+  {
+    "width": 375,
+    "route": "/agence",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 375,
+        "h": 900,
+        "paddingTop": "84px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 12,
+        "y": 84,
+        "w": 351,
+        "h": 135,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 12,
+        "y": 237,
+        "w": 351,
+        "h": 64,
+        "paddingTop": "4.2px",
+        "display": "flex",
+        "fontSize": "52.5px"
+      },
+      ".site-footer__location": {
+        "x": 12,
+        "y": 855,
+        "w": 148,
+        "h": 27,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__legal": {
+        "x": 12,
+        "y": 721,
+        "w": 351,
+        "h": 106,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 277.46875,
+        "y": 860.75,
+        "w": 85.53125,
+        "h": 15.484375,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "12.48px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 375,
+    "route": "/project",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 375,
+        "h": 900,
+        "paddingTop": "84px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 12,
+        "y": 84,
+        "w": 351,
+        "h": 135,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 12,
+        "y": 237,
+        "w": 351,
+        "h": 64,
+        "paddingTop": "4.2px",
+        "display": "flex",
+        "fontSize": "52.5px"
+      },
+      ".site-footer__location": {
+        "x": 12,
+        "y": 846.5,
+        "w": 148,
+        "h": 27,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__legal": {
+        "x": 12,
+        "y": 704,
+        "w": 351,
+        "h": 106,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 277.46875,
+        "y": 838,
+        "w": 85.53125,
+        "h": 44,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "12.48px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 375,
+    "route": "/blog",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 375,
+        "h": 900,
+        "paddingTop": "14px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 12,
+        "y": 14,
+        "w": 351,
+        "h": 135,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 12,
+        "y": 167,
+        "w": 351,
+        "h": 64,
+        "paddingTop": "4.2px",
+        "display": "flex",
+        "fontSize": "52.5px"
+      },
+      ".site-footer__location": {
+        "x": 12,
+        "y": 855,
+        "w": 148,
+        "h": 27,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__legal": {
+        "x": 12,
+        "y": 778.03125,
+        "w": 351,
+        "h": 48.96875,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 277.46875,
+        "y": 860.75,
+        "w": 85.53125,
+        "h": 15.484375,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "12.48px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 375,
+    "route": "/contact",
+    "present": false
+  },
+  {
+    "width": 320,
+    "route": "/",
+    "present": false
+  },
+  {
+    "width": 320,
+    "route": "/agence",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 900,
+        "paddingTop": "84px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 12,
+        "y": 84,
+        "w": 296,
+        "h": 135,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 12,
+        "y": 237,
+        "w": 296,
+        "h": 64,
+        "paddingTop": "3.584px",
+        "display": "flex",
+        "fontSize": "44.8px"
+      },
+      ".site-footer__location": {
+        "x": 12,
+        "y": 855,
+        "w": 148,
+        "h": 27,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__legal": {
+        "x": 12,
+        "y": 721,
+        "w": 296,
+        "h": 106,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 222.46875,
+        "y": 860.75,
+        "w": 85.53125,
+        "h": 15.484375,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "12.48px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 320,
+    "route": "/project",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 900,
+        "paddingTop": "84px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 12,
+        "y": 84,
+        "w": 296,
+        "h": 135,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 12,
+        "y": 237,
+        "w": 296,
+        "h": 64,
+        "paddingTop": "3.584px",
+        "display": "flex",
+        "fontSize": "44.8px"
+      },
+      ".site-footer__location": {
+        "x": 12,
+        "y": 846.5,
+        "w": 148,
+        "h": 27,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__legal": {
+        "x": 12,
+        "y": 704,
+        "w": 296,
+        "h": 106,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 222.46875,
+        "y": 838,
+        "w": 85.53125,
+        "h": 44,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "12.48px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 320,
+    "route": "/blog",
+    "present": true,
+    "socials": [
+      "FB",
+      "IG",
+      "IN",
+      "BE"
+    ],
+    "boxes": {
+      ".site-footer": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 900,
+        "paddingTop": "14px",
+        "display": "flex",
+        "fontSize": "16px"
+      },
+      ".site-footer__socials": {
+        "x": 12,
+        "y": 14,
+        "w": 296,
+        "h": 135,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "16px"
+      },
+      ".site-footer__contact": {
+        "x": 12,
+        "y": 167,
+        "w": 296,
+        "h": 64,
+        "paddingTop": "3.584px",
+        "display": "flex",
+        "fontSize": "44.8px"
+      },
+      ".site-footer__location": {
+        "x": 12,
+        "y": 855,
+        "w": 148,
+        "h": 27,
+        "paddingTop": "0px",
+        "display": "flex",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__legal": {
+        "x": 12,
+        "y": 778.03125,
+        "w": 296,
+        "h": 48.96875,
+        "paddingTop": "0px",
+        "display": "grid",
+        "fontSize": "12.48px"
+      },
+      ".site-footer__back-to-top": {
+        "x": 222.46875,
+        "y": 860.75,
+        "w": 85.53125,
+        "h": 15.484375,
+        "paddingTop": "0px",
+        "display": "block",
+        "fontSize": "12.48px"
+      }
+    },
+    "overflow": [],
+    "consentAvailable": false,
+    "backToTop": true
+  },
+  {
+    "width": 320,
+    "route": "/contact",
+    "present": false
+  }
+]
