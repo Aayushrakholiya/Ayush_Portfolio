@@ -21,6 +21,7 @@ export const navbarRoutes = {
   },
 
   "/agence": {
+    pageClass: "agency",
     mode: NAVBAR_MODES.FULL,
 
     showLogo: true,

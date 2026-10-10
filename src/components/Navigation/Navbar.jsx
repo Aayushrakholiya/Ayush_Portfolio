@@ -375,7 +375,7 @@ const Navbar = () => {
     <nav
       ref={navbarRef}
       className={`
-        ${config.mode === 'compact' ? 'home-navbar' : ''} ${config.enableProjectHover ? 'work-navbar' : ''} fixed left-0 right-0 top-0 z-50
+        ${config.mode === 'compact' ? 'home-navbar' : ''} ${config.enableProjectHover ? 'work-navbar' : ''} ${config.pageClass === 'agency' ? 'agency-navbar' : ''} fixed left-0 right-0 top-0 z-50
         flex h-[70px] items-start justify-end
         transition-colors duration-300
         ${

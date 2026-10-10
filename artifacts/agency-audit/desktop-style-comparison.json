@@ -1,0 +1,86 @@
+[
+  {
+    "experienceCardWidth": "clamp(300px, 26vw, 470px)",
+    "headingFont": "259.604px",
+    "introFont": "60px",
+    "introHeight": 972,
+    "introWidth": 784,
+    "overflow": 0,
+    "size": [
+      1366,
+      768
+    ],
+    "techHeight": 273,
+    "techWidth": 191
+  },
+  {
+    "experienceCardWidth": "clamp(280px, 30vw, 390px)",
+    "headingFont": "194.609px",
+    "introFont": "60px",
+    "introHeight": 1426,
+    "introWidth": 585,
+    "overflow": 0,
+    "size": [
+      1024,
+      768
+    ],
+    "techHeight": 205,
+    "techWidth": 143
+  },
+  {
+    "experienceCardWidth": "clamp(300px, 26vw, 470px)",
+    "headingFont": "364.856px",
+    "introFont": "60px",
+    "introHeight": 648,
+    "introWidth": 1105,
+    "overflow": 0,
+    "size": [
+      1920,
+      1080
+    ],
+    "techHeight": 384,
+    "techWidth": 269
+  },
+  {
+    "experienceCardWidth": "clamp(300px, 26vw, 470px)",
+    "headingFont": "486.475px",
+    "introFont": "60px",
+    "introHeight": 518,
+    "introWidth": 1476,
+    "overflow": 0,
+    "size": [
+      2560,
+      1440
+    ],
+    "techHeight": 512,
+    "techWidth": 358
+  },
+  {
+    "experienceCardWidth": "clamp(300px, 26vw, 470px)",
+    "headingFont": "653.619px",
+    "introFont": "60px",
+    "introHeight": 389,
+    "introWidth": 1987,
+    "overflow": 0,
+    "size": [
+      3440,
+      1440
+    ],
+    "techHeight": 688,
+    "techWidth": 482
+  },
+  {
+    "experienceCardWidth": "clamp(300px, 26vw, 470px)",
+    "headingFont": "729.619px",
+    "introFont": "60px",
+    "introHeight": 324,
+    "introWidth": 2219,
+    "overflow": 0,
+    "size": [
+      3840,
+      2160
+    ],
+    "techHeight": 768,
+    "techWidth": 538
+  }
+]

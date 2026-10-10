@@ -1,0 +1,102 @@
+[
+  {
+    "brokenImages": 0,
+    "clippedRows": 0,
+    "height": 568,
+    "intro": "22px",
+    "mobileControls": "block",
+    "overflow": false,
+    "title": "57.6535px",
+    "width": 320
+  },
+  {
+    "brokenImages": 0,
+    "clippedRows": 0,
+    "height": 667,
+    "intro": "22px",
+    "mobileControls": "block",
+    "overflow": false,
+    "title": "67.5446px",
+    "width": 375
+  },
+  {
+    "brokenImages": 0,
+    "clippedRows": 0,
+    "height": 932,
+    "intro": "22px",
+    "mobileControls": "block",
+    "overflow": false,
+    "title": "77.4356px",
+    "width": 430
+  },
+  {
+    "brokenImages": 0,
+    "clippedRows": 0,
+    "height": 1024,
+    "intro": "30.7327px",
+    "mobileControls": "block",
+    "overflow": false,
+    "title": "138.297px",
+    "width": 768
+  },
+  {
+    "brokenImages": 0,
+    "clippedRows": 0,
+    "height": 768,
+    "intro": "32px",
+    "mobileControls": "block",
+    "overflow": false,
+    "title": "184.188px",
+    "width": 1023
+  },
+  {
+    "brokenImages": 0,
+    "clippedRows": 0,
+    "height": 768,
+    "intro": "44.9649px",
+    "mobileControls": "none",
+    "overflow": false,
+    "title": "194.609px",
+    "width": 1024
+  },
+  {
+    "brokenImages": 0,
+    "clippedRows": 0,
+    "height": 900,
+    "intro": "63.2203px",
+    "mobileControls": "none",
+    "overflow": false,
+    "title": "273.619px",
+    "width": 1440
+  },
+  {
+    "brokenImages": 0,
+    "clippedRows": 0,
+    "height": 1080,
+    "intro": "84.301px",
+    "mobileControls": "none",
+    "overflow": false,
+    "title": "364.856px",
+    "width": 1920
+  },
+  {
+    "brokenImages": 0,
+    "clippedRows": 0,
+    "height": 1440,
+    "intro": "112.401px",
+    "mobileControls": "none",
+    "overflow": false,
+    "title": "486.475px",
+    "width": 2560
+  },
+  {
+    "brokenImages": 0,
+    "clippedRows": 0,
+    "height": 2160,
+    "intro": "168.58px",
+    "mobileControls": "none",
+    "overflow": false,
+    "title": "729.619px",
+    "width": 3840
+  }
+]
