@@ -11,23 +11,23 @@ const MENU_ITEMS = [
     href: "/project",
     marqueeText: "See Everything",
     images: [
-      "dist/dayflow.png",
-      "dist/mqtt-cloud-iot-showcase.png",
+      "/dayflow.png",
+      "/mqtt-cloud-iot-showcase.png",
     ],
   },
   {
     label: "About Me",
     href: "/agence",
     marqueeText: "Meet Me",
-    images: ["dist/canadian-workforce-analytics.png", "dist/flight-management.png"],
+    images: ["/canadian-workforce-analytics.png", "/flight-management.png"],
   },
   {
     label: "Contact",
     href: "/contact",
     marqueeText: "Let's Connect",
     images: [
-      "dist/contact.png",
-      "dist/contact.gif",
+      "/contact.png",
+      "/contact.gif",
     ],
   },
   {
