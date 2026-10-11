@@ -11,23 +11,23 @@ const MENU_ITEMS = [
     href: "/project",
     marqueeText: "See Everything",
     images: [
-      "https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg",
-      "https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg",
+      "dist/dayflow.png",
+      "dist/mqtt-cloud-iot-showcase.png",
     ],
   },
   {
-    label: "About",
+    label: "About Me",
     href: "/agence",
     marqueeText: "Meet Me",
-    images: ["/about/education.svg", "/about/ibm.svg"],
+    images: ["dist/canadian-workforce-analytics.png", "dist/flight-management.png"],
   },
   {
     label: "Contact",
     href: "/contact",
-    marqueeText: "Start a Project",
+    marqueeText: "Let's Connect",
     images: [
-      "https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg",
-      "https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg",
+      "dist/contact.png",
+      "dist/contact.gif",
     ],
   },
   {
@@ -45,10 +45,8 @@ const MarqueeContent = ({ text, images }) => (
   <div className="k72-marquee-group" aria-hidden="true">
     <span className="k72-marquee-text">{text}</span>
     <img className="k72-marquee-image" src={images[0]} alt="" />
-    <span className="k72-marquee-arrow">↗</span>
     <span className="k72-marquee-text">{text}</span>
     <img className="k72-marquee-image" src={images[1]} alt="" />
-    <span className="k72-marquee-arrow">↗</span>
   </div>
 );
 
