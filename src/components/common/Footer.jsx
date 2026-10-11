@@ -4,20 +4,20 @@ import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const socialLinks = [
-  { label: "FB", name: "Facebook", href: "https://www.facebook.com/K72.ca/" },
-  { label: "IG", name: "Instagram", href: "https://www.instagram.com/k72.ca/" },
-  { label: "IN", name: "LinkedIn", href: "https://www.linkedin.com/company/k72/" },
-  { label: "BE", name: "Behance", href: "https://www.behance.net/agenceK72" },
+  { label: "IN", name: "LinkedIn", href: "https://www.linkedin.com/in/ayushkumar-rakholiya/" },
+  { label: "GH", name: "GitHub", href: "https://github.com/Aayushrakholiya" },
+  { label: "GM", name: "Gmail", href: "mailto:rakholiyaayush861@gmail.com?subject=Hi%20Ayush!" },
+  { label: "PPt", name: "Behance", href: "https://prezi.com/signup/?referral_token=tSVPaHemB3FN" },
 ];
 
-const legalLinks = [
-  { label: "Privacy policy", href: "https://k72.ca/en/privacy-policy" },
-  { label: "Privacy notice", href: "https://k72.ca/en/privacy-notice" },
-  {
-    label: "Ethics report",
-    href: "https://secure.ethicspoint.com/domain/media/en/gui/47632/index.html",
-  },
-];
+// const legalLinks = [
+//   { label: "Privacy policy", href: "https://k72.ca/en/privacy-policy" },
+//   { label: "Privacy notice", href: "https://k72.ca/en/privacy-notice" },
+//   {
+//     label: "Ethics report",
+//     href: "https://secure.ethicspoint.com/domain/media/en/gui/47632/index.html",
+//   },
+// ];
 
 const montrealTimeFormatter = new Intl.DateTimeFormat("en-CA", {
   timeZone: "America/Toronto",
@@ -71,9 +71,9 @@ const Footer = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const handleConsentChoices = () => {
-    window.OneTrust?.ToggleInfoDisplay?.();
-  };
+  // const handleConsentChoices = () => {
+  //   window.OneTrust?.ToggleInfoDisplay?.();
+  // };
 
   return (
     <footer id="site-footer" className="site-footer">
@@ -107,7 +107,7 @@ const Footer = () => {
           </span>
         </div>
 
-        <nav className="site-footer__legal" aria-label="Legal">
+        {/* <nav className="site-footer__legal" aria-label="Legal">
           {legalLinks.map((link) => (
             <a key={link.label} href={link.href}>
               {link.label}
@@ -116,7 +116,7 @@ const Footer = () => {
           <button type="button" onClick={handleConsentChoices}>
             Consent choices
           </button>
-        </nav>
+        </nav> */}
 
         <button className="site-footer__back-to-top" type="button" onClick={handleBackToTop}>
           Back to top
