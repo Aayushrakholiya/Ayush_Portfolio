@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-11",
+  "title": "Top 3 from Hacker News - October 11, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "LineageOS 24.0",
+      "url": "https://lineageos.org/Changelog-32/",
+      "hnLink": "https://news.ycombinator.com/item?id=50040276",
+      "points": 152,
+      "summary": "LineageOS released version 24.0, its Android 17-based build, arriving early ahead of the project's 10th anniversary on December 24, 2026. The release merges security patches through October 2026, updates the core app suite to Material Design 3 Expressive (including a new Canvas image editor and a redesigned, streaming Updater), and launches browser-based WebUSB flash tools at flash.lineageos.org. Devices on legacy Linux kernels 4.4 and 4.9 will be capped at LineageOS 22.2 going forward."
+    },
+    {
+      "rank": 2,
+      "title": "Build your own decision model",
+      "url": "https://nishtahir.com/build-your-own-decision-model/",
+      "hnLink": "https://news.ycombinator.com/item?id=50037949",
+      "points": 341,
+      "summary": "Nish Tahir shows how to build a \"decision model\" that answers multiple-choice questions in a single forward pass instead of generating tokens one at a time. By reading a small Qwen3-1.7B model's logits for just the option tokens A through E and applying a softmax, you get a prediction plus confidence scores in one pass. On a CommonsenseQA holdout the untrained approach scored about 59% accuracy, which improved after a quick fine-tune."
+    },
+    {
+      "rank": 3,
+      "title": "2D Vehicles",
+      "url": "https://patkerr.co.uk/2d-vehicles/",
+      "hnLink": "https://news.ycombinator.com/item?id=49991852",
+      "points": 505,
+      "summary": "Pat Kerr recreated the 2D physics simulation he wrote in GFA BASIC on an Atari ST over a weekend in August 1996, which later became the vehicle system in Grand Theft Auto. The playable JavaScript \"remaster\" marks its 30th anniversary and lets you switch between Car, Ship, and Brick modes. A writeup explains the core rigid-body physics and the deliberately approximate tyre model that gave the car its feel."
+    }
+  ]
+}
