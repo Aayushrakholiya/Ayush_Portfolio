@@ -3,9 +3,10 @@ import { lazy, Suspense, useEffect } from "react";
 import Lenis from "lenis";
 
 import Home from "./pages/Home.jsx";
-import Agence from "./pages/agence.jsx";
+import AboutMe from "./pages/AboutMe.jsx";
 import Project from "./pages/project.jsx";
 import ComingSoon from "./pages/ComingSoon.jsx";
+import NotFound from "./pages/NotFound.jsx";
 
 const Blog = lazy(() => import("./pages/Blog.jsx"));
 
@@ -49,7 +50,7 @@ const App = () => {
       <Stairs>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/agence" element={<Agence />} />
+          <Route path="/about-me" element={<AboutMe />} />
           <Route path="/project" element={<Project />} />
           <Route path="/contact" element={<ComingSoon section="Contact" />} />
           <Route
@@ -67,6 +68,7 @@ const App = () => {
               </Suspense>
             }
           />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Stairs>
     </div>

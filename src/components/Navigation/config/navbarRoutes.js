@@ -20,7 +20,7 @@ export const navbarRoutes = {
     enableProjectHover: false,
   },
 
-  "/agence": {
+  "/about-me": {
     pageClass: "agency",
     mode: NAVBAR_MODES.FULL,
 
@@ -86,4 +86,4 @@ export const navbarRoutes = {
   },
 };
 
-export const defaultNavbarRoute = navbarRoutes["/"];
+export const defaultNavbarRoute = { ...navbarRoutes["/"], logoColor: "black" };

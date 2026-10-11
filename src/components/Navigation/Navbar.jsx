@@ -443,7 +443,7 @@ const Navbar = () => {
         <button
           ref={agencyRef}
           type="button"
-          onClick={() => navigate("/agence")}
+          onClick={() => navigate("/about-me")}
           onMouseEnter={() =>
             animateEnter(
               agencyGreenRef.current,

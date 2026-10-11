@@ -7,7 +7,7 @@ import { NavbarContext } from '../context/NavbarContext'
 import './Agency.css'
 
 
-const About = () => {
+const AboutMe = () => {
 
   gsap.registerPlugin(ScrollTrigger);
 
@@ -294,6 +294,6 @@ const About = () => {
 }
 
 
-export default About
+export default AboutMe
 
 

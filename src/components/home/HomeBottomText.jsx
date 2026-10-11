@@ -44,7 +44,7 @@ const HomeBottomText = () => {
     <div>
       <div ref={linksRef} className='home-bottom-links font-[Lausanne] flex items-center justify-center gap-5 pb-[10px] hover:border-[#D3FD50]'>
         <Link className='text-[6.5vw] leading-[5.5vw] border-3 pt-[10px] border-white rounded-full px-8 uppercase font-extrabold hover:border-[#d3fd51] hover:text-[#d3fd51]' to='/project'>Work</Link>
-        <Link className='text-[6.5vw] leading-[5.5vw] border-3 pt-[10px] border-white rounded-full px-8 uppercase font-black hover:border-[#d3fd51] hover:text-[#d3fd51]' to='/agence'>About</Link>
+        <Link className='text-[6.5vw] leading-[5.5vw] border-3 pt-[10px] border-white rounded-full px-8 uppercase font-black hover:border-[#d3fd51] hover:text-[#d3fd51]' to='/about-me'>About</Link>
       </div>
     </div>
   )

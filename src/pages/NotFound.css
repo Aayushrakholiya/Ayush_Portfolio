@@ -1,0 +1,72 @@
+.not-found-page {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  color: #050505;
+  font-family: "Lausanne", Arial, sans-serif;
+}
+
+.not-found-content {
+  flex: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1.85fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 5vw;
+  padding: clamp(110px, 16vh, 160px) clamp(16px, 1.4vw, 32px) clamp(40px, 6vh, 80px);
+}
+
+.not-found-code {
+  margin: 0 0 24px;
+  font: 12px/1.2 Arial, sans-serif;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.not-found-title {
+  margin: 0;
+  font-size: clamp(64px, 9.8vw, 210px);
+  font-weight: 300;
+  line-height: .86;
+  letter-spacing: -.065em;
+  text-transform: uppercase;
+}
+
+.not-found-title span { display: block; }
+
+.not-found-message p {
+  margin: 0 0 32px;
+  font-size: clamp(30px, 4.4vw, 92px);
+  line-height: 1.02;
+  letter-spacing: -.045em;
+}
+
+.not-found-home {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border: 2px solid currentColor;
+  border-radius: 999px;
+  padding: .2em .45em .15em;
+  color: inherit;
+  font-size: clamp(20px, 2.4vw, 50px);
+  line-height: 1;
+  letter-spacing: -.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color 220ms ease;
+}
+
+.not-found-home:hover,
+.not-found-home:focus-visible { background: #d3fd51; }
+.not-found-home:focus-visible { outline: 2px solid #050505; outline-offset: 5px; }
+
+.not-found-page .site-footer { min-height: 0; gap: 32px; }
+
+@media (max-width: 767px) {
+  .not-found-content { grid-template-columns: 1fr; gap: 40px; padding-top: 112px; }
+  .not-found-title { font-size: clamp(58px, 15vw, 114px); }
+  .not-found-message { max-width: 480px; }
+  .not-found-message p { font-size: clamp(30px, 7vw, 48px); margin-bottom: 24px; }
+}

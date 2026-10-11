@@ -17,7 +17,7 @@ const MENU_ITEMS = [
   },
   {
     label: "About Me",
-    href: "/agence",
+    href: "/about-me",
     marqueeText: "Meet Me",
     images: ["/canadian-workforce-analytics.png", "/flight-management.png"],
   },
