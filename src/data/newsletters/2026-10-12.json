@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-12",
+  "title": "Top 3 from Hacker News - October 12, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Deloitte falsified documents to evade tax on Abramovich's wealth",
+      "url": "https://www.bbc.com/news/articles/c64g1l5389kvo",
+      "hnLink": "https://news.ycombinator.com/item?id=50054207",
+      "points": 198,
+      "summary": "A joint BBC Panorama and Bureau of Investigative Journalism investigation found that Deloitte helped falsify documents to hide Roman Abramovich's wealth and evade tax. Accounts signed off by Deloitte in Cyprus allegedly made assets such as superyachts, mansions and private jets worth $672m vanish from the oligarch's company accounts. Deloitte Cyprus says it acts in compliance with applicable laws, and Abramovich denies evading tax or concealing his fortune."
+    },
+    {
+      "rank": 2,
+      "title": "QGIS bans AI assisted contributions",
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "hnLink": "https://news.ycombinator.com/item?id=50054751",
+      "points": 62,
+      "summary": "The QGIS project merged QEP 428, which formally changes its AI policy to a strict \"not allowed\" policy for contributions. Maintainers say AI-generated submissions created an unreviewable flood of low-quality pull requests that put unbearable pressure on human reviewers. The project also wants to protect the human network that free software communities are built on."
+    },
+    {
+      "rank": 3,
+      "title": "Type-safe HTML templating in Zig",
+      "url": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html",
+      "hnLink": "https://news.ycombinator.com/item?id=50051573",
+      "points": 141,
+      "summary": "Developer Lukáš Lalinský built zt, a port of Go's Templ library to Zig for type-safe HTML templating. Templates are parsed and transpiled to Zig code at build time, so all inputs are compile-time checked, outputs are written directly with no allocations, and every value is escaped by default to prevent XSS. Combined with htmx or Datastar, it lets you build web apps in Zig without touching JavaScript."
+    }
+  ]
+}
