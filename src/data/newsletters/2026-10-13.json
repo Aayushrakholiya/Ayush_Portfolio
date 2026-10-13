@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-13",
+  "title": "Top 3 from Hacker News - October 13, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "11 year old unsoundness bugs found in Rust borrow checker",
+      "url": "https://github.com/rust-lang/rust/issues/164250",
+      "hnLink": "https://news.ycombinator.com/item?id=50069499",
+      "points": 161,
+      "summary": "A new report on the rust-lang/rust tracker describes a soundness bug where a struct's lifetime requirements can be bypassed through covariant field assignment, letting a borrowed reference outlive its scope. The reproducer compiles on stable Rust at least down to 1.85.0 and crashes with a stack-use-after-scope error under AddressSanitizer."
+    },
+    {
+      "rank": 2,
+      "title": "An hour of audio transcribed in about 13s on MacBook Air",
+      "url": "https://eg2.haku.sh/",
+      "hnLink": "https://news.ycombinator.com/item?id=50069971",
+      "points": 39,
+      "summary": "Embedding Gemma Transcribe is a free Mac app that turns Google's EmbeddingGemma 2 embedding model into an on-device speech-to-text model, transcribing an hour of audio in about 13 seconds on a base M3 MacBook Air. A small trained 'reader' moves slices of audio into the model's shared text space and picks the closest of roughly 229,000 English words, with a tiny second model adding punctuation. Its word error rate is about 5% versus 2-3% for leading speech models, and all audio stays on the machine's Neural Engine."
+    },
+    {
+      "rank": 3,
+      "title": "Show HN: Use your OpenAI subscription to create audiobooks",
+      "url": "https://pdftomp3.com/connect-ai/",
+      "hnLink": "https://news.ycombinator.com/item?id=50069337",
+      "points": 34,
+      "summary": "PDF TO MP3 is a Show HN tool for making audiobooks from documents using AI services you already pay for. You connect your Codex or Claude subscription over an MCP server, which handles the document processing, and separately add an OpenAI or Gemini API key that pays for the speech generation. You then attach a PDF in your AI chat and ask it to turn the document into an audiobook."
+    }
+  ]
+}
