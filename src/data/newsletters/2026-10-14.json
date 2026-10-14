@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-14",
+  "title": "Top 3 from Hacker News - October 14, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Iosevka is an open-source, sans-serif and slab-serif, monospace font",
+      "url": "https://typeof.net/Iosevka/",
+      "hnLink": "https://news.ycombinator.com/item?id=50084240",
+      "points": 207,
+      "summary": "Iosevka 34.9.0 is an open-source typeface family built for writing code, terminals, and technical documents, spanning monospace and quasi-proportional variants in both sans-serif and slab-serif styles. Its default monospace glyphs are exactly 1/2em wide, so more columns fit on screen than with most competing fonts, with Normal and Extended widths, many weights, and extensive customization options."
+    },
+    {
+      "rank": 2,
+      "title": "Who Is Planting Backdoors in Ledger Crypto Wallets?",
+      "url": "https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/",
+      "hnLink": "https://news.ycombinator.com/item?id=50084838",
+      "points": 32,
+      "summary": "Hardware backdoors planted in Ledger wallets have been used to steal roughly $102 million in crypto from about 315 accounts, per blockchain analytics firm Bitquery. Hardware hacker Joe Grand found implants in Nano X wallets earlier in the year, and new implants have since surfaced in devices sold by an authorized reseller in Malaysia and at a European electronics chain, including newer Flex and Stax models. The shift toward authorized sellers suggests attackers are deliberately exploiting customer trust in legitimate supply chains, and Ledger has asked its Malaysian reseller CryptoBilis to halt sales while it investigates."
+    },
+    {
+      "rank": 3,
+      "title": "Pulsar at ESUG 2026 (new Smalltalk IDE)",
+      "url": "https://blog.lorenzano.eu/pulsar-at-esug-2026/",
+      "hnLink": "https://news.ycombinator.com/item?id=50085306",
+      "points": 25,
+      "summary": "Esteban Lorenzano presented Pulsar, a new coding-first IDE for Pharo Smalltalk, at the ESUG 2026 conference in Plovdiv, where it won first prize. Its core idea is that programming tools should help developers understand, navigate, and change a system while staying close to the code, which he argues matters more, not less, in the era of generative AI agents. The IDE is in pre-alpha but already usable, with slides and a talk video available online."
+    }
+  ]
+}
