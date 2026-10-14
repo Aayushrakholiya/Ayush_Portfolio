@@ -235,13 +235,17 @@ const AboutMe = () => {
       {!compactLayout && <div className="agency-team-preview-anchor">
         {activeTeam !== null && (
           <div className="agency-team-preview" id="experience-preview" role="status" aria-live="polite">
-            <img
-              key={teamMembers[activeTeam].image}
+            <div
+              key={teamMembers[activeTeam].name}
               ref={teamImageRef}
-              src={teamMembers[activeTeam].image}
-              alt=""
-            />
-            <p className="about-preview-caption">{teamMembers[activeTeam].caption}</p>
+              className="about-preview-content"
+              style={{ '--experience-accent': ['#9dc7ff', '#d3fd51', '#ffc178', '#b3b5ff'][activeTeam] }}
+            >
+              <p className="about-preview-role">{teamMembers[activeTeam].role}</p>
+              <h3 className="about-preview-company">{teamMembers[activeTeam].name}</h3>
+              <p className="about-preview-caption">{teamMembers[activeTeam].caption}</p>
+              <span className="about-preview-decoration" aria-hidden="true" />
+            </div>
           </div>
         )}
       </div>}
