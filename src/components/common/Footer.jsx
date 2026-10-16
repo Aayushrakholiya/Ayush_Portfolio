@@ -93,7 +93,7 @@ const Footer = () => {
           ))}
         </nav>
 
-        <Link className="site-footer__pill site-footer__contact" to="/contact">
+        <Link className="site-footer__pill site-footer__contact" to="/contact" state={{ scrollToTop: true }}>
           <span>Contact</span>
           <ContactMark />
         </Link>

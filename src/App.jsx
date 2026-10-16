@@ -1,5 +1,5 @@
-import { Route, Routes } from "react-router-dom";
-import { lazy, Suspense, useEffect } from "react";
+import { Route, Routes, useLocation, useNavigationType } from "react-router-dom";
+import { lazy, Suspense, useEffect, useLayoutEffect, useRef } from "react";
 import Lenis from "lenis";
 
 import Home from "./pages/Home.jsx";
@@ -19,8 +19,25 @@ import ProjectHoverBar from "./components/Navigation/ProjectHoverBar.jsx";
 import MultilingualLoader from "./components/common/MultilingualLoader.jsx";
 
 const App = () => {
+  const location = useLocation();
+  const navigationType = useNavigationType();
+  const lenisRef = useRef(null);
+
+  useLayoutEffect(() => {
+    if (navigationType === 'POP' || !location.state?.scrollToTop) return;
+    // Reset after the destination mounts, including a link to the current route.
+    // Reset Lenis too so its previous scroll target cannot pull the page down again.
+    if (lenisRef.current) {
+      lenisRef.current.resize();
+      lenisRef.current.scrollTo(0, { immediate: true, force: true });
+    } else {
+      window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    }
+  }, [location.key, location.state, navigationType]);
+
   useEffect(() => {
     const lenis = new Lenis({ anchors: true });
+    lenisRef.current = lenis;
 
     let animationFrameId;
 
@@ -34,6 +51,7 @@ const App = () => {
     return () => {
       cancelAnimationFrame(animationFrameId);
       lenis.destroy();
+      lenisRef.current = null;
     };
   }, []);
 
