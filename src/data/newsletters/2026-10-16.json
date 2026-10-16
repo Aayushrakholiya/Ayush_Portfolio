@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-16",
+  "title": "Top 3 from Hacker News - October 16, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Muse Spark Open",
+      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "hnLink": "https://news.ycombinator.com/item?id=50107379",
+      "points": 843,
+      "summary": "Meta has released the weights for Muse Spark Open, which it calls the most capable US open-weight model to date: a natively multimodal model with 816B total parameters (42B active) and a 1M-token context window, built for coding and agentic work. It is the first model in its class that Meta says runs on your desktop, using two Apple M5 Ultra Mac Studios with the MLX framework, with Apple's unified memory letting the pair behave like one machine with a terabyte of unified memory. Weights are downloadable from Hugging Face and other clouds, it is available through API platforms like Baseten, Fireworks, Groq and Together AI, and it runs on inference engines including SGLang, vLLM and llama.cpp."
+    },
+    {
+      "rank": 2,
+      "title": "Meta’s new commercial terms will allow the scraping of news sites: experts",
+      "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/",
+      "hnLink": "https://news.ycombinator.com/item?id=50111852",
+      "points": 344,
+      "summary": "Meta's new commercial terms of use, effective October 30, will let the company use web scrapers to crawl and collect content from websites \"associated with\" business accounts on Facebook, Instagram, or WhatsApp, and virtually every news organization has at least one such account. Legal experts who reviewed the terms for Nieman Lab say they could be read as allowing Meta to scrape news sites and use that content to train its AI products, with one IP attorney calling it \"a remarkable provision to bury in terms of service\" given what such material would cost in a licensing market. Publishers are being told to assume the clause would be enforceable even if a court has not ruled on it."
+    },
+    {
+      "rank": 3,
+      "title": "Yet another way to invoke functions without parentheses",
+      "url": "https://blog.ikaes.de/yet-another-way-to-invoke-functions-without-parentheses/",
+      "hnLink": "https://news.ycombinator.com/item?id=50077225",
+      "points": 85,
+      "summary": "A security researcher shows a new trick for invoking arbitrary JavaScript functions without using parentheses, a classic goal in exploit payloads where parentheses are often filtered. The technique overwrites the Error object's prepareStackTrace function (normally used to format stack traces, and triggered when an error's stack attribute is read) to generate arbitrary functions via the Function constructor, then controls Array.prototype.toString through prototype pollution of Object.prototype.message so it returns the attacker's payload. The final step invokes the generated function using the valueOf trick, and the post includes a working payload to try in the browser console."
+    }
+  ]
+}
