@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-15",
+  "title": "Top 3 from Hacker News - October 15, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Things to know when you get cancer",
+      "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
+      "hnLink": "https://news.ycombinator.com/item?id=50093568",
+      "points": 1506,
+      "summary": "A developer diagnosed with squamous cell carcinoma in May 2026 shares hard-won advice for navigating a cancer diagnosis, based on his experience so far. His tips include being aggressively persistent about scheduling (cancellation slots got him seen within a week instead of a month), pushing for comprehensive genetic testing early, and getting a second opinion at a top cancer center as soon as possible, where he found the biggest benefit was speed. He also warns that AI models repeatedly downplayed his symptoms, and recommends reading the NCCN standard-of-care guidelines yourself since nobody cares more about your case than you."
+    },
+    {
+      "rank": 2,
+      "title": "Wanted to download an ISO, ended up writing a kernel exploit",
+      "url": "https://blog.dfb.sh/blog/eap770-root-for-two-zeros/",
+      "hnLink": "https://news.ycombinator.com/item?id=50070625",
+      "points": 153,
+      "summary": "A blogger spent years chasing silent data corruption over Wi-Fi on his TP-Link EAP770 v1 access point, where large downloads kept failing with SSH MAC errors and TLS failures while everything else looked clean. After TP-Link declared the device end-of-life without ever shipping a fix, the root cause traced to a sysfs value needing two zeroed fields, but TP-Link's restricted shell blocked writing them. He ended up writing a kernel exploit for his own access point to get root and apply the fix."
+    },
+    {
+      "rank": 3,
+      "title": "OpenCode 2.0",
+      "url": "https://anoma.ly/notes/opencode-2-0/",
+      "hnLink": "https://news.ycombinator.com/item?id=50094994",
+      "points": 670,
+      "summary": "OpenCode 2.0 is a major overhaul of the open-source coding agent, built on lessons from millions of daily users. The headline change is that its client/server architecture now runs automatically as a single background service, so the terminal UI, web interface, and desktop app all share one central process, with sessions that can be inspected, interrupted, and steered across clients. It also ships a rebuilt API, a new @opencode/client package for programmatic use, and a Code Mode where the agent writes JavaScript that calls its own tools directly instead of one tool call at a time."
+    }
+  ]
+}
