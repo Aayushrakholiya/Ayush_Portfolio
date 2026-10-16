@@ -103,7 +103,7 @@ const Blog = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Source / Hacker News <span aria-hidden="true">↗</span>
+              Source / Hacker News <span className="blog-northeast-arrow" aria-hidden="true">↗</span>
             </a>
             {latestNewsletter && (
               <a className="blog-pill blog-pill--lime" href="#latest-issue">

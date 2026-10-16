@@ -33,7 +33,7 @@ const StoryRow = ({ item, headingLevel = "h3" }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Read article <span aria-hidden="true">↗</span>
+            Read article <span className="blog-northeast-arrow" aria-hidden="true">↗</span>
           </a>
           <a
             className="blog-story__link"
@@ -41,7 +41,7 @@ const StoryRow = ({ item, headingLevel = "h3" }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            HN discussion <span aria-hidden="true">↗</span>
+            HN discussion <span className="blog-northeast-arrow" aria-hidden="true">↗</span>
           </a>
         </div>
       </div>

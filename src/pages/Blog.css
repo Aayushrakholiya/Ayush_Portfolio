@@ -595,6 +595,14 @@
 }
 
 @media (max-width: 700px) {
+  .blog-page .blog-northeast-arrow {
+    font-family: "Lausanne", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: normal;
+  }
+
   .blog-hero {
     min-height: max(100svh, 650px);
     padding-top: 82px;
