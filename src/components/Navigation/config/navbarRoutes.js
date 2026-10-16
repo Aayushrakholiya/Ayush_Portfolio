@@ -86,4 +86,6 @@ export const navbarRoutes = {
   },
 };
 
+navbarRoutes['/resume'] = { ...navbarRoutes['/contact'] };
+
 export const defaultNavbarRoute = { ...navbarRoutes["/"], logoColor: "black" };

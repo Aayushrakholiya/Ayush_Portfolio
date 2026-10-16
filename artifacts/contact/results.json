@@ -1,0 +1,59 @@
+[
+  {
+    "width": 360,
+    "height": 800,
+    "overflow": false,
+    "resumeFallback": true,
+    "routeNavigation": true
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "resumeFallback": true,
+    "routeNavigation": true
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "resumeFallback": true,
+    "routeNavigation": true
+  },
+  {
+    "width": 1024,
+    "height": 900,
+    "overflow": false,
+    "resumeFallback": true,
+    "routeNavigation": true
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "overflow": false,
+    "resumeFallback": true,
+    "routeNavigation": true
+  },
+  {
+    "width": 844,
+    "height": 390,
+    "overflow": false,
+    "resumeFallback": true,
+    "routeNavigation": true
+  },
+  {
+    "likeRetry": true,
+    "reloadPersistence": true,
+    "duplicateButtonDisabled": true,
+    "enlargedText": true
+  },
+  {
+    "motionReveal": true,
+    "keyboardFocus": true,
+    "bookingLogoContrast": true,
+    "pdfActionsWithFixture": true
+  },
+  {
+    "blockedStorage": true
+  }
+]

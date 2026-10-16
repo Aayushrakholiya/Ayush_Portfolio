@@ -5,7 +5,8 @@ import Lenis from "lenis";
 import Home from "./pages/Home.jsx";
 import AboutMe from "./pages/AboutMe.jsx";
 import Project from "./pages/project.jsx";
-import ComingSoon from "./pages/ComingSoon.jsx";
+import Contact from "./pages/Contact.jsx";
+import Resume from "./pages/Resume.jsx";
 import NotFound from "./pages/NotFound.jsx";
 
 const Blog = lazy(() => import("./pages/Blog.jsx"));
@@ -52,7 +53,8 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about-me" element={<AboutMe />} />
           <Route path="/project" element={<Project />} />
-          <Route path="/contact" element={<ComingSoon section="Contact" />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
           <Route
             path="/blog"
             element={

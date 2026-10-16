@@ -1,8 +1,11 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "headers": [
+    { "source": "/resume/:file*", "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }] }
+  ],
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/((?!api/|resume/|assets/|.*\\.[^/]+$).*)",
       "destination": "/index.html"
     }
   ]

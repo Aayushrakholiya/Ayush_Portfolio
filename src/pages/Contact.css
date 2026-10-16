@@ -1,0 +1,61 @@
+.contact-page { --contact-lime: #d3fd51; --contact-paper: #f1f0e8; background: #050505; color: white; font-family: 'Lausanne', Arial, sans-serif; }
+.contact-page *, .contact-page *::before, .contact-page *::after { box-sizing: border-box; }
+.contact-page a { text-decoration: none; }
+.contact-page button, .contact-page a { -webkit-tap-highlight-color: transparent; }
+.contact-page :is(a, button):focus-visible { outline: 3px solid currentColor; outline-offset: 6px; }
+.contact-hero { padding: 120px clamp(20px, 3vw, 56px) 25px; }
+.contact-eyebrow { display: flex; justify-content: space-between; gap: 20px; font: 500 12px/1.5 Arial, sans-serif; letter-spacing: .08em; text-transform: uppercase; }
+.contact-title { margin: 52px 0 42px; font-size: clamp(76px, 17vw, 280px); font-weight: 300; line-height: .85; letter-spacing: -.075em; white-space: nowrap; }
+.contact-title > span { color: var(--contact-lime); }
+.contact-title-dot { color: white; }
+.contact-hero__bottom { border-top: 1px solid #555; padding-top: 28px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 48px; align-items: end; }
+.contact-introduction > p { max-width: 620px; margin: 0 0 26px; font-size: clamp(19px, 1.8vw, 28px); line-height: 1.45; letter-spacing: -.025em; }
+.contact-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.contact-pill { display: inline-flex; align-items: center; justify-content: space-between; gap: 30px; min-height: 52px; padding: 13px 22px; border: 1px solid currentColor; border-radius: 999px; font-size: 18px; line-height: 1.25; transition: background .2s, color .2s; }
+.contact-pill:hover { background: white; color: #050505; }
+.contact-pill--lime { background: var(--contact-lime); color: #050505; border-color: var(--contact-lime); }
+.contact-pill--dark { color: white; background: #050505; border-color: #050505; }
+.contact-pill--dark:hover { background: var(--contact-lime); }
+.contact-appreciation { max-width: 290px; }
+.contact-like { display: inline-flex; gap: 12px; align-items: center; min-height: 48px; border: 1px solid #777; border-radius: 999px; padding: 10px 17px; background: transparent; color: white; font: inherit; cursor: pointer; }
+.contact-like svg { width: 23px; height: 23px; fill: none; stroke: currentColor; stroke-width: 1.5; }
+.contact-like:hover, .contact-like.is-liked { color: var(--contact-lime); border-color: var(--contact-lime); }
+.contact-like:disabled { cursor: default; }
+.contact-like.is-liked svg { fill: currentColor; animation: contact-heart .4s ease-out; }
+.contact-like__count { border-left: 1px solid #666; padding-left: 12px; font-variant-numeric: tabular-nums; }
+.contact-like__status { margin-top: 12px; color: #bbb; font-size: 14px; line-height: 1.5; min-height: 42px; }
+.contact-text-link { display: block; min-height: 44px; text-decoration: underline; cursor: pointer; color: white; }
+.contact-scroll-link { display: flex; justify-content: space-between; align-items: center; gap: 20px; min-height: 48px; margin-top: 34px; color: #bbb; font-size: 14px; }
+.contact-scroll-link span { color: var(--contact-lime); font-size: 24px; }
+.contact-booking { display: grid; grid-template-columns: minmax(220px, .28fr) minmax(0, 1fr); gap: clamp(24px, 3vw, 48px); background: var(--contact-paper); color: #151515; padding: clamp(60px, 7vw, 110px) clamp(20px, 3vw, 56px); scroll-margin-top: 60px; }
+.contact-booking h2 { margin: 34px 0 28px; font-size: clamp(64px, 5.6vw, 96px); line-height: .88; letter-spacing: -.065em; font-weight: 300; }
+.contact-booking h2 span { color: #687b2b; }
+.contact-booking-description { font-size: clamp(20px, 2vw, 28px); max-width: 340px; line-height: 1.4; letter-spacing: -.025em; }
+.contact-booking-aside { margin-top: 40px; color: #5e5e57; font-size: 15px; line-height: 1.6; }
+.contact-booking-panel { min-width: 0; align-self: start; border: 1px solid #c6c6ba; border-radius: 20px; background: #fafaf6; overflow: hidden; }
+.contact-booking-panel__top, .contact-booking-panel__bottom { display: flex; gap: 15px; align-items: center; justify-content: space-between; padding: 21px 24px; font-size: 13px; }
+.contact-booking-panel__top { border-bottom: 1px solid #d9d9ce; text-transform: uppercase; letter-spacing: .04em; }
+.contact-booking-panel__bottom { border-top: 1px solid #d9d9ce; color: #59594f; }
+.contact-booking-panel__bottom > span:last-child { font-size: 25px; }
+.contact-booking-empty { padding: 40px 32px 50px; }
+.contact-calendar-mark { display: flex; justify-content: center; align-items: center; width: 62px; height: 62px; border-radius: 50%; background: var(--contact-lime); font-size: 40px; }
+.contact-booking-empty h3 { margin: 30px 0 20px; font-size: clamp(30px, 3vw, 46px); line-height: 1.1; letter-spacing: -.045em; }
+.contact-booking-empty p { max-width: 360px; line-height: 1.6; color: #59594f; margin-bottom: 28px; }
+.contact-calendar { width: 100%; height: 600px; display: block; border: 0; }
+.contact-timezone, .contact-booking-help, .contact-calendar-loading { padding: 16px 24px; font-size: 14px; line-height: 1.5; }
+.contact-booking-help a { text-decoration: underline; display: inline-block; padding-block: 12px; }
+.resume-content { padding: 110px clamp(20px, 5vw, 80px) 80px; }
+.contact-back { display: inline-flex; align-items: center; min-height: 44px; margin-bottom: 40px; }
+.resume-content h1 { margin: 24px 0; font-size: clamp(48px, 10vw, 160px); font-weight: 300; line-height: 1; letter-spacing: -.065em; }
+.resume-content h1 span { color: var(--contact-lime); }
+.resume-intro { max-width: 600px; font-size: 22px; line-height: 1.5; margin-bottom: 30px; }
+.resume-preview-note { color: #bbb; margin: 24px 0 16px; }
+.resume-preview { display: block; width: 100%; height: 85svh; min-height: 450px; background: var(--contact-paper); color: #111; border-radius: 8px; }
+.resume-unavailable { margin-top: 40px; border-top: 1px solid #555; padding-block: 36px; }
+.resume-unavailable h2 { font-size: 28px; }
+.resume-unavailable p { margin: 12px 0 24px; color: #bbb; }
+@keyframes contact-heart { 50% { transform: scale(1.25); } }
+@media (max-width: 1199px) { .contact-booking { grid-template-columns: 1fr; } .contact-booking-copy { max-width: 640px; } .contact-booking h2 br { display: none; } .contact-booking h2 { max-width: 600px; line-height: .95; } .contact-booking h2 br::after { content: ' '; } .contact-booking-panel { width: 100%; } .contact-booking-description { max-width: 500px; } }
+@media (max-width: 640px) { .contact-hero { padding-top: 105px; } .contact-small-note { display: none; } .contact-title { font-size: clamp(75px, 21vw, 135px); line-height: .88; margin: 40px 0 32px; white-space: normal; } .contact-title > span { display: block; text-align: right; } .contact-hero__bottom { grid-template-columns: 1fr; gap: 28px; } .contact-actions { flex-direction: column; } .contact-pill { width: 100%; } .contact-appreciation { max-width: none; } .contact-like__status { min-height: 21px; } .contact-scroll-link { margin-top: 22px; max-width: 100%; } .contact-booking { padding-top: 50px; gap: 30px; } .contact-booking h2 { font-size: clamp(58px, 14vw, 85px); } .contact-booking h2 br { display: block; } .contact-booking-aside { margin-top: 22px; } .contact-booking-empty { padding: 28px 20px 32px; } .contact-booking-panel__top, .contact-booking-panel__bottom { padding: 18px; } .contact-timezone, .contact-booking-help { padding-inline: 16px; } .contact-calendar { height: 850px; } .resume-intro { font-size: 19px; } }
+@media (min-width: 641px) and (max-width: 850px) { .contact-calendar { height: 850px; } }
+@media (prefers-reduced-motion: reduce) { .contact-page *, .contact-page *::before, .contact-page *::after { animation: none !important; transition: none !important; } }
