@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-17",
+  "title": "Top 3 from Hacker News - October 17, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Tesla Roadster",
+      "url": "https://www.tesla.com/roadster",
+      "hnLink": "https://news.ycombinator.com/item?id=50112657",
+      "points": 1463,
+      "summary": "Tesla revealed the long-awaited second-generation Roadster at SpaceX's testing facility in McGregor, Texas on October 15, nine years after the original concept debuted. A prototype drove up an arched ramp and drove upside down using an under-car fan system, then flew a barrel roll using SpaceX-supplied thrusters that Tesla says produce over 80 kilonewtons of force. Musk gave no specs or price for the production car and noted it may not be legal in all jurisdictions."
+    },
+    {
+      "rank": 2,
+      "title": "Ultramarine 1 Flash",
+      "url": "https://www.paperinstruments.com/ultramarine",
+      "hnLink": "https://news.ycombinator.com/item?id=50106747",
+      "points": 269,
+      "summary": "Paper Instruments launched Ultramarine 1 Flash, an open model positioned as \"Fable-class\" for professional knowledge work in finance, law, consulting, and operations, at a claimed 60x lower cost than Fable. Built on GLM-5.3 Flash as its base, it tops the company's JobBench at 62.9 and generates 6.5% fewer tokens than the base model. Model weights are promised soon; an API and technical report are already live."
+    },
+    {
+      "rank": 3,
+      "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+      "hnLink": "https://news.ycombinator.com/item?id=50129121",
+      "points": 240,
+      "summary": "DeepSeek released DeepSeek-V4.1-Flash-1017, a minor update to DeepSeek-V4.1-Flash that improves reasoning, coding, agentic tasks, and visual benchmarks while reducing task execution time and output length. The model card claims the update advances the performance-cost frontier across multiple agent harnesses, citing gains like Terminal-Bench 4.0 at 42.3 vs 31.2 for its predecessor. The MIT-licensed, multimodal weights are on Hugging Face, and the model is listed on OpenRouter."
+    }
+  ]
+}
