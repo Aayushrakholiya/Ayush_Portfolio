@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/banner.jpg" alt="Ayush Rakholiya — Full-stack developer" width="100%">
+[![Ayush Rakholiya — Full-stack developer](docs/banner.jpg)](https://www.ayushrakholiya.com/)
 
 # ⚡ AYUSH RAKHOLIYA
 
