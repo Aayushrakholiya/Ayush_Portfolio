@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="docs/banner.jpg" alt="Ayush Rakholiya — Full-stack developer" width="100%">
+
 # ⚡ AYUSH RAKHOLIYA
 
 **Full-stack developer building fast, animated, data-driven web experiences.**
