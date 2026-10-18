@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-18",
+  "title": "Top 3 from Hacker News - October 18, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "url": "https://api-docs.deepseek.com/guides/search/",
+      "hnLink": "https://news.ycombinator.com/item?id=50138531",
+      "points": 259,
+      "summary": "DeepSeek has published docs for two raw JSON APIs that give agents and RAG applications access to live web content. The Search API runs queries through DeepSeek's in-house engine and returns structured results, while the Fetch API retrieves a single page and returns it as Markdown. Both use the same bearer authentication as the DeepSeek API and support operators like site:, lang:, and before/after date filters."
+    },
+    {
+      "rank": 2,
+      "title": "Parser Combinators",
+      "url": "https://t3.at/blog/2026-10-17-parser-combinators/",
+      "hnLink": "https://news.ycombinator.com/item?id=50139067",
+      "points": 47,
+      "summary": "A TypeScript tutorial walks through parser combinators, starting from the core idea that a Parser<T> is just a function from an input string to a pair of a parsed value and the rest of the string. It shows how tiny parsers for things like a word, whitespace, and an integer compose into larger ones, then builds up to a real-world example that parses Linux ping output into structured JSON."
+    },
+    {
+      "rank": 3,
+      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+      "url": "https://sphinx-six-theta.vercel.app/",
+      "hnLink": "https://news.ycombinator.com/item?id=50137950",
+      "points": 153,
+      "summary": "Sphinx is a free, MIT-licensed Git hook for agent-assisted development: when you push to a protected branch, it pauses the push and asks you questions about what the diff actually does before letting it through. It works alongside Codex, Claude Code, Cursor, and other coding agents, runs on minimal tokens via OpenRouter or any OpenAI-compatible endpoint, and never shares your answers with the coding agent. A sphinx yolo command bypasses the checks, with every skip logged."
+    }
+  ]
+}
