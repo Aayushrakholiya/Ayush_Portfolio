@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-20",
+  "title": "Top 3 from Hacker News - October 20, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "DeepSeek just open-sourced its inference engine",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "hnLink": "https://news.ycombinator.com/item?id=50163277",
+      "points": 597,
+      "summary": "DeepSeek open-sourced DeepInfer, the inference framework that powers its own large-scale production services, offering offline inference with optimized kernels, asynchronous scheduling, and batch-invariant, deterministic generation. It supports DeepSeek-V4.1-Flash on NVIDIA SM100 GPUs and Huawei Ascend 950 NPUs. A complete serving stack still needs external pieces like a KV cache system and prefill/decode disaggregation, which are not included in the release."
+    },
+    {
+      "rank": 2,
+      "title": "Nordwand Mono – A monospace font for coders and adventurers",
+      "url": "https://github.com/tywr/Nordwand-Mono",
+      "hnLink": "https://news.ycombinator.com/item?id=50141581",
+      "points": 330,
+      "summary": "A developer who couldn't find the perfect coding font designed Nordwand Mono from scratch, generating every glyph with Python. It blends proportions of JetBrains Mono with elements of the classic Univers typeface, and the name nods to Switzerland's iconic typography and its north faces. The whole font is reproducible from config, so users can tweak metrics like x-height and capital height and compile their own custom version."
+    },
+    {
+      "rank": 3,
+      "title": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
+      "url": "https://github.com/microg/GmsCore/wiki",
+      "hnLink": "https://news.ycombinator.com/item?id=50162177",
+      "points": 122,
+      "summary": "microG Services is a free and open-source framework that lets apps built for Google Play Services run on Android systems where Play Services isn't available, such as custom ROMs and de-Googled phones. The long-running project re-implements Google's proprietary libraries under the Apache license and is translated by a community on Weblate. Its wiki hosts downloads and setup instructions for supported devices."
+    }
+  ]
+}
