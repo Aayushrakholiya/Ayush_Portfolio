@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-19",
+  "title": "Top 3 from Hacker News - October 19, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Ousted Savannah police officer gave ICE agent husband access to Flock system",
+      "url": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
+      "hnLink": "https://news.ycombinator.com/item?id=50150750",
+      "points": 642,
+      "summary": "A former Savannah police officer shared her department username and password for the Flock license plate reader system with her husband, an ICE agent, who used it to run hundreds of searches tied to ICE investigations, according to documents obtained by WJCL 22 News. The husband said every search targeted people with active arrest warrants, but the department fired her for giving an unauthorized person access to a sensitive police system and undermining its audit safeguards. The case raises questions about how warrantless location data can move between agencies outside official channels."
+    },
+    {
+      "rank": 2,
+      "title": "Linux 7.3",
+      "url": "https://lwn.net/Articles/1101143/",
+      "hnLink": "https://news.ycombinator.com/item?id=50149392",
+      "points": 618,
+      "summary": "Linus Torvalds released the Linux 7.3 kernel, calling it a record-breaker on all fronts: 18,765 non-merge commits from 3,021 developers, 807 of them first-time contributors. The merge window for 7.4 opens right away, though Torvalds noted his merging schedule will be unusual for a while because he is on vacation. LWN's coverage lists the release's significant changes for anyone tracking what lands next."
+    },
+    {
+      "rank": 3,
+      "title": "Timestral: Mistral's time-series foundation models",
+      "url": "https://mistral.ai/news/timestral/",
+      "hnLink": "https://news.ycombinator.com/item?id=50150434",
+      "points": 588,
+      "summary": "Mistral released Timestral, its first family of time-series foundation models, with sizes from 5M to 209M parameters. The largest model ranks first on the field's three main public benchmarks (GIFT-Eval, TIME, and fev-bench) with only two-thirds the parameters of the previous state of the art, and it supports past-only and known-future covariates. The models are designed for zero-shot probabilistic forecasting on CPU-class hardware, with fine-tuning available through Mistral Forge."
+    }
+  ]
+}
