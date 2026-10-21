@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-21",
+  "title": "Top 3 from Hacker News - October 21, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
+      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "hnLink": "https://news.ycombinator.com/item?id=50177916",
+      "points": 244,
+      "summary": "Scott Helme explains how eight eMudhra certificate authority private keys were compromised because they were weak single-byte elliptic-curve keys instead of random 384-bit numbers, letting anyone recover them in under a second. The keys were reported on October 17, and Chrome and Mozilla have since blocked the affected intermediates and are removing the eMudhra root from their trust stores."
+    },
+    {
+      "rank": 2,
+      "title": "Whatever Happened to Fire Escapes",
+      "url": "https://practical.engineering/blog/2026/10/20/whatever-happened-to-fire-escapes",
+      "hnLink": "https://news.ycombinator.com/item?id=50178455",
+      "points": 36,
+      "summary": "Practical Engineering looks at how external fire escapes became a fixture of American cities in the late 1800s as tall buildings multiplied and catastrophic fires were common. The piece traces why they have slowly disappeared, framing their decline as a case study in how building codes set society's consensus on what level of safety is worth the cost."
+    },
+    {
+      "rank": 3,
+      "title": "The 1.5°C goal of the Paris Agreement is no longer viable",
+      "url": "https://unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot/",
+      "hnLink": "https://news.ycombinator.com/item?id=50177911",
+      "points": 365,
+      "summary": "The UN Environment Programme's 2026 Emissions Gap Report says the chance to limit warming to 1.5°C with no or limited overshoot has been lost, and exceeding the threshold is now imminent and inevitable. UNEP states the only remaining option is to keep warming below 2°C with the aim of bringing temperatures back down to 1.5°C by the end of the century."
+    }
+  ]
+}
