@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-22",
+  "title": "Top 3 from Hacker News - October 22, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-111943",
+      "hnLink": "https://news.ycombinator.com/item?id=50192900",
+      "points": 176,
+      "summary": "Cisco Talos disclosed that eight intermediate CA certificates from eMudhra were generated with P-384 private keys containing as little as 3-8 bytes of entropy instead of the required 384 bits, making the keys trivially recoverable and letting an attacker impersonate any website. Go's crypto/x509 package was assigned CVE-2026-111943 because its TLS verification could still trust the compromised intermediates in environments that ignore revocation, and the Go team shipped fixed releases 1.27.3 and 1.26.10 that filter out all eight keys."
+    },
+    {
+      "rank": 2,
+      "title": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
+      "url": "https://globus.software/blog/2026/10/16/cutting-map-polygons/",
+      "hnLink": "https://news.ycombinator.com/item?id=50193170",
+      "points": 60,
+      "summary": "Globus Software rebuilt its map engine's polygon triangulator as an ear-clipping library called earstrip, releasing it under the ISC license as a single C++ header plus a WebAssembly build on npm with the same API as earcut. The result triangulates all 3.7 million polygons of a zoom-13 map in 489 ms on an M4 Pro core, about 14% faster than earcut.hpp in C++ and 1.4 to 2.1x faster than earcut.js in the browser."
+    },
+    {
+      "rank": 3,
+      "title": "Jailbreaking the Switch 2",
+      "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+      "hnLink": "https://news.ycombinator.com/item?id=50192536",
+      "points": 91,
+      "summary": "Sammy Hajhamid (pepsipu) published ns2jb, the first software-only jailbreak for the Nintendo Switch 2 on current firmware 23.0.1, which gets code execution through a WebKit n-day loaded via a custom Wi-Fi captive portal and runs native code as sysmodules. The exploit enables homebrew, game modding, save backups, and MMIO access to peripherals, and was demonstrated by modding the Switch 2 exclusive Mario Kart World."
+    }
+  ]
+}
