@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-24",
+  "title": "Top 3 from Hacker News - October 24, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "hnLink": "https://news.ycombinator.com/item?id=50212065",
+      "points": 939,
+      "summary": "Moonshot AI introduced Kimi K3.1 Pro, its most capable 3T-class open-weight model, with a 1-million-token context window and gains across coding, agentic tasks, and 3D creation. A faster K3.1 Pro Highspeed variant delivers 2-3x the speed, both are live on Kimi.ai and the API today, and the full weights will be released by Nov 4. On Terminal-Bench 4.0 it scores 65.7%, ahead of GPT-6 Astra and just behind Claude Opus 5.5."
+    },
+    {
+      "rank": 2,
+      "title": "OBS Studio 33",
+      "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+      "hnLink": "https://news.ycombinator.com/item?id=50218430",
+      "points": 197,
+      "summary": "OBS Studio 33.0 is out with a major overhaul of its plugin loading system: first-party plugins move to a new 'core' folder and third-party plugins get an updated install location, though legacy locations keep working until version 34. It also updates the embedded browser framework from a July 2024 CEF build to September 2026, improves source snapping in the preview, fixes spinbox input behavior, and enables NVENC on Arm64."
+    },
+    {
+      "rank": 3,
+      "title": "I Don't Understand Quantum Physics (2018)",
+      "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
+      "hnLink": "https://news.ycombinator.com/item?id=50219666",
+      "points": 93,
+      "summary": "Douglas Ross of the University of Southampton hosts this 2018 collection of essays walking through the parts of quantum physics nobody fully understands. Topics include Heisenberg's uncertainty principle, competing interpretations of quantum mechanics, two enigmatic thought experiments, hidden variables, and probabilistic determinism."
+    }
+  ]
+}

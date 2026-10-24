@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-23",
+  "title": "Top 3 from Hacker News - October 23, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Docker is weird",
+      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+      "hnLink": "https://news.ycombinator.com/item?id=50202681",
+      "points": 563,
+      "summary": "A developer building his own container runtime for fun shares what he learned about how Docker really works: containers are just ordinary kernel processes restricted by namespaces, cgroups, and networking rules, and images are simply folders that Docker makes the process's root directory. He also digs into quirks of the runc runtime, like the C module it needs because Go can't fork or make certain syscalls safely, and why Docker's daemon has traditionally run as root."
+    },
+    {
+      "rank": 2,
+      "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "url": "https://edjefferson.com/localwiki/",
+      "hnLink": "https://news.ycombinator.com/item?id=50202285",
+      "points": 539,
+      "summary": "Local Wikipedia is a web app that takes geocoded Wikipedia articles and shows only the ones within roughly a half-hour walk of you, pulling in between 25 and 500 of the closest entries. You pick a town, postcode, or use your location, and your position stays in the browser rather than in any links you share."
+    },
+    {
+      "rank": 3,
+      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "hnLink": "https://news.ycombinator.com/item?id=50198675",
+      "points": 467,
+      "summary": "NVIDIA open-sourced OpenShell, a runtime that lets autonomous AI agents read files, install packages, and call APIs without giving them unrestricted access to your data, secrets, or network. Each agent runs in a sandbox where kernel-level controls enforce a policy on every file access, syscall, and network connection, and agents never see real credentials since OpenShell injects them only into requests to approved endpoints. Policy changes are also run through formal verification that flags risky new access for human review before it takes effect."
+    }
+  ]
+}
