@@ -628,8 +628,10 @@ const FullScreenNav = () => {
 
               <span className="k72-hover-layer" aria-hidden="true">
                 <span className="k72-marquee-track">
-                  <MarqueeContent text={item.marqueeText} images={item.images} />
-                  <MarqueeContent text={item.marqueeText} images={item.images} />
+                  {navOpen && window.matchMedia('(min-width: 1025px)').matches && <>
+                    <MarqueeContent text={item.marqueeText} images={item.images} />
+                    <MarqueeContent text={item.marqueeText} images={item.images} />
+                  </>}
                 </span>
               </span>
             </a>
