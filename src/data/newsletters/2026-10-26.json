@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-26",
+  "title": "Top 3 from Hacker News - October 26, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Switzerland. Block by block. At 1:1 scale",
+      "url": "https://blocks.manifold3d.ch/",
+      "hnLink": "https://news.ycombinator.com/item?id=50240922",
+      "points": 199,
+      "summary": "Blocks is a Minecraft project that recreates all of Switzerland at 1:1 scale, where one block equals one metre. Terrain, glaciers, lakes, forests and dam walls are generated from swisstopo's open geodata, so the Matterhorn is exactly as tall and steep as the real thing. The full 41,285 km² country comes as a 24 GB download for Minecraft Java 1.12.2 with Cubic Chunks."
+    },
+    {
+      "rank": 2,
+      "title": "Birdwatching rewires the brain and slows cognitive decline",
+      "url": "https://www.bbc.com/future/article/20261019-birdwatching-rewires-the-brain-and-slows-cognitive-decline",
+      "hnLink": "https://news.ycombinator.com/item?id=50215997",
+      "points": 99,
+      "summary": "BBC Future reports that birdwatching can help slow brain ageing and is increasingly being used as therapy for dementia patients. At a wooden hide by Forge Mill Lake in England's West Midlands, elderly birders with memory problems become animated while swapping notes on the birds around them. The piece follows 78-year-old Harold, whose daughter brought him there hoping the peaceful setting would ease the withdrawal and anxiety his dementia has caused."
+    },
+    {
+      "rank": 3,
+      "title": "Show HN: TitleArt – Make text like it's 1997",
+      "url": "https://titleart.dvy.io/",
+      "hnLink": "https://news.ycombinator.com/item?id=50238708",
+      "points": 272,
+      "summary": "TitleArt is a browser-based tool for making late-1990s WordArt-style text, layering retro gradient fills, drop shadows and bevels over period fonts. It shipped as a Show HN post and drew more than 270 upvotes on Hacker News."
+    }
+  ]
+}
