@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-27",
+  "title": "Top 3 from Hacker News - October 27, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Three new discoveries in mathematics, computer science, and physics",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "hnLink": "https://news.ycombinator.com/item?id=50251344",
+      "points": 967,
+      "summary": "OpenAI announced three new results: a proof of the local smoothing conjecture (which also resolves the Kakeya and Stein restriction conjectures), a refutation of the Exponential Time Hypothesis verified in Lean, and a rigorous existence proof for QCD and pure Yang-Mills theory in four dimensions. Rather than claiming credit, OpenAI is handing the results to external academic groups, led by researchers like Russell Impagliazzo, Ryan Williams, and David Gross, to independently verify, explain, and publish them under no-NDA, no-credit, independence principles."
+    },
+    {
+      "rank": 2,
+      "title": "The Exponential Time Hypothesis Is False [pdf]",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "hnLink": "https://news.ycombinator.com/item?id=50251661",
+      "points": 662,
+      "summary": "The preprint behind the headline result gives a deterministic algorithm that exactly counts the satisfying assignments of any k-CNF formula in 2^(o(n)) time and polynomial space, which directly refutes ETH and its counting version #ETH. The trick is reorganizing the sum over assignments into group-by-group sums recovered exactly via Hermite interpolation on a parameterized polynomial. The authors caution the result does not imply subexponential algorithms for general NP problems, and the claim is being examined by an independent complexity-theory group."
+    },
+    {
+      "rank": 3,
+      "title": "The Mythical Man-Month in the Age of AI",
+      "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "hnLink": "https://news.ycombinator.com/item?id=50255298",
+      "points": 216,
+      "summary": "Fifty years after Brooks's Law (\"adding manpower to a late software project makes it later\"), the essay asks whether it still holds when the extra workers are AI agents. Its answer: the law mutated rather than vanished, since coordination overhead shifted from managing people to managing agents, someone still has to define done, review output, and catch hallucinations, and nine unsupervised agents on one codebase will happily rewrite each other's work."
+    }
+  ]
+}
