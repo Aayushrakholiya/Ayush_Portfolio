@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-28",
+  "title": "Top 3 from Hacker News - October 28, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates",
+      "url": "https://emudhra.we-have-a-problem.com/apple.html",
+      "hnLink": "https://news.ycombinator.com/item?id=50271640",
+      "points": 33,
+      "summary": "Ten days after Apple was notified of the eMudhra certificate compromise, developer tools it ships with macOS, including git, curl and python3, still trust the affected certificates. Anyone on the network path can intercept HTTPS connections these tools make, meaning git clones and pushes over https can be tampered with and credentials like GitHub tokens can be stolen. macOS 27.2, released October 26, did not fix the issue and reverted hand-applied workarounds."
+    },
+    {
+      "rank": 2,
+      "title": "Start Doing Graph Theory",
+      "url": "https://vertex.degree/",
+      "hnLink": "https://news.ycombinator.com/item?id=50208960",
+      "points": 152,
+      "summary": "Mikhail Lavrov released \"Start Doing Graph Theory,\" a free introductory textbook on using graph theory to solve puzzles and prove theorems. It is available under a Creative Commons license to read online or download as a PDF."
+    },
+    {
+      "rank": 3,
+      "title": "Git for the US Code",
+      "url": "https://lexifina.com/blog/git-for-the-us-code",
+      "hnLink": "https://news.ycombinator.com/item?id=50268380",
+      "points": 300,
+      "summary": "A Lexifina blog post argues the US Code should have the kind of lineage tracking programmers get from git, since lawyers currently can't easily see which public law wrote a given sentence or when a change took effect. The author notes this matters especially now that so much first-pass legal research runs through language models, which often can't use the proper lineage of a law."
+    }
+  ]
+}
