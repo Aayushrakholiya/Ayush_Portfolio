@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-25",
+  "title": "Top 3 from Hacker News - October 25, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Meta Ignores Brazilian Court Order to End Bolsonaro Favoritism",
+      "url": "https://www.panamericandispatch.org/p/meta-ignores-brazilian-court-order",
+      "hnLink": "https://news.ycombinator.com/item?id=50229587",
+      "points": 251,
+      "summary": "Sleeping Giants Brasil and CTRL+Z filed new evidence with Brazil's Superior Electoral Court showing that Meta's search, GIF, hashtag, and Meta AI results on Instagram and WhatsApp keep favoring Sen. Flávio Bolsonaro while linking President Lula to derogatory content, despite a court order requiring equal treatment of both campaigns. The petition asks the court to force fixes within 24 hours, explain how Meta ranks results and generates AI answers, and enforce the R$500,000 (about $99,000) daily fine it already set."
+    },
+    {
+      "rank": 2,
+      "title": "We should be more ambitious with the software we build",
+      "url": "https://danluu.com/ambitious/",
+      "hnLink": "https://news.ycombinator.com/item?id=50225695",
+      "points": 479,
+      "summary": "Dan Luu argues that while most AI-assisted rewrite projects deserve their 'vibeslop' reputation, builders shouldn't be discouraged from ambitious ones if they test and benchmark seriously. He points to pgrust, a Postgres rewrite whose testing has already surfaced real Postgres bugs (SP-GiST, JSONPath, memory safety), and notes that today's faster models make ambitious side projects feasible, which he demonstrated with his own regex engine and ripgrep fork."
+    },
+    {
+      "rank": 3,
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "hnLink": "https://news.ycombinator.com/item?id=50227356",
+      "points": 204,
+      "summary": "Cerebras explains how it runs trillion-parameter frontier models like the open-source Kimi K3 (~3T parameters) across multiple WSE-3T wafers, each with 44 GB of on-chip memory. One or two model layers are mapped per wafer so weights stay in place, and requests flow through the wafers like an assembly line, with the pipeline kept full of different concurrent requests to reach 1,000-2,000+ tokens per second."
+    }
+  ]
+}
