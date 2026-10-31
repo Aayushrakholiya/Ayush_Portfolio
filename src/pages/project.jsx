@@ -52,73 +52,80 @@ const Project = () => {
 
   const projects = [
     {
-      "image1": "/ecommerce_pic.png",
+      "image1": "/Cogent Terminal Agent Poster (1).png",
       "project1": {
+        "title": "Cogent",
+        "year": "2026",
+        "url": "https://github.com/Aayushrakholiya/cogent-ai-cli.git",
+        "client": "Project One"
+      },
+      "image2": "/ecommerce_pic.png",
+      "project2": {
         "title": "E-Commerce User Behaviour Analytics",
         "year": "2026",
         "url": "https://github.com/Aayushrakholiya/ecommerce-funnel-analytics.git",
-        "client": "Project One"
-      },
-      "image2": "/dayflow.png",
-      "project2": {
-        "client": "Project Two",
+        "client": "Project Two"
+      }
+    },
+    {
+      "image1": "/dayflow.png",
+      "project1": {
+        "client": "Project Three",
         "title": "Dayflow.",
         "year": "2026",
         "url": "https://dayflow-frontend.vercel.app/"
-      }
-    },
-    {
-      "image1": "/flight-management.png",
-      "project1": {
-        "client": "Project Three",
+      },
+      "image2": "/flight-management.png",
+      "project2": {
+        "client": "Project Four",
         "title": "Flight Data Management System",
         "year": "2025",
         "url": "https://github.com/Aayushrakholiya/Flight-Data-Management-System-FDMS-.git"
-      },
-      "image2": "/manufacturing-dashboard.png",
-      "project2": {
-        "client": "Project Four",
+      }
+    },
+    {
+      "image1": "/manufacturing-dashboard.png",
+      "project1": {
+        "client": "Project Five",
         "title": "YoYo Manufacturing Analytics (Business Intelligence)",
         "year": "2026",
         "url": "https://github.com/Aayushrakholiya/YoYo-Manufacturing-Analytics-Business-Intelligence.git"
-      }
-    },
-    {
-      "image1": "/canadian-workforce-analytics.png",
-      "project1": {
-        "client": "Project Five",
+      },
+      "image2": "/canadian-workforce-analytics.png",
+      "project2": {
+        "client": "Project Six",
         "title": "Big Data Analytics",
         "year": "2026",
         "url": "https://github.com/Aayushrakholiya/Big-Data.git"
-      },
-      "image2": "/parcel-manager.png",
-      "project2": {
-        "client": "Project Six",
+      }
+    },
+    {
+      "image1": "/parcel-manager.png",
+      "project1": {
+        "client": "Project Seven",
         "title": "Parcel Manager",
         "year": "2024",
         "url": "https://github.com/Aayushrakholiya/Parcel-Manager.git"
-      }
-    },
-    {
-      "image1": "/snapcanvas.png",
-      "project1": {
-        "client": "Project Seven",
+      },
+      "image2": "/snapcanvas.png",
+      "project2": {
+        "client": "Project Eight",
         "title": "Snap Canvas",
         "year": "2025",
         "url": "https://snapcanvas-five.vercel.app/"
-      },
-      "image2": "/orbitlab-solar-system.png",
-      "project2": {
-        "client": "Project Eight",
-        "title": "Solar Sandbox",
-        "year": "2025",
-        "url": "https://solar-sandbox-three.vercel.app/"
       }
     },
     {
-      "image1": "/mqtt-cloud-iot-showcase.png",
+      "image1": "/orbitlab-solar-system.png",
       "project1": {
         "client": "Project Nine",
+        "title": "Solar Sandbox",
+        "year": "2025",
+        "url": "https://solar-sandbox-three.vercel.app/"
+      },
+      "image2": "/mqtt-cloud-iot-showcase.png",
+      "project2": {
+        "client": "Project Ten",
         "title": "MQTT Sensor Hub",
         "year": "2025",
         "url": "https://github.com/Aayushrakholiya/MQTT-Sensor-Hub.git"
