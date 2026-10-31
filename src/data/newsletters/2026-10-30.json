@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-30",
+  "title": "Top 3 from Hacker News - October 30, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "elect.horse",
+      "url": "https://elect.horse/",
+      "hnLink": "https://news.ycombinator.com/item?id=50301462",
+      "points": 93,
+      "summary": "elect.horse is a daily gerrymandering puzzle game where you draw districts on a hex map so the horse wins the most seats despite losing the popular vote to the cow, donkey and goat. Each day brings a new map, and the puzzle illustrates how redistricting can flip election outcomes."
+    },
+    {
+      "rank": 2,
+      "title": "We're releasing the weights of Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "hnLink": "https://news.ycombinator.com/item?id=50289418",
+      "points": 1538,
+      "summary": "Mistral released the weights of Mistral Large 4, nicknamed Le Chonk, its 1-trillion-parameter multimodal flagship model that was previously in public preview. The company says it leads open-weight benchmarks in coding and defensive cybersecurity, with improved reasoning efficiency that lowers inference costs. It was trained from scratch on European infrastructure and is pitched for sovereign, self-hosted deployments."
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic hacked to deliver remote access trojan",
+      "url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+      "hnLink": "https://news.ycombinator.com/item?id=50301983",
+      "points": 114,
+      "summary": "Kevin Beaumont reports that Anthropic was compromised and a malicious version (2.1.313) of the official Claude Code VS Code extension shipped via the Cursor marketplace, installing a persistent SSH reverse backdoor on developer machines. Cursor says around 5,000 systems were impacted and Anthropic silently replaced the version with 2.1.314 without notifying customers. The article warns the replacement does not remove the backdoor from already-infected systems."
+    }
+  ]
+}
