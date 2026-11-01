@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-01",
+  "title": "Top 3 from Hacker News - November 1, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Norway makes shithouses great again",
+      "url": "https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/",
+      "hnLink": "https://news.ycombinator.com/item?id=50324388",
+      "points": 245,
+      "summary": "Visit Norway leaned into an internet joke about the country by showcasing its roadside public toilets, some set against fjords and mountain views. Along the Norwegian Scenic Routes, architects have designed rest stops and facilities that fit into dramatic landscapes, many of them international award winners that have become attractions in their own right. The tourism board's response went viral and was picked up by media worldwide."
+    },
+    {
+      "rank": 2,
+      "title": "HackerTube: YouTube built from videos recommended by HN",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "hnLink": "https://news.ycombinator.com/item?id=50319510",
+      "points": 1479,
+      "summary": "Andrej Karpathy built hackertube.org, a YouTube-style site whose catalog comes from roughly 40,000 Hacker News comments recommending videos, filtered down to 6,454 videos across 150 topics spanning 2007-2026. He describes handing the whole build to Claude Opus via Claude Code, with his only manual work being a YouTube API key, a VPS, and a domain name. The site offers ForYou recommendations without accounts, keyboard shortcuts, and exportable data."
+    },
+    {
+      "rank": 3,
+      "title": "A tiny Pacific country rolls out universal basic income",
+      "url": "https://www.economist.com/asia/2026/10/29/a-tiny-pacific-country-rolls-out-universal-basic-income",
+      "hnLink": "https://news.ycombinator.com/item?id=50324118",
+      "points": 52,
+      "summary": "The Marshall Islands is using an American windfall tied to its Compact of Free Association to pay every citizen, launching a universal basic income scheme. The payments are also aimed at discouraging outward migration from the small Pacific nation, which was once an American nuclear test site."
+    }
+  ]
+}
