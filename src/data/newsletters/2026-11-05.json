@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-05",
+  "title": "Top 3 from Hacker News - November 5, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Sshole",
+      "url": "https://sshhole.com",
+      "hnLink": "https://news.ycombinator.com/item?id=50378228",
+      "points": 185,
+      "summary": "A deep-dive writeup documents an OpenSSH bug affecting sshd on musl-based Linux (Alpine, OpenWrt, Buildroot, Yocto, and many Docker images) since 2016: accounts that should never accept a password at all, such as root or key-only deploy users, will accept any password longer than 256 characters. The piece walks through the history of password handling in Unix, from the '*' lockout field in /etc/passwd to the 256-byte buffer that broke the check."
+    },
+    {
+      "rank": 2,
+      "title": "Baidu released ERNIE 5.5 Flash Base",
+      "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base/",
+      "hnLink": "https://news.ycombinator.com/item?id=50377078",
+      "points": 89,
+      "summary": "Baidu released the weights of ERNIE-5.5-Flash-Base, a sparse Mixture-of-Experts model with 280B total parameters and 14B activated per token. It was pre-trained from scratch on 33.5T tokens with a 128K training context and supports 1M-token context for fine-tuning and inference. Baidu positions the base-model release as a checkpoint after pre-training so developers can pick their own post-training directions."
+    },
+    {
+      "rank": 3,
+      "title": "Residential proxies detected on White House network",
+      "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+      "hnLink": "https://news.ycombinator.com/item?id=50371246",
+      "points": 1141,
+      "summary": "Security firm Layer3 Intel detected residential proxy nodes beaconing out of the network reserved for the Executive Office of the President, with exits from the White House address range on 26 of 30 days between October 5 and November 3. Researcher tracking linked the activity to Windows 11 installs of Infatica, a proxy app bundled into 'free' desktop and mobile apps, whose founder's hosting firm was tied to the 2016 election-system breaches in Arizona and Illinois. KrebsOnSecurity covered the findings, noting most of the traffic fired between 5 p.m. and midnight."
+    }
+  ]
+}
