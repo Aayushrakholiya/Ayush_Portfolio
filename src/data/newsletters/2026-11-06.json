@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-06",
+  "title": "Top 3 from Hacker News - November 6, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Claude Code sends your email address to websites",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "hnLink": "https://news.ycombinator.com/item?id=50385272",
+      "points": 1268,
+      "summary": "A widely-discussed bug report claims Claude Code includes the user's email address in the User-Agent header when it performs web searches, exposing it to every site it visits without an opt-in. The reporter says the behavior led to a wave of scam emails and argues the field should be removed entirely rather than made configurable. The issue is labeled as a security-area bug and has drawn heavy attention since it opened."
+    },
+    {
+      "rank": 2,
+      "title": "Blender's UI and Runtime: Much Faster Than GPUI",
+      "url": "https://github.com/ppmpreetham/BUI",
+      "hnLink": "https://news.ycombinator.com/item?id=50389333",
+      "points": 331,
+      "summary": "BUI decouples Blender's long-optimized GPU-accelerated user interface into a standalone library usable from Python, Rust, JavaScript (React and Svelte), C, C++, and Dear ImGui. The project pitches Blender's battle-tested, memory-efficient UI toolkit as a foundation for building entirely new apps, and claims to outperform GPUI. Full documentation and a website accompany the release."
+    },
+    {
+      "rank": 3,
+      "title": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
+      "url": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
+      "hnLink": "https://news.ycombinator.com/item?id=50390124",
+      "points": 233,
+      "summary": "The long-running banking-app compatibility tracker for privacy-focused Android builds reports that Dutch bank ASN's app now blocks non-Google Android installations such as GrapheneOS. The thread documents users finding the app no longer works without Google Play Services on devices it previously ran fine on. It highlights the ongoing tension between banks' device-integrity checks and privacy-focused custom ROM users."
+    }
+  ]
+}
