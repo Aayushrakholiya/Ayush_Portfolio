@@ -58,10 +58,10 @@ const AboutMe = () => {
   ];
 
   const teamMembers = [
-    { name: 'IBM', role: 'IT Field Service Technician', dates: 'Jun–Jul 2024', image: '/about/ibm.svg', caption: 'Helped set up 50+ workstations during the HSBC-to-RBC migration, tracked 100+ devices, installed UniFi and Cisco hardware, and trained 20+ colleagues in troubleshooting.' },
-    { name: 'Canna Cabana', role: 'Shift Leader', dates: 'May 2025–Present', image: '/about/canna.svg', caption: 'Promoted within six months. Coached colleagues through hands-on floor leadership, helping increase team conversion by 20% and average transaction value by 12%.' },
-    { name: 'Amazon', role: 'DS Associate', dates: 'Jan–Apr 2025', image: '/about/amazon.svg', caption: 'Maintained over 99% order accuracy while picking and stowing, processing approximately 200 items per hour and supporting daily fulfillment targets.' },
-    { name: 'Fastenal', role: 'Picking Associate', dates: 'Jun–Aug 2025', image: '/about/fastenal.svg', caption: 'Picked and sorted 80+ orders per hour with 98% accuracy. Improved pick flow and product organization, increasing picking efficiency by 15%.' },
+    { name: 'HighTide', role: 'Business Software Specialist', dates: 'Oct – Present', image: '/about/HighTide.svg', caption: 'ERP systems & Big Data.' },
+    { name: 'Fastenal', role: 'Inventory Software Intern', dates: 'May – Aug 2025', image: '/about/fastenal.svg', caption: 'Work on the inventory management system.' },
+    { name: 'Amazon', role: 'Student Intern', dates: 'Oct – Jan 2025', image: '/about/amazon.svg', caption: 'Work with Supply Chain Optimization Technologies (SCOT) organization!' },
+    { name: 'IBM', role: 'System Infrastructure Intern', dates: 'Jun – Jul 2024', image: '/about/ibm.svg', caption: 'Migrate the banking systems from HSBC to RBC Bank.' },
   ];
 
   const touchSelectionRef = useRef(false);
