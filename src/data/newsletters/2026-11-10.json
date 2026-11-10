@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-10",
+  "title": "Top 3 from Hacker News - November 10, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "hnLink": "https://news.ycombinator.com/item?id=50429068",
+      "points": 691,
+      "summary": "Anthropic released upgraded Claude Fable 5.2 and Mythos 5.2, models aimed at the hardest technical work, with gains in coding, reasoning, and vision and up to 30% faster output at a lower price ($8/$40 per million tokens, plus an optional 2.5x fast mode). In prerelease testing the model formalized a proof of Fermat's Last Theorem in 30 hours and solved two open black-hole physics problems. Fable is available to all users with cyber and biology safeguards, while Mythos access goes through Anthropic's verification programs."
+    },
+    {
+      "rank": 2,
+      "title": "USPS now offers official ZIP Code boundary polygons",
+      "url": "https://postalpro.usps.com/zcb",
+      "hnLink": "https://news.ycombinator.com/item?id=50431058",
+      "points": 651,
+      "summary": "USPS has launched ZIP Code Boundaries, a national map of ZIP Code polygons built from its own delivery-address and location data, positioned as the ground truth for ZIP boundaries. The data comes in Internal, Enterprise, and Publication tiers, each with four quarterly updates, and is licensed via an order form. USPS expects it to benefit mapping, marketing, insurance, real estate, logistics, and routing work."
+    },
+    {
+      "rank": 3,
+      "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
+      "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+      "hnLink": "https://news.ycombinator.com/item?id=50436640",
+      "points": 408,
+      "summary": "Two Amazon engineers replaced Claude Sonnet 4.6 with Strands' Decider, a small decision model that outputs probabilities over a fixed label set, for ticket labeling in one of the world's largest internal ticketing systems. The Decider build matched or beat Sonnet's results on test tickets at 98% less cost, running on SageMaker g5.xlarge instances at roughly 640 ms per request, and is expected to save millions of dollars a year. The post also shows the migration path: SQS-triggered Lambda, AppConfig-controlled BEDROCK/DUAL/DECIDER modes for a safe rollout."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-03",
+  "title": "Top 3 from Hacker News - November 3, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Astra can read and write weights to improve Qwen",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "hnLink": "https://news.ycombinator.com/item?id=50341174",
+      "points": 2805,
+      "summary": "MIT CSAIL researchers show that frontier LLMs can natively read and write neural network weights, a technique they call Weight-Space Programming. Their GPT-6 Astra model identified and fixed a weight issue in Qwen3.5-0.8B by editing just 0.016% of the weights with no gradients, raising its MATH-500 score from 7.9% to 48.1% and tripling IFEval. It also wrote small game-playing networks from scratch that outperform policies trained with PPO for 100 million steps."
+    },
+    {
+      "rank": 2,
+      "title": "Nvidia – open-source auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "hnLink": "https://news.ycombinator.com/item?id=50348962",
+      "points": 151,
+      "summary": "NVIDIA open-sourced Auto Ontology, an Apache-2.0 library that builds a context layer for AI agents from enterprise metadata, reconciling business definitions across systems. It grounds agents' queries in certified metrics and lineage, validates generated queries against trusted definitions, and exposes the context to any agent harness via MCP, CLI, and API. NVIDIA says it's meant to complement semantic models customers already own."
+    },
+    {
+      "rank": 3,
+      "title": "Katamari Damacy but it's The Met collection",
+      "url": "https://katamari.vaguespac.es/",
+      "hnLink": "https://news.ycombinator.com/item?id=50332342",
+      "points": 55,
+      "summary": "A browser-based Katamari Damacy homage where you roll a ball around collecting objects from The Metropolitan Museum of Art's collection instead of everyday clutter. The HUD tracks your ball's size, a 6-minute timer, and objects collected, with a hunt mode pointing you at specific artworks to find. It's a playful web toy built on a canvas game loop."
+    }
+  ]
+}

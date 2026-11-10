@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-07",
+  "title": "Top 3 from Hacker News - November 7, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Upload Your RAM",
+      "url": "https://uploadyourram.org",
+      "hnLink": "https://news.ycombinator.com/item?id=50403214",
+      "points": 153,
+      "summary": "A satirical site offering to let you 'donate' the idle RAM sitting in your computer to a better cause, riffing on the idea that buying more memory is wasteful. Selecting an amount like 2 GB or 4 GB kicks off a mock upload of that memory."
+    },
+    {
+      "rank": 2,
+      "title": "Libghostty 1.0",
+      "url": "https://mitchellh.com/writing/libghostty-1-0",
+      "hnLink": "https://news.ycombinator.com/item?id=50399933",
+      "points": 737,
+      "summary": "Mitchell Hashimoto announced the 1.0 release of libghostty, a portable high-performance C library for terminal emulation extracted from the core of the Ghostty terminal. The 1.0 milestone marks both the library and its C ABI as stable, with the C API now running in production across hundreds of products."
+    },
+    {
+      "rank": 3,
+      "title": "Need for Speed Underground 2 online in the browser",
+      "url": "https://nfsu2.xyz/",
+      "hnLink": "https://news.ycombinator.com/item?id=50403052",
+      "points": 104,
+      "summary": "A fan project (nfsu2-web) has recompiled the PC version of Need for Speed Underground 2 to run the game's own code in the browser, letting you play it online without installing anything. The project is unaffiliated with EA and hosts free-roam multiplayer sessions."
+    }
+  ]
+}

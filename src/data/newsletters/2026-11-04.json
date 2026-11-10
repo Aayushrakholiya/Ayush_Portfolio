@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-04",
+  "title": "Top 3 from Hacker News - November 4, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "hnLink": "https://news.ycombinator.com/item?id=50364336",
+      "points": 160,
+      "summary": "The PHP2Shell vulnerability, disclosed in late October, put sites running WordPress and Drupal, including NASA, Wikipedia, and the White House, at risk of remote code execution, but a patch landed before attackers exploited it. Researchers sponsored by OpenAI used AI tools to turn a long-ignored PHP out-of-memory bug from 2024 into an exploitable critical vulnerability within weeks. IEEE Spectrum argues the episode is a warning that AI is now systematically surfacing and weaponizing bugs that humans left unfixed in decades-old legacy software."
+    },
+    {
+      "rank": 2,
+      "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+      "hnLink": "https://news.ycombinator.com/item?id=50362905",
+      "points": 193,
+      "summary": "Dual-booting Linux works on Nvidia RTX Spark laptops like the MSI Prestige, but the GPU locks to about 780 MHz on wall power instead of the roughly 2.2 GHz it reaches on Windows, because the encrypted power-management firmware can only be read by the Windows driver. Benchmarking GPT-OSS-120B showed Windows hitting 65.4 tokens per second while native Linux managed only 13.9. The practical workaround today is WSL, which keeps full GPU boost while still running Linux AI tooling, and a real fix depends on Nvidia porting the controller logic into its Linux driver."
+    },
+    {
+      "rank": 3,
+      "title": "Incident with Pull Requests, Git Operations and Issues",
+      "url": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
+      "hnLink": "https://news.ycombinator.com/item?id=50363378",
+      "points": 118,
+      "summary": "GitHub investigated and mitigated a major incident on November 4 that caused elevated errors and intermittent failures across Pull Requests, Git Operations, Issues, API Requests, and Actions, degrading core developer workflows for several hours. The outage began around 09:49 UTC and was fully resolved by 11:50 UTC, with GitHub saying a root cause analysis will follow. Developers worldwide saw failed pushes, PR operations, and CI runs during the window."
+    }
+  ]
+}

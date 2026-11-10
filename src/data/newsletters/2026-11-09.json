@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-09",
+  "title": "Top 3 from Hacker News - November 9, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Fold Epic Paper Airplanes",
+      "url": "https://www.foldableflight.com",
+      "hnLink": "https://news.ycombinator.com/item?id=50424581",
+      "points": 78,
+      "summary": "Foldable Flight is a paper airplane site where each design, from the beginner-friendly Mystic to the SU-27, opens into an interactive folding guide with speed, glide, and difficulty ratings. Its featured models include world-record designs: the Unite holds the time aloft record at 31.2 seconds, and a prototype of the Firefly can fly over 300 feet."
+    },
+    {
+      "rank": 2,
+      "title": "Humans will never again create a project like Wikipedia",
+      "url": "https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia",
+      "hnLink": "https://news.ycombinator.com/item?id=50424704",
+      "points": 28,
+      "summary": "As Wikipedia turns 25, The Economist argues the encyclopedia is one of the internet's unlikeliest successes facing grave new threats. The piece notes it dethroned the Ming dynasty's Yongle encyclopedia as history's largest reference work after just six years and now runs to 30bn words across more than 300 languages."
+    },
+    {
+      "rank": 3,
+      "title": "Try Gleam",
+      "url": "https://nchagnet.eu/blog/you-should-try-gleam",
+      "hnLink": "https://news.ycombinator.com/item?id=50424366",
+      "points": 29,
+      "summary": "A developer makes the case for Gleam, a friendly functional language targeting the Erlang VM that can also compile to JavaScript. He highlights its simple syntax, immutable variables and the pipe operator, and says around 80% of his Gleam code could be pasted into Rust with minor edits."
+    }
+  ]
+}

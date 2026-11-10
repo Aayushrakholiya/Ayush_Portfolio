@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-08",
+  "title": "Top 3 from Hacker News - November 8, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Person of Interest",
+      "url": "https://krthr.co/person-of-interest/",
+      "hnLink": "https://news.ycombinator.com/item?id=50412318",
+      "points": 86,
+      "summary": "A developer reflects on rewatching Person of Interest 15 years after it aired and finds the show even more relevant today. He remembers the early-2010s internet he grew up in (SOPA and PIPA, the Megaupload shutdown) and notes that the show's fictional mass-surveillance Machine no longer feels like science fiction."
+    },
+    {
+      "rank": 2,
+      "title": "Petered (what happens after the Peter Principle)",
+      "url": "https://aworkinglibrary.com/writing/petered",
+      "hnLink": "https://news.ycombinator.com/item?id=50412152",
+      "points": 51,
+      "summary": "The Peter Principle says people get promoted until they reach their level of incompetence, but the usual assumption that they then stagnate is unstable under career pressure. Research from Gläßel and Scharpf's Making a Career in Dictatorship argues that stuck-but-threatened people may climb further by loyally doing their organization's dirty work, or even by sabotaging superiors to open vacancies above them."
+    },
+    {
+      "rank": 3,
+      "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "url": "https://github.com/synchopate/llama-modchip",
+      "hnLink": "https://news.ycombinator.com/item?id=50411961",
+      "points": 31,
+      "summary": "Llama-modchip is a project claiming to run DeepSeek-V4-Flash, a 284B-parameter MoE model, in under 59 GiB of RAM entirely on CPU at 256K context with no GPUs. Its README reports around 44 tok/s prefill for the 284B model and up to 111 tok/s decode for 30B MoE models on commodity hardware."
+    }
+  ]
+}

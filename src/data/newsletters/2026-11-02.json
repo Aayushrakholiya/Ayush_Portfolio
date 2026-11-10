@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-02",
+  "title": "Top 3 from Hacker News - November 2, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "url": "https://hackerbooks.org",
+      "hnLink": "https://news.ycombinator.com/item?id=50326821",
+      "points": 1538,
+      "summary": "HackerBooks catalogs roughly 16,500 books that at least two different Hacker News commenters have mentioned, spanning 2007 to now, with each entry linking back to the comments that brought it up. Built by the same wave of excitement around Karpathy's HackerTube, the site was written almost entirely by Claude, with the author steering the project. It ranks books by mention counts and makes the full dataset downloadable."
+    },
+    {
+      "rank": 2,
+      "title": "Postgres 19 is late because so many more bugs are being found now",
+      "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+      "hnLink": "https://news.ycombinator.com/item?id=50312408",
+      "points": 577,
+      "summary": "PostgreSQL contributor Robert Haas explains that Postgres 19 will likely slip to November, breaking a decade-long cadence of mid-September to mid-October releases. Several large features, including SQL Property Graph Queries, were reverted late in the beta period. He attributes the delay to LLMs making it far easier to find bugs in the codebase: back-patched commits jumped more than 60% year over year while commits to master actually declined slightly."
+    },
+    {
+      "rank": 3,
+      "title": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN",
+      "url": "https://wikihack.netlify.app",
+      "hnLink": "https://news.ycombinator.com/item?id=50333339",
+      "points": 270,
+      "summary": "Wikihack turns every Wikipedia article mentioned on Hacker News into a scrollable, ranked feed, counting both submissions and comment mentions. It offers most-linked, rising (last 12 months), and a weighted-random browsing mode. The entire site is served from the frontend with no backend."
+    }
+  ]
+}
