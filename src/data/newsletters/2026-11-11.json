@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-11",
+  "title": "Top 3 from Hacker News - November 11, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Smart home devices should work without the internet",
+      "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+      "hnLink": "https://news.ycombinator.com/item?id=50441707",
+      "points": 1046,
+      "summary": "The author lays out the rules they've followed over ten years of home automation, starting with rule one: nothing in the house should depend on a vendor's server to function. The writeup pairs the principles with both of the talks they've given on the topic, going slide by slide."
+    },
+    {
+      "rank": 2,
+      "title": ".name Grandfathered",
+      "url": "https://neil.fraser.name/news/2026/11/10/",
+      "hnLink": "https://news.ycombinator.com/item?id=50442736",
+      "points": 882,
+      "summary": "After a long battle, Verisign is retracting its plan to terminate 22,000 third-level .name domains and email redirects. Existing domains will remain indefinitely, though new third-level registrations are closing. Neil Fraser credits a team effort including reconsideration requests, legal pressure on ICANN, and letters of support."
+    },
+    {
+      "rank": 3,
+      "title": "Scion is back and is going to sell a kei truck in America",
+      "url": "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/",
+      "hnLink": "https://news.ycombinator.com/item?id=50445401",
+      "points": 500,
+      "summary": "Toyota is reviving Scion as \"Scion by Toyota,\" a \"freedom lab\" for mobility concepts, and its first production vehicle is the KEI-01, a rebadged Daihatsu Hijet kei truck built for the US market. It has a 660cc engine, 600-pound payload, 4WD, and low-speed vehicle certification limiting it to under 25 mph, so it's aimed at fleet, farm, and urban work rather than daily driving. Availability starts in late 2027 as a low-volume fleet pilot."
+    }
+  ]
+}
