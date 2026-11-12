@@ -4,11 +4,11 @@
   "items": [
     {
       "rank": 1,
-      "title": "Jane Street: Socratic Tutor",
-      "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
-      "hnLink": "https://news.ycombinator.com/item?id=50438261",
-      "points": 355,
-      "summary": "Jane Street open-sourced a skill file that turns an AI coding agent into a structured Socratic tutor. It runs a diagnostic to place the learner on a 0-to-5 skill map, then teaches by asking one question at a time rather than lecturing, with spaced review and a final assessment."
+      "title": "Tim Peters has died",
+      "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+      "hnLink": "https://news.ycombinator.com/item?id=50450488",
+      "points": 1277,
+      "summary": "Tim Peters, the Python core developer best known for writing the Zen of Python and creating the Timsort sorting algorithm, has died at 74. The Python community announced his death in an in-memoriam thread on the official discussion forum."
     },
     {
       "rank": 2,
@@ -20,11 +20,11 @@
     },
     {
       "rank": 3,
-      "title": "Tim Peters has died",
-      "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
-      "hnLink": "https://news.ycombinator.com/item?id=50450488",
-      "points": 1277,
-      "summary": "Tim Peters, the Python core developer best known for writing the Zen of Python and creating the Timsort sorting algorithm, has died at 74. The Python community announced his death in an in-memoriam thread on the official discussion forum."
+      "title": "Jane Street: Socratic Tutor",
+      "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
+      "hnLink": "https://news.ycombinator.com/item?id=50438261",
+      "points": 355,
+      "summary": "Jane Street open-sourced a skill file that turns an AI coding agent into a structured Socratic tutor. It runs a diagnostic to place the learner on a 0-to-5 skill map, then teaches by asking one question at a time rather than lecturing, with spaced review and a final assessment."
     }
   ]
 }
