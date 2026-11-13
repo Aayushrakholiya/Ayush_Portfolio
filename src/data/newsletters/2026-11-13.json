@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-13",
+  "title": "Top 3 from Hacker News - November 13, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Jensen Huang resigns",
+      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+      "hnLink": "https://news.ycombinator.com/item?id=50467087",
+      "points": 3686,
+      "summary": "Nvidia CEO Jensen Huang resigned Thursday after reports of extramarital affairs, capping a rapid downfall for one of the most prominent figures of the AI boom. The company must now search for a permanent replacement, and Nvidia shares dropped 14% at the opening bell before stabilizing."
+    },
+    {
+      "rank": 2,
+      "title": "Rust 1.100",
+      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+      "hnLink": "https://news.ycombinator.com/item?id=50472038",
+      "points": 741,
+      "summary": "The Rust team released version 1.100.0, headlined by the stabilization of the never type after ten years and five failed attempts, which also makes Infallible an alias for `!`. The release also stabilizes the core Allocator API, adds a DropGuard helper for running closures on every exit path, and includes new Cargo features like reporting unused dependencies."
+    },
+    {
+      "rank": 3,
+      "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+      "url": "https://github.com/simpsoka/zigzag",
+      "hnLink": "https://news.ycombinator.com/item?id=50470488",
+      "points": 583,
+      "summary": "ZigZag is a free, open-source visual embroidery editor built in Rust, created after the author's $300 embroidery machine required a paid subscription for design software. It converts SVG artwork into stitches, supports MCP so AI agents can create designs alongside the user, and exports PES, DST, EXP, JEF, or VP3 files, with direct Bluetooth stitching to a Brother Skitch machine."
+    }
+  ]
+}
