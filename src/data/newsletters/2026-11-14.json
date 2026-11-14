@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-14",
+  "title": "Top 3 from Hacker News - November 14, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Why get an expensive Pi when I have an old phone?",
+      "url": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/",
+      "hnLink": "https://news.ycombinator.com/item?id=50440709",
+      "points": 158,
+      "summary": "A hobbyist building a camera, GPS, and lighting project compares a Raspberry Pi 4 parts list against two second-hand Android phones and finds the phones come out far cheaper, at roughly $45-75 versus about $222 for the Pi setup. A rooted Redmi 13C 5G or Huawei Mate 30 5G already includes the camera, GPS, storage, battery, clock, touchscreen, and mobile data, and its USB-C port provides the connection to a custom PCB. The post walks through the full cost table that led to the decision."
+    },
+    {
+      "rank": 2,
+      "title": "Ggml v1.0.0",
+      "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+      "hnLink": "https://news.ycombinator.com/item?id=50493062",
+      "points": 306,
+      "summary": "ggml, the tensor library behind llama.cpp, has reached version 1.0.0. The release prunes the deprecated public API and legacy DIAG_MASK ops, adds configurable YaRN truncation and FP8 support, and ships broad performance work including quantized matmuls, MoE fusion on CUDA and Metal, a Vulkan FlashAttention path, and new WebGPU kernels. The RPC protocol was bumped to v9 to reject incompatible peers."
+    },
+    {
+      "rank": 3,
+      "title": "Monkey Island: all 13 versions side by side",
+      "url": "https://monkeyisland.pages.dev/",
+      "hnLink": "https://news.ycombinator.com/item?id=50493904",
+      "points": 224,
+      "summary": "A new site lets you compare every version of The Secret of Monkey Island (1990) side by side: eight editions across 13 display modes, from CGA, EGA, and VGA to Amiga, Atari ST, Macintosh, FM Towns, and Sega CD, all showing the same 12 scenes. The interface itself is styled as a DOS-era text-mode desktop. It is a nostalgic deep dive into how one classic adventure game looked on every platform of its era."
+    }
+  ]
+}
