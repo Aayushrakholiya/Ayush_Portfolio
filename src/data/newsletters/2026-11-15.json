@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-15",
+  "title": "Top 3 from Hacker News - November 15, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "SpaceX catches the Starship to end Flight 15",
+      "url": "https://www.spacex.com/launches/starship-flight-15",
+      "hnLink": "https://news.ycombinator.com/item?id=50500963",
+      "points": 1338,
+      "summary": "Starship lifted off from Starbase, Texas on November 13 for its 15th test flight, aiming to land both the Super Heavy booster and the Ship for the first full recovery of an orbital launch system. The booster aborted its tower catch after a low-fuel-mass alarm cut its boostback burn short, destroying it, but the Ship was caught as planned and SpaceX is still investigating the booster's guidance issue."
+    },
+    {
+      "rank": 2,
+      "title": "Lovable apps expose passport details and more than 200K private messages",
+      "url": "https://www.crissyfield.de/research/lovable-en/",
+      "hnLink": "https://news.ycombinator.com/item?id=50499017",
+      "points": 870,
+      "summary": "Security firm Crissy Field examined 159,041 Lovable projects and found many apps built on the AI app-building platform exposing personal and confidential data without any login, working with Handelsblatt on the report. Focusing on the widely used Supabase integration, they found sensitive information sent on first page load and accessible via further read-only requests with the same API key, while Lovable's terms leave data-handling responsibility with customers."
+    },
+    {
+      "rank": 3,
+      "title": "Court denies motion to dismiss DRAM price fixing case",
+      "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+      "hnLink": "https://news.ycombinator.com/item?id=50502988",
+      "points": 250,
+      "summary": "On November 14, Judge Noël Wise in N.D. Cal. denied Samsung, SK Hynix and Micron's motion to dismiss a proposed class action alleging they conspired to cut conventional DRAM supply and shift capacity to HBM. The court said the case is not a rerun of the Ninth Circuit's DRAM II dismissal, pointing to long-term HBM lock-ups, refusal of long-term DDR5 contracts, Micron's Crucial closure and the companies' prior cartel history; answers are due December 7, 2026."
+    }
+  ]
+}
