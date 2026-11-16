@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-16",
+  "title": "Top 3 from Hacker News - November 16, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Coffeehouses and the Rise of Science [pdf]",
+      "url": "https://www.monirbounadi.com/Bounadi_JMP.pdf",
+      "hnLink": "https://news.ycombinator.com/item?id=50516245",
+      "points": 67,
+      "summary": "Economists Monir Bounadi and Jens Oehlen test the long-standing claim that coffeehouses fueled the Scientific Revolution, using geocoded records and a staggered event study across seventeenth-century London parishes. They find that a parish's first coffeehouse is followed by a persistent increase in applied scientists and scientific instrument shops, concentrated among researchers with weak ties to Oxford and Cambridge, and estimate coffeehouses accounted for 31 percent of London's applied scientists in the half century after the first one opened in 1652."
+    },
+    {
+      "rank": 2,
+      "title": "How to make almost anything",
+      "url": "https://pub.cba.mit.edu/863.26/site/",
+      "hnLink": "https://news.ycombinator.com/item?id=50514470",
+      "points": 428,
+      "summary": "Neil Gershenfeld's MIT course How To Make (almost) Anything (MAS.863/4.140/6.9020) has published its 2026 site, laying out the full semester schedule from computer-aided design and cutting through embedded programming, electronics design and production, machining, input and output devices, machine design, and networking. Weekly recitations cover modern additions like AI agents, EDA, Edge AI, and mesh networks, ending in a December final project open house."
+    },
+    {
+      "rank": 3,
+      "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
+      "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
+      "hnLink": "https://news.ycombinator.com/item?id=50516473",
+      "points": 29,
+      "summary": "In a 2007 post that still circulates, Mike Masnick describes his Lenovo ThinkPad going completely dead before a conference talk and getting a bizarre fix from IBM support: unplug AC and remove the battery, press the power button 10 times at one-second intervals, then hold it for 30 seconds before reinserting the battery. The supposedly dead machine booted right up, which support attributed to a static discharge, and commenters have been confirming the trick works ever since."
+    }
+  ]
+}
