@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-17",
+  "title": "Top 3 from Hacker News - November 17, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+      "url": "https://www.cs.cmu.edu/learn/",
+      "hnLink": "https://news.ycombinator.com/item?id=50522980",
+      "points": 1744,
+      "summary": "Carnegie Mellon launched CS Learn, a free online hub putting full classroom lectures from its computer science faculty on YouTube, starting with courses like Machine Learning with Large Datasets, Principles of Computing, and Machine Learning Systems premiering this November. More courses roll out through January 2027, with plans for self-paced courseware, AI tutoring, and optional official credentials through CMU Online."
+    },
+    {
+      "rank": 2,
+      "title": "VisualBasic.World: A gallery of Planet Source Code programs from 1997 to 2012",
+      "url": "https://visualbasic.world/",
+      "hnLink": "https://news.ycombinator.com/item?id=50511874",
+      "points": 91,
+      "summary": "VisualBasic.World is a new visual archive sampling an archive of more than 15,000 Visual Basic projects uploaded to the classic Planet Source Code site between 1997 and 2012. It currently showcases around 2,500 projects, biased toward popular submissions across six categories including Graphics, Games, Complete Applications, and Custom Controls, complete with their original ratings."
+    },
+    {
+      "rank": 3,
+      "title": "BugMeNot has closed",
+      "url": "https://www.bugmenot.com/",
+      "hnLink": "https://news.ycombinator.com/item?id=50523601",
+      "points": 603,
+      "summary": "BugMeNot, the long-running site that shared shared login credentials for news sites and other services that forced registrations, has shut down. The site now displays only a farewell page reading 'BugMeNot has closed. Thanks to everyone who envisioned a better internet.'"
+    }
+  ]
+}
