@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-18",
+  "title": "Top 3 from Hacker News - November 18, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+      "url": "https://calif.io/java4shell/",
+      "hnLink": "https://news.ycombinator.com/item?id=50538240",
+      "points": 1012,
+      "summary": "Calif Research disclosed Java4Shell (CVE-2026-114938), a memory-corruption vulnerability in OpenJDK's Base64 decoder rated 9.2/10 (critical) under CVSS 4.0. An unauthenticated remote attacker can overwrite and read heap memory in the style of Heartbleed and ultimately reach remote code execution. The researchers chose Java because it powers 90% of Fortune 500 companies and nearly every critical sector."
+    },
+    {
+      "rank": 2,
+      "title": "Quad9's withdrawal from France: A canary in the coal mine",
+      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+      "hnLink": "https://news.ycombinator.com/item?id=50538994",
+      "points": 709,
+      "summary": "Quad9, the nonprofit DNS resolver, withdrew its service from France after legal pressure exposed it to liability for content its resolvers merely passed through. Cloudflare explains the nonprofit faced a French court ruling imposing daily penalties for failing to block domains linked to alleged copyright infringement, leaving it to choose between crippling litigation and altering its service. The post warns that pushing reputable public resolvers out of countries harms the open Internet, noting Cisco already withdrew OpenDNS from France under similar pressure."
+    },
+    {
+      "rank": 3,
+      "title": "Google's AI answers reducing search traffic by 40%",
+      "url": "https://revscope.co/blog/search-seo-geo-2026/",
+      "hnLink": "https://news.ycombinator.com/item?id=50540178",
+      "points": 497,
+      "summary": "RevScope examines how Google's AI-generated answers are cutting click-through traffic to websites, citing figures around a 40% reduction in search traffic for affected queries. The piece covers what it calls the shift from SEO to GEO (Generative Engine Optimization) in 2026: adapting content so it gets cited inside AI answers rather than ranked as blue links. It outlines practical steps for publishers facing the traffic drop."
+    }
+  ]
+}
