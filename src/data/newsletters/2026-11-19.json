@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-19",
+  "title": "Top 3 from Hacker News - November 19, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "How the European Commission rolled out Matrix to more than 40k staff",
+      "url": "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
+      "hnLink": "https://news.ycombinator.com/item?id=50558533",
+      "points": 171,
+      "summary": "Element details how the European Commission took Matrix from a proof of concept in December 2025 to a sovereign communication tool on every Commission laptop by September 2026, now serving more than 40,000 users. The Commission defined sovereignty across five dimensions including resilience, data ownership and procurement leverage, chose Element Server Suite Pro hosted with sovereign cloud providers, and integrated sign-in with EU Login. Federation with Matrix servers outside the Commission is still under assessment while governance rules are worked out."
+    },
+    {
+      "rank": 2,
+      "title": "What's New in PHP 8.6",
+      "url": "https://www.php.net/releases/8.6/en.php",
+      "hnLink": "https://news.ycombinator.com/item?id=50557870",
+      "points": 125,
+      "summary": "PHP 8.6, releasing November 19, 2026, is a major language update headlined by partial function application, which lets developers pre-supply some arguments using ? and ... placeholders to get a Closure that accepts the rest. It also adds a new \\Time\\Duration class, a Polling API for scalable I/O multiplexing built on epoll and kqueue for event loop libraries, a clamp() function, a SortDirection enum, and readonly property defaults."
+    },
+    {
+      "rank": 3,
+      "title": "The AI Superintelligence Debate Has Serious Flaws",
+      "url": "https://spectrum.ieee.org/ai-superintelligence-debate",
+      "hnLink": "https://news.ycombinator.com/item?id=50559140",
+      "points": 25,
+      "summary": "Georgetown computer scientist Cal Newport argues in IEEE Spectrum that the recursive self-improvement story behind artificial superintelligence has received little engineering scrutiny, after a summer in which Anthropic researchers publicly debated whether AI could extinguish humanity. He examined the technical and cultural roots of the superintelligence narrative in a doctoral seminar and came away with several objections to whether superintelligence is even feasible. He still warns that trying for it may prove disastrous even if it cannot succeed."
+    }
+  ]
+}
