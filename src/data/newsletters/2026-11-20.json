@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-20",
+  "title": "Top 3 from Hacker News - November 20, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "url": "https://architectlabs.com/blog/frostbite",
+      "hnLink": "https://news.ycombinator.com/item?id=50572503",
+      "points": 206,
+      "summary": "Architect Labs introduces Frostbite, a general-purpose CPU with a new instruction set built from the ground up by its AI systems, which autonomously iterated over the compiler, ISA, microarchitecture, RTL, verification and final GDS. The design is built on interaction nets, where every step is local, every dependency is explicit and every value has exactly one owner. On 25 workloads, including 15 held out until final evaluation, it claims a 4.59x performance-per-watt gain over a modern silicon-proven superscalar core."
+    },
+    {
+      "rank": 2,
+      "title": "If you can't explain something in simple terms, you don't understand it (2017)",
+      "url": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
+      "hnLink": "https://news.ycombinator.com/item?id=50572355",
+      "points": 106,
+      "summary": "Jason Kottke revisits a 1996 Caltech excerpt from Feynman's Lost Lecture, in which David Goodstein recalls asking Feynman to explain why spin one-half particles obey Fermi-Dirac statistics. Feynman promised to prepare a freshman lecture on it but returned days later saying he couldn't reduce it to the freshman level, which he took to mean it wasn't really understood. Kottke also cites John Gruber noting that Apple holds engineers to the same standard of explaining products in simple terms."
+    },
+    {
+      "rank": 3,
+      "title": "The Making of Oxygene",
+      "url": "https://jeanmicheljarre.com/aaa/the-making-of-oxygene",
+      "hnLink": "https://news.ycombinator.com/item?id=50572822",
+      "points": 54,
+      "summary": "Jean-Michel Jarre tells the story of Oxygene, the 1976 instrumental album by the then-unknown 28-year-old that became a top-10 album in seven countries, spent 24 weeks in the UK charts and has sold close to 20 million copies. He traces his path to Paris's Groupe de Recherches Musicales, where Pierre Schaeffer's musique concrète shaped his sound-first approach to electronic music. The feature also covers the album's 50th anniversary and its re-imagining for Dolby Atmos."
+    }
+  ]
+}
