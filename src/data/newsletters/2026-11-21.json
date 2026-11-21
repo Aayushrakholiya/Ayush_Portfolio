@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-21",
+  "title": "Top 3 from Hacker News - November 21, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
+      "url": "https://alpo.ge/remark.pdf",
+      "hnLink": "https://news.ycombinator.com/item?id=50574968",
+      "points": 2711,
+      "summary": "Mathematician Levent Alpöge posted a paper claiming a proof of the Riemann Hypothesis that extends to the Generalized Riemann Hypothesis, saying he worked on it with the AI assistant Claude and that the arguments have been formalized without assumptions. The remark outlines the strategy, which builds on Stepanov-style arguments and Fourier-analytic ideas combined with chains of theta lifts."
+    },
+    {
+      "rank": 2,
+      "title": "Hurried Announcement: Alessandro Masullo GRH",
+      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+      "hnLink": "https://news.ycombinator.com/item?id=50579568",
+      "points": 2203,
+      "summary": "Stanford mathematician Ravi Vakil announced that Alessandro Maria Masullo has a proposed proof of the Generalized Riemann Hypothesis, which Brian Conrad had been closely checking for months and was so far looking good to him. Vakil released the draft early to invite scrutiny, and in an update several hours later reported that mathematicians, assisted by AI models, had already identified problems that would need resolving before the proof could be accepted."
+    },
+    {
+      "rank": 3,
+      "title": "Inkling 2 Mini",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "hnLink": "https://news.ycombinator.com/item?id=50581260",
+      "points": 1096,
+      "summary": "Thinking Machines Lab released Inkling 2 Mini, a small open-weights looped transformer that runs its middle layers three times per token, small enough to run on a laptop. The company says it leads every open-weights model under 100B total parameters on coding benchmarks like DeepSWE v1.1 (48.2%) and Vals Index v2.2 (46.5%) while running faster than similarly performing models."
+    }
+  ]
+}
