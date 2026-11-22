@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-22",
+  "title": "Top 3 from Hacker News - November 22, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+      "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+      "hnLink": "https://news.ycombinator.com/item?id=50596133",
+      "points": 658,
+      "summary": "Japan's three largest automakers have agreed to start standardizing vehicle parts, beginning with unified quality criteria for steel, consistent plastics protocols, and a universal wiring-harness color code. The moves, announced by JAMA chairman Koji Sato in Tokyo, are aimed at cutting production costs to compete with China's fast-growing auto sector, with the first standards going into place next year."
+    },
+    {
+      "rank": 2,
+      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+      "hnLink": "https://news.ycombinator.com/item?id=50582069",
+      "points": 1102,
+      "summary": "The drug daraxonrasib, tested on 61 patients with advanced pancreatic cancer that had spread, made the cancer undetectable in one in twelve patients and stopped tumour growth in nearly all participants. Doctors are calling it the biggest breakthrough for the disease in decades, though they caution it is not yet proven to be a cure."
+    },
+    {
+      "rank": 3,
+      "title": "A real Linux kernel, compiled to WebAssembly",
+      "url": "https://github.com/pithings/unkernel",
+      "hnLink": "https://news.ycombinator.com/item?id=50533945",
+      "points": 90,
+      "summary": "unkernel compiles a real Linux kernel (syscalls, scheduler, memory management, ext4, TCP/IP) into a single WebAssembly module with a real MMU, booting to a shell in under a second in the browser. Only user programs are emulated, running unmodified aarch64 Linux binaries, so Alpine and Debian packages work as-is, with syscalls and fork at close to native speed."
+    }
+  ]
+}
