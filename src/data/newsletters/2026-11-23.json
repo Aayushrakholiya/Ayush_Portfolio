@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-23",
+  "title": "Top 3 from Hacker News - November 23, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+      "url": "https://spelunkr.tv",
+      "hnLink": "https://news.ycombinator.com/item?id=50606192",
+      "points": 633,
+      "summary": "Spelunkr is a free web TV service that streams 24/7 synchronized channels of forgotten videos pulled from the Internet Archive, billing itself as \"cable TV, but weirder.\" Viewers can flip through channels of obscure archived footage at any time, like a strange broadcast network made entirely of media the internet rescued."
+    },
+    {
+      "rank": 2,
+      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "hnLink": "https://news.ycombinator.com/item?id=50603845",
+      "points": 580,
+      "summary": "A step-by-step guide to setting up a private, ChatGPT-style assistant at home using Unsloth Desktop with quantized Inkling or Qwen models on a Windows PC with a GPU. The author says once your hardware is sorted the whole setup takes about 10-15 minutes (excluding downloads): install Unsloth Desktop, pick a model that fits your GPU's VRAM, set your context size, and turn on LAN access so the whole household can use it, with no terminal commands or subscriptions required."
+    },
+    {
+      "rank": 3,
+      "title": "XNU Linux: Full OS X GUI Userspace on Linux",
+      "url": "https://github.com/AFK-surf/xnulinux",
+      "hnLink": "https://news.ycombinator.com/item?id=50607261",
+      "points": 412,
+      "summary": "xnulinux builds XNU, the open-source kernel of macOS, from Apple's published sources and runs it as a loadable kernel module inside an unmodified arm64 Linux kernel. With a stock Ubuntu kernel, loading the module boots a full macOS desktop built by Apple's own installer (WindowServer, Dock, Finder, Safari), with macOS processes running natively next to Linux processes on the same CPUs and no hypervisor in between, while Linux lends the XNU kernel its memory, timers, files, network and GPU."
+    }
+  ]
+}
