@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-24",
+  "title": "Top 3 from Hacker News - November 24, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang",
+      "url": "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/",
+      "hnLink": "https://news.ycombinator.com/item?id=50626578",
+      "points": 255,
+      "summary": "A forensic on-chain analysis documents suspected insider trading on a Polymarket market asking whether Jensen Huang would rejoin NVIDIA by December 31, 2026. The author says a wallet accumulated ~4,648 USDC at about a 6.5% probability, finishing its buys 89 minutes before Donald Trump's public post on the matter, then collected 71,518 USDC after NVIDIA's board confirmed the decision. The article traces the transactions minute-by-minute with on-chain hashes."
+    },
+    {
+      "rank": 2,
+      "title": "2035 Came Early",
+      "url": "https://fzakaria.com/2026/11/23/2035-came-early",
+      "hnLink": "https://news.ycombinator.com/item?id=50624497",
+      "points": 402,
+      "summary": "Blogger Farid Zakaria argues that the 'everything runs in JavaScript in the browser' future from Gary Bernhardt's 2012 talk 'The Birth & Death of JavaScript' has arrived years ahead of its 2035 punchline. The centerpiece is trynix.dev, built on his nixpkgs-multiverse project, which boots real GUI programs like Firefox, GIMP and classic solitaire directly in a browser tab. He credits LLMs with compressing the timeline that the joke once spread over decades."
+    },
+    {
+      "rank": 3,
+      "title": "Ladybird is now in alpha",
+      "url": "https://ladybird.org/posts/alpha/",
+      "hnLink": "https://news.ycombinator.com/item?id=50614249",
+      "points": 2123,
+      "summary": "The Ladybird Browser Initiative announced the first alpha of Ladybird, a browser running an engine built from scratch rather than forked from an existing one. Downloadable builds for macOS and Linux are available as a rolling channel with regular automatic updates, and the team is asking web developers to test their sites and report breakage in-browser. The project explicitly makes no security promises yet and invites researchers to probe and report vulnerabilities."
+    }
+  ]
+}
