@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-25",
+  "title": "Top 3 from Hacker News - November 25, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+      "hnLink": "https://news.ycombinator.com/item?id=50637220",
+      "points": 748,
+      "summary": "An OpenAI preprint proves that the exponent of square matrix multiplication is exactly 9/4 over every field: any formal arithmetic circuit multiplying two n-by-n matrices needs at least n^2.25/2 multiplication or division gates. The 9/4 upper bound was already known, so the paper settles that smaller exponents are impossible by showing they would compress tensor networks enough to violate a known lower bound for element-distinctness problems."
+    },
+    {
+      "rank": 2,
+      "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
+      "url": "https://buttons.joshwcomeau.com/",
+      "hnLink": "https://news.ycombinator.com/item?id=50638032",
+      "points": 501,
+      "summary": "Josh Comeau released Button Sounds, a free collection of over 50 professionally-recorded, multi-sampled button clicks and toggle sounds for UIs. The library is distributed via NPM, so developers can drop tactile sound effects into their apps with a package install."
+    },
+    {
+      "rank": 3,
+      "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+      "url": "https://github.com/xoxorwr/pw-loudness-eq",
+      "hnLink": "https://news.ycombinator.com/item?id=50641171",
+      "points": 76,
+      "summary": "A developer reverse-engineered the Windows Loudness Equalization audio effect from WMALFXGFXDSP.dll and ported it to PipeWire for Linux, evening out volume differences between apps and across quiet and loud passages. The project includes a PipeWire DSP module, the Windows output limiter from AudioEng.dll to prevent clipping, and an optional GTK3 window with per-app settings."
+    }
+  ]
+}
