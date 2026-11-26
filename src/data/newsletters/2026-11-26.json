@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-26",
+  "title": "Top 3 from Hacker News - November 26, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+      "url": "https://scottaaronson.blog/?p=10379",
+      "hnLink": "https://news.ycombinator.com/item?id=50646108",
+      "points": 1679,
+      "summary": "Complexity theorist Scott Aaronson argues that AI labs are now solving decades-old open problems in theoretical computer science at a staggering pace, citing claimed proofs of VP ≠ VNP, the matrix multiplication exponent ω = 9/4, and improved Fourier transform bounds, all backed by Lean certificates. He says the field is getting a whole new continent of mathematical truth rather than one-off results, and that he now believes a proof of P ≠ NP is not far."
+    },
+    {
+      "rank": 2,
+      "title": "1Password Security Incident",
+      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "hnLink": "https://news.ycombinator.com/item?id=50644817",
+      "points": 1502,
+      "summary": "1Password disclosed that an attacker compromised an employee's GitHub account on November 19 and used it to push malicious code to backend services, copying names and email addresses for a subset of customers along with non-secret account metadata. The company says customer vaults, vault items, and the keys protecting them were never accessed, and it has rotated credentials, tightened CI/CD controls, and lengthened recovery-email codes as a precaution."
+    },
+    {
+      "rank": 3,
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "hnLink": "https://news.ycombinator.com/item?id=50647673",
+      "points": 454,
+      "summary": "The New York Times has told freelance photographers not to use Photoshop 2027 on assignment because its new AI features use AI \"in ways that may not be apparent to users.\" Since Adobe rolled out C2PA metadata support across its apps, edits made with AI tools can tag photos as AI-generated, and the Times worries that could erode reader trust in its minimally-edited photography."
+    }
+  ]
+}
