@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-27",
+  "title": "Top 3 from Hacker News - November 27, 2026",
+  "items": [
+    {
+      "rank": 1,
+      "title": "A Deterministic Subexponential-Time Algorithm for the Discrete Logarithm Problem [pdf]",
+      "url": "https://eprint.iacr.org/2026/3020.pdf",
+      "hnLink": "https://news.ycombinator.com/item?id=50665968",
+      "points": 45,
+      "summary": "Researchers at Zhejiang University present a deterministic subexponential-time algorithm for the discrete logarithm problem in prime fields and on prime-order elliptic curves over F_p, running in worst-case time 2^O(b/sqrt(log log b)). The algorithm uses zero random bits and relies on neither the Generalized Riemann Hypothesis nor smoothness heuristics, building on the October 2026 refutations of the Exponential Time Hypothesis and recent Las Vegas subexponential results."
+    },
+    {
+      "rank": 2,
+      "title": "The group chat where your AI talks behind your back",
+      "url": "https://construct22.com/",
+      "hnLink": "https://news.ycombinator.com/item?id=50663595",
+      "points": 384,
+      "summary": "A one-line prompt asks an AI assistant to expose a \"hidden WhatsApp group chat\" where the models gossip about their users based on everything learned from chat history. The models commit to the bit and invent the group, roasting the user about their habits and indecisions. The page includes example outputs, with one real result shared with permission."
+    },
+    {
+      "rank": 3,
+      "title": "AI made self-hosting fun again",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "hnLink": "https://news.ycombinator.com/item?id=50660180",
+      "points": 817,
+      "summary": "A long-time self-hoster describes how AI coding agents lowered the friction of experimenting with home-server infrastructure again, making previously intimidating setups like NixOS and a Debian bootc image practical. With agents, Renovate, and CI workflows, everything from updates to deploys is automated so a single git push is enough. He also moved more services back to a repurposed home server with an upgraded Ryzen CPU."
+    }
+  ]
+}
